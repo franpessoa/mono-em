@@ -1,0 +1,1762 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{asadu_nigeria_2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=78d7759cab1fcbed74fcfaf85ff5d624}{%
+           family={Asadu},
+           familyi={A\bibinitperiod},
+           given={Chinedu},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {AP News}%
+      }
+      \strng{namehash}{78d7759cab1fcbed74fcfaf85ff5d624}
+      \strng{fullhash}{78d7759cab1fcbed74fcfaf85ff5d624}
+      \strng{fullhashraw}{78d7759cab1fcbed74fcfaf85ff5d624}
+      \strng{bibnamehash}{78d7759cab1fcbed74fcfaf85ff5d624}
+      \strng{authorbibnamehash}{78d7759cab1fcbed74fcfaf85ff5d624}
+      \strng{authornamehash}{78d7759cab1fcbed74fcfaf85ff5d624}
+      \strng{authorfullhash}{78d7759cab1fcbed74fcfaf85ff5d624}
+      \strng{authorfullhashraw}{78d7759cab1fcbed74fcfaf85ff5d624}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Nigeria's government has fined Meta \$220 million after its investigations found “multiple and repeated” violations of the country’s data protection and consumer rights laws on Facebook and WhatsApp.}
+      \field{day}{19}
+      \field{hour}{19}
+      \field{langid}{english}
+      \field{minute}{39}
+      \field{month}{7}
+      \field{second}{35}
+      \field{title}{Nigeria Fines {{Meta}} \$220 Million for Violating Data Protection and Consumer Rights Laws}
+      \field{urlday}{5}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/cisco/Zotero/storage/FZWLPLFE/nigeria-meta-fine-facebook-whatsapp-9c79447e348dcaaa1b8c59898e60c7fa.html
+      \endverb
+      \verb{urlraw}
+      \verb https://apnews.com/article/nigeria-meta-fine-facebook-whatsapp-9c79447e348dcaaa1b8c59898e60c7fa
+      \endverb
+      \verb{url}
+      \verb https://apnews.com/article/nigeria-meta-fine-facebook-whatsapp-9c79447e348dcaaa1b8c59898e60c7fa
+      \endverb
+    \endentry
+    \entry{barron_could_2018}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=12d93c0ccb34d4be6f17f79e378f95fe}{%
+           family={Barron},
+           familyi={B\bibinitperiod},
+           given={Laignee},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {TIME}%
+      }
+      \strng{namehash}{12d93c0ccb34d4be6f17f79e378f95fe}
+      \strng{fullhash}{12d93c0ccb34d4be6f17f79e378f95fe}
+      \strng{fullhashraw}{12d93c0ccb34d4be6f17f79e378f95fe}
+      \strng{bibnamehash}{12d93c0ccb34d4be6f17f79e378f95fe}
+      \strng{authorbibnamehash}{12d93c0ccb34d4be6f17f79e378f95fe}
+      \strng{authornamehash}{12d93c0ccb34d4be6f17f79e378f95fe}
+      \strng{authorfullhash}{12d93c0ccb34d4be6f17f79e378f95fe}
+      \strng{authorfullhashraw}{12d93c0ccb34d4be6f17f79e378f95fe}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The platform has been used to spread misinformation and even incite violence}
+      \field{day}{6}
+      \field{hour}{9}
+      \field{langid}{english}
+      \field{minute}{28}
+      \field{month}{4}
+      \field{second}{57}
+      \field{title}{Could {{Facebook Have Stopped}} the {{Spread}} of {{Hate}} in {{Myanmar}}?}
+      \field{urlday}{9}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/cisco/Zotero/storage/SLN9ZYDM/facebook-myanmar-hate-speech-rohingya.html
+      \endverb
+      \verb{urlraw}
+      \verb https://time.com/5230474/facebook-myanmar-hate-speech-rohingya/
+      \endverb
+      \verb{url}
+      \verb https://time.com/5230474/facebook-myanmar-hate-speech-rohingya/
+      \endverb
+    \endentry
+    \entry{bashir_privacy_2019}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2b5cc03d7659a4a76326ff9754757e45}{%
+           family={Bashir},
+           familyi={B\bibinitperiod},
+           given={Muhammad\bibnamedelima Admad},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Northeastern University}%
+      }
+      \strng{namehash}{2b5cc03d7659a4a76326ff9754757e45}
+      \strng{fullhash}{2b5cc03d7659a4a76326ff9754757e45}
+      \strng{fullhashraw}{2b5cc03d7659a4a76326ff9754757e45}
+      \strng{bibnamehash}{2b5cc03d7659a4a76326ff9754757e45}
+      \strng{authorbibnamehash}{2b5cc03d7659a4a76326ff9754757e45}
+      \strng{authornamehash}{2b5cc03d7659a4a76326ff9754757e45}
+      \strng{authorfullhash}{2b5cc03d7659a4a76326ff9754757e45}
+      \strng{authorfullhashraw}{2b5cc03d7659a4a76326ff9754757e45}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{bookpagination}{sheet}
+      \field{eprinttype}{hdl}
+      \field{title}{On the Privacy Implications of Real Time Bidding}
+      \field{urlday}{2}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.17760/D20321280
+      \endverb
+      \verb{eprint}
+      \verb 2047/D20321280
+      \endverb
+      \verb{file}
+      \verb /home/cisco/Zotero/storage/RZPAGQBJ/Bashir - 2019 - On the privacy implications of real time bidding.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://hdl.handle.net/2047/D20321280
+      \endverb
+      \verb{url}
+      \verb http://hdl.handle.net/2047/D20321280
+      \endverb
+    \endentry
+    \entry{binder_republican_2019}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=40103cd971e94b3603a89efcd024cca3}{%
+           family={Binder},
+           familyi={B\bibinitperiod},
+           given={Matt},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{40103cd971e94b3603a89efcd024cca3}
+      \strng{fullhash}{40103cd971e94b3603a89efcd024cca3}
+      \strng{fullhashraw}{40103cd971e94b3603a89efcd024cca3}
+      \strng{bibnamehash}{40103cd971e94b3603a89efcd024cca3}
+      \strng{authorbibnamehash}{40103cd971e94b3603a89efcd024cca3}
+      \strng{authornamehash}{40103cd971e94b3603a89efcd024cca3}
+      \strng{authorfullhash}{40103cd971e94b3603a89efcd024cca3}
+      \strng{authorfullhashraw}{40103cd971e94b3603a89efcd024cca3}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The campaign reportedly used them in the 2016 presidential primaries.}
+      \field{day}{24}
+      \field{entrysubtype}{newspaper}
+      \field{hour}{15}
+      \field{journaltitle}{Mashable}
+      \field{langid}{english}
+      \field{minute}{16}
+      \field{month}{10}
+      \field{second}{38}
+      \field{timezone}{Z}
+      \field{title}{Republican Campaign Put Beacons on Lawn Signs to Track Phones, Company Says}
+      \field{urlday}{2}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/cisco/Zotero/storage/2WK8JFRJ/beacons-location-tracking-republican-campaign.html
+      \endverb
+      \verb{urlraw}
+      \verb https://mashable.com/article/beacons-location-tracking-republican-campaign
+      \endverb
+      \verb{url}
+      \verb https://mashable.com/article/beacons-location-tracking-republican-campaign
+      \endverb
+    \endentry
+    \entry{cadwalladr_50_2018}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e5de267ce69ca25a647dfd51f649f770}{%
+           family={Cadwalladr},
+           familyi={C\bibinitperiod},
+           given={Carole},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa84386bf5473cd5289322577430327d}{%
+           family={Graham-Harrison},
+           familyi={G\bibinithyphendelim H\bibinitperiod},
+           given={Emma},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{862baebc0e1acc1f3da30f78c9364954}
+      \strng{fullhash}{862baebc0e1acc1f3da30f78c9364954}
+      \strng{fullhashraw}{862baebc0e1acc1f3da30f78c9364954}
+      \strng{bibnamehash}{862baebc0e1acc1f3da30f78c9364954}
+      \strng{authorbibnamehash}{862baebc0e1acc1f3da30f78c9364954}
+      \strng{authornamehash}{862baebc0e1acc1f3da30f78c9364954}
+      \strng{authorfullhash}{862baebc0e1acc1f3da30f78c9364954}
+      \strng{authorfullhashraw}{862baebc0e1acc1f3da30f78c9364954}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Whistleblower describes how firm linked to former Trump adviser Steve Bannon compiled user data to target American voters}
+      \field{day}{17}
+      \field{entrysubtype}{newspaper}
+      \field{hour}{22}
+      \field{issn}{0261-3077}
+      \field{journalsubtitle}{News}
+      \field{journaltitle}{The Guardian}
+      \field{langid}{british}
+      \field{minute}{3}
+      \field{month}{3}
+      \field{second}{0}
+      \field{shorttitle}{Revealed}
+      \field{title}{50 Million {{Facebook}} Profiles Harvested for {{Cambridge Analytica}} in Major Data Breach}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/cisco/Zotero/storage/WZL7VENU/cambridge-analytica-facebook-influence-us-election.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.theguardian.com/news/2018/mar/17/cambridge-analytica-facebook-influence-us-election
+      \endverb
+      \verb{url}
+      \verb https://www.theguardian.com/news/2018/mar/17/cambridge-analytica-facebook-influence-us-election
+      \endverb
+      \keyw{Brexit,Cambridge Analytica,Data protection,Donald Trump,Facebook,Politics,Steve Bannon,Technology,UK news,US news,World news}
+    \endentry
+    \entry{chen_fingerprinting_2019}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d2bf2595cfa9c2f263006687b510ea7a}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Brian\bibnamedelima X.},
+           giveni={B\bibinitperiod\bibinitdelim X\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Nova York}%
+      }
+      \strng{namehash}{d2bf2595cfa9c2f263006687b510ea7a}
+      \strng{fullhash}{d2bf2595cfa9c2f263006687b510ea7a}
+      \strng{fullhashraw}{d2bf2595cfa9c2f263006687b510ea7a}
+      \strng{bibnamehash}{d2bf2595cfa9c2f263006687b510ea7a}
+      \strng{authorbibnamehash}{d2bf2595cfa9c2f263006687b510ea7a}
+      \strng{authornamehash}{d2bf2595cfa9c2f263006687b510ea7a}
+      \strng{authorfullhash}{d2bf2595cfa9c2f263006687b510ea7a}
+      \strng{authorfullhashraw}{d2bf2595cfa9c2f263006687b510ea7a}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Advertisers are increasingly turning to an invisible method that pulls together information about your device to pinpoint your identity.}
+      \field{day}{3}
+      \field{entrysubtype}{newspaper}
+      \field{issn}{0362-4331}
+      \field{journalsubtitle}{Technology}
+      \field{journaltitle}{The New York Times}
+      \field{langid}{american}
+      \field{month}{7}
+      \field{title}{`{{Fingerprinting}}’ to {{Track Us Online Is}} on the {{Rise}}. {{Here}}’s {{What}} to {{Do}}.}
+      \field{urlday}{1}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/cisco/Zotero/storage/V8YQV83Y/fingerprinting-track-devices-what-to-do.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nytimes.com/2019/07/03/technology/personaltech/fingerprinting-track-devices-what-to-do.html
+      \endverb
+      \verb{url}
+      \verb https://www.nytimes.com/2019/07/03/technology/personaltech/fingerprinting-track-devices-what-to-do.html
+      \endverb
+      \keyw{Advertising and Marketing,Computer Security,Computers and the Internet,Fingerprinting,Mobile Applications,Online Advertising,Privacy,Web Browsers}
+    \endentry
+    \entry{coutts_antichoice_2016}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c5216116f8eed13734bb9ed323830bae}{%
+           family={Coutts},
+           familyi={C\bibinitperiod},
+           given={Sharona},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c5216116f8eed13734bb9ed323830bae}
+      \strng{fullhash}{c5216116f8eed13734bb9ed323830bae}
+      \strng{fullhashraw}{c5216116f8eed13734bb9ed323830bae}
+      \strng{bibnamehash}{c5216116f8eed13734bb9ed323830bae}
+      \strng{authorbibnamehash}{c5216116f8eed13734bb9ed323830bae}
+      \strng{authornamehash}{c5216116f8eed13734bb9ed323830bae}
+      \strng{authorfullhash}{c5216116f8eed13734bb9ed323830bae}
+      \strng{authorfullhashraw}{c5216116f8eed13734bb9ed323830bae}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Women who have visited almost any abortion clinic in the United States have seen anti-choice protesters outside, wielding placards and chanting abuse. A Boston advertiser's technology, when deployed by anti-choice groups, allows those groups to send propaganda directly to a woman’s phone while she is in a clinic waiting room.}
+      \field{day}{25}
+      \field{entrysubtype}{newspaper}
+      \field{hour}{22}
+      \field{journaltitle}{Rewire News Group}
+      \field{langid}{american}
+      \field{minute}{52}
+      \field{month}{5}
+      \field{second}{3}
+      \field{timezone}{Z}
+      \field{title}{Anti-{{Choice Groups Use Smartphone Surveillance}} to {{Target}} `{{Abortion-Minded Women}}' {{During Clinic Visits}}}
+      \field{urlday}{1}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/cisco/Zotero/storage/UUFWMFQD/anti-choice-groups-deploy-smartphone-surveillance-target-abortion-minded-women-clinic-visits.html
+      \endverb
+      \verb{urlraw}
+      \verb https://rewirenewsgroup.com/2016/05/25/anti-choice-groups-deploy-smartphone-surveillance-target-abortion-minded-women-clinic-visits/
+      \endverb
+      \verb{url}
+      \verb https://rewirenewsgroup.com/2016/05/25/anti-choice-groups-deploy-smartphone-surveillance-target-abortion-minded-women-clinic-visits/
+      \endverb
+    \endentry
+    \entry{cyphers_oneway_2019}{report}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=aca0fc58421eb30f0fe3cf184ffd5db0}{%
+           family={Cyphers},
+           familyi={C\bibinitperiod},
+           given={Bennet},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad0ccc0b0a925997e7509451cef4fb67}{%
+           family={Gebhart},
+           familyi={G\bibinitperiod},
+           given={Gennie},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {EFF - Electronic Frontier Foundation}%
+      }
+      \strng{namehash}{78de8be63a777285f2cc51ad9bb7b08c}
+      \strng{fullhash}{78de8be63a777285f2cc51ad9bb7b08c}
+      \strng{fullhashraw}{78de8be63a777285f2cc51ad9bb7b08c}
+      \strng{bibnamehash}{78de8be63a777285f2cc51ad9bb7b08c}
+      \strng{authorbibnamehash}{78de8be63a777285f2cc51ad9bb7b08c}
+      \strng{authornamehash}{78de8be63a777285f2cc51ad9bb7b08c}
+      \strng{authorfullhash}{78de8be63a777285f2cc51ad9bb7b08c}
+      \strng{authorfullhashraw}{78de8be63a777285f2cc51ad9bb7b08c}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{2}
+      \field{month}{12}
+      \field{shorttitle}{Behind the {{One-Way Mirror}}}
+      \field{title}{Behind the {{One-Way Mirror}}: {{A Deep Dive Into}} the {{Technology}} of {{Corporate Surveillance}}}
+      \field{urlday}{16}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/cisco/Zotero/storage/43VMJWSM/Cyphers and Gebhart - 2019 - Behind the One-Way Mirror A Deep Dive Into the Technology of Corporate Surveillance.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.eff.org/wp/behind-the-one-way-mirror
+      \endverb
+      \verb{url}
+      \verb https://www.eff.org/wp/behind-the-one-way-mirror
+      \endverb
+    \endentry
+    \entry{desouza_treinamento_2025}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,useprefix=true,hash=64e3927508b42a35d5ebd6b278256c45}{%
+           family={Souza},
+           familyi={S\bibinitperiod},
+           given={Sérgio},
+           giveni={S\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Intercept Brasil}%
+      }
+      \strng{namehash}{64e3927508b42a35d5ebd6b278256c45}
+      \strng{fullhash}{64e3927508b42a35d5ebd6b278256c45}
+      \strng{fullhashraw}{64e3927508b42a35d5ebd6b278256c45}
+      \strng{bibnamehash}{64e3927508b42a35d5ebd6b278256c45}
+      \strng{authorbibnamehash}{64e3927508b42a35d5ebd6b278256c45}
+      \strng{authornamehash}{64e3927508b42a35d5ebd6b278256c45}
+      \strng{authorfullhash}{64e3927508b42a35d5ebd6b278256c45}
+      \strng{authorfullhashraw}{64e3927508b42a35d5ebd6b278256c45}
+      \field{sortinit}{d}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{4}
+      \field{langid}{brazilian}
+      \field{month}{6}
+      \field{shorttitle}{Treinamento de guerra}
+      \field{title}{Treinamento de guerra: Fiz as oficinas do Google e da Meta no seminário do partido do Bolsonaro}
+      \field{urlday}{5}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.intercept.com.br/2025/06/04/oficinas-google-meta-partido-bolsonaro/
+      \endverb
+      \verb{url}
+      \verb https://www.intercept.com.br/2025/06/04/oficinas-google-meta-partido-bolsonaro/
+      \endverb
+    \endentry
+    \entry{detoledo_pl_2023}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,useprefix=true,hash=3df7e32bcb6f0cdae517e4956e0af853}{%
+           family={Toledo},
+           familyi={T\bibinitperiod},
+           given={José\bibnamedelima Roberto},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {UOL}%
+      }
+      \strng{namehash}{3df7e32bcb6f0cdae517e4956e0af853}
+      \strng{fullhash}{3df7e32bcb6f0cdae517e4956e0af853}
+      \strng{fullhashraw}{3df7e32bcb6f0cdae517e4956e0af853}
+      \strng{bibnamehash}{3df7e32bcb6f0cdae517e4956e0af853}
+      \strng{authorbibnamehash}{3df7e32bcb6f0cdae517e4956e0af853}
+      \strng{authornamehash}{3df7e32bcb6f0cdae517e4956e0af853}
+      \strng{authorfullhash}{3df7e32bcb6f0cdae517e4956e0af853}
+      \strng{authorfullhashraw}{3df7e32bcb6f0cdae517e4956e0af853}
+      \field{sortinit}{d}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{O colunista do UOL José Roberto de Toledo afirmou que propaganda disfarçada do Google contra PL das Fake News mostra poder ilimitado da empresa}
+      \field{day}{2}
+      \field{langid}{brazilian}
+      \field{month}{5}
+      \field{shorttitle}{José Roberto de Toledo - PL 2630}
+      \field{title}{PL 2630: Lobby descarado mostra poder ilimitado de big techs como Google}
+      \field{urlday}{5}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/cisco/Zotero/storage/LAAXGP7S/pl-2630-lobby-descarado-mostra-poder-ilimitado-de-big-techs-como-google.html
+      \endverb
+      \verb{urlraw}
+      \verb https://noticias.uol.com.br/colunas/jose-roberto-de-toledo/2023/05/02/pl-2630-lobby-descarado-mostra-poder-ilimitado-de-big-techs-como-google.htm
+      \endverb
+      \verb{url}
+      \verb https://noticias.uol.com.br/colunas/jose-roberto-de-toledo/2023/05/02/pl-2630-lobby-descarado-mostra-poder-ilimitado-de-big-techs-como-google.htm
+      \endverb
+    \endentry
+    \entry{girish_disclosure_2025}{online}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=b767f3e3af9b5a2db1777e94c34d62ea}{%
+           family={Girish},
+           familyi={G\bibinitperiod},
+           given={Aniketh},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fb548a2dcea5b2db265509516c83a7a6}{%
+           family={Acar},
+           familyi={A\bibinitperiod},
+           given={Gunes},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cd7d19d6b432a34fba27fab0c4b9ca39}{%
+           family={Vallina-Rodriguez},
+           familyi={V\bibinithyphendelim R\bibinitperiod},
+           given={Narseo},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3be7329b2325153510980b6b8da7f82c}{%
+           family={Weerasekara},
+           familyi={W\bibinitperiod},
+           given={Nipuna},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd0a1b6500fefd6d4717bc7487bf7316}{%
+           family={Vlummens},
+           familyi={V\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Local Mess}%
+      }
+      \strng{namehash}{cb359673819d9c83d3ed3773bd6fa4ff}
+      \strng{fullhash}{d8754beb5e96f2914a9a376203032008}
+      \strng{fullhashraw}{d8754beb5e96f2914a9a376203032008}
+      \strng{bibnamehash}{cb359673819d9c83d3ed3773bd6fa4ff}
+      \strng{authorbibnamehash}{cb359673819d9c83d3ed3773bd6fa4ff}
+      \strng{authornamehash}{cb359673819d9c83d3ed3773bd6fa4ff}
+      \strng{authorfullhash}{d8754beb5e96f2914a9a376203032008}
+      \strng{authorfullhashraw}{d8754beb5e96f2914a9a376203032008}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Disclosure: {{Covert Web-to-App Tracking}} via {{Localhost}} on {{Android}}}
+      \field{urlday}{5}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://localmess.github.io
+      \endverb
+      \verb{url}
+      \verb https://localmess.github.io
+      \endverb
+    \endentry
+    \entry{han_infocracia_2022}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f30ce431d6fe4c3fdbfa0e9f9f8e316f}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Byung-Chul},
+           giveni={B\bibinithyphendelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=51d7b912d1cdcbc190cde42612ea4594}{%
+           family={Philipson},
+           familyi={P\bibinitperiod},
+           given={Gabriel\bibnamedelima S.},
+           giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Petrópolis, RJ}%
+      }
+      \list{publisher}{1}{%
+        {Editora Vozes}%
+      }
+      \strng{namehash}{f30ce431d6fe4c3fdbfa0e9f9f8e316f}
+      \strng{fullhash}{f30ce431d6fe4c3fdbfa0e9f9f8e316f}
+      \strng{fullhashraw}{f30ce431d6fe4c3fdbfa0e9f9f8e316f}
+      \strng{bibnamehash}{f30ce431d6fe4c3fdbfa0e9f9f8e316f}
+      \strng{authorbibnamehash}{f30ce431d6fe4c3fdbfa0e9f9f8e316f}
+      \strng{authornamehash}{f30ce431d6fe4c3fdbfa0e9f9f8e316f}
+      \strng{authorfullhash}{f30ce431d6fe4c3fdbfa0e9f9f8e316f}
+      \strng{authorfullhashraw}{f30ce431d6fe4c3fdbfa0e9f9f8e316f}
+      \strng{translatorbibnamehash}{51d7b912d1cdcbc190cde42612ea4594}
+      \strng{translatornamehash}{51d7b912d1cdcbc190cde42612ea4594}
+      \strng{translatorfullhash}{51d7b912d1cdcbc190cde42612ea4594}
+      \strng{translatorfullhashraw}{51d7b912d1cdcbc190cde42612ea4594}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Infocracia}
+      \field{day}{4}
+      \field{isbn}{978-65-5713-566-2}
+      \field{langid}{brazilian}
+      \field{month}{3}
+      \field{pagetotal}{104}
+      \field{shorttitle}{Infocracia}
+      \field{title}{Infocracia: Digitalização e a crise da democracia}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \keyw{comunicação,crise,de,Digital,Filosofia e disciplinas relacionadas,informação,Regime}
+    \endentry
+    \entry{hill_automakers_2024}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=944914baec71146db1acb824e501ce09}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Kashmir},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{944914baec71146db1acb824e501ce09}
+      \strng{fullhash}{944914baec71146db1acb824e501ce09}
+      \strng{fullhashraw}{944914baec71146db1acb824e501ce09}
+      \strng{bibnamehash}{944914baec71146db1acb824e501ce09}
+      \strng{authorbibnamehash}{944914baec71146db1acb824e501ce09}
+      \strng{authornamehash}{944914baec71146db1acb824e501ce09}
+      \strng{authorfullhash}{944914baec71146db1acb824e501ce09}
+      \strng{authorfullhashraw}{944914baec71146db1acb824e501ce09}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{LexisNexis, which generates consumer risk profiles for the insurers, knew about every trip G.M. drivers had taken in their cars, including when they sped, braked too hard or accelerated rapidly.}
+      \field{day}{11}
+      \field{entrysubtype}{newspaper}
+      \field{issn}{0362-4331}
+      \field{journalsubtitle}{Technology}
+      \field{journaltitle}{The New York Times}
+      \field{langid}{american}
+      \field{month}{3}
+      \field{title}{Automakers {{Are Sharing Consumers}}’ {{Driving Behavior With Insurance Companies}}}
+      \field{urlday}{18}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/cisco/Zotero/storage/MPNZNX8X/carmakers-driver-tracking-insurance.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nytimes.com/2024/03/11/technology/carmakers-driver-tracking-insurance.html
+      \endverb
+      \verb{url}
+      \verb https://www.nytimes.com/2024/03/11/technology/carmakers-driver-tracking-insurance.html
+      \endverb
+      \keyw{Automobile Insurance and Liability,Automobiles,Data-Mining and Database Marketing,General Motors,Honda Motor Co Ltd,Kia Motors Corp,LexisNexis Group,Mitsubishi Motor Corp,Mobile Applications,OnStar Corp,Privacy,Subaru}
+    \endentry
+    \entry{internetarchive_petabox_}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cbd2fd311741990b3e76308c90a5ddf2}{%
+           family={{Internet Archive}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{cbd2fd311741990b3e76308c90a5ddf2}
+      \strng{fullhash}{cbd2fd311741990b3e76308c90a5ddf2}
+      \strng{fullhashraw}{cbd2fd311741990b3e76308c90a5ddf2}
+      \strng{bibnamehash}{cbd2fd311741990b3e76308c90a5ddf2}
+      \strng{authorbibnamehash}{cbd2fd311741990b3e76308c90a5ddf2}
+      \strng{authornamehash}{cbd2fd311741990b3e76308c90a5ddf2}
+      \strng{authorfullhash}{cbd2fd311741990b3e76308c90a5ddf2}
+      \strng{authorfullhashraw}{cbd2fd311741990b3e76308c90a5ddf2}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Petabox}
+      \field{urlday}{8}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://archive.org/web/petabox
+      \endverb
+      \verb{url}
+      \verb https://archive.org/web/petabox
+      \endverb
+    \endentry
+    \entry{kelion_spy_2021}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bae8aeb618018dfc75aa251a84c8bdff}{%
+           family={Kelion},
+           familyi={K\bibinitperiod},
+           given={Leo},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Londres}%
+      }
+      \strng{namehash}{bae8aeb618018dfc75aa251a84c8bdff}
+      \strng{fullhash}{bae8aeb618018dfc75aa251a84c8bdff}
+      \strng{fullhashraw}{bae8aeb618018dfc75aa251a84c8bdff}
+      \strng{bibnamehash}{bae8aeb618018dfc75aa251a84c8bdff}
+      \strng{authorbibnamehash}{bae8aeb618018dfc75aa251a84c8bdff}
+      \strng{authornamehash}{bae8aeb618018dfc75aa251a84c8bdff}
+      \strng{authorfullhash}{bae8aeb618018dfc75aa251a84c8bdff}
+      \strng{authorfullhashraw}{bae8aeb618018dfc75aa251a84c8bdff}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Email app Hey reveals that two-thirds of the messages it handles contain the hidden trackers.}
+      \field{day}{17}
+      \field{entrysubtype}{newspaper}
+      \field{journaltitle}{BBC}
+      \field{langid}{british}
+      \field{month}{2}
+      \field{title}{Spy Pixels in Emails Have Become Endemic}
+      \field{urlday}{16}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/cisco/Zotero/storage/R8ZDUH34/technology-56071437.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.bbc.com/news/technology-56071437
+      \endverb
+      \verb{url}
+      \verb https://www.bbc.com/news/technology-56071437
+      \endverb
+    \endentry
+    \entry{mackey_eff_2019}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=04a74bc4f3462522a80ddf025eebe883}{%
+           family={Mackey},
+           familyi={M\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Electronic Frontier Foundation}%
+      }
+      \strng{namehash}{04a74bc4f3462522a80ddf025eebe883}
+      \strng{fullhash}{04a74bc4f3462522a80ddf025eebe883}
+      \strng{fullhashraw}{04a74bc4f3462522a80ddf025eebe883}
+      \strng{bibnamehash}{04a74bc4f3462522a80ddf025eebe883}
+      \strng{authorbibnamehash}{04a74bc4f3462522a80ddf025eebe883}
+      \strng{authornamehash}{04a74bc4f3462522a80ddf025eebe883}
+      \strng{authorfullhash}{04a74bc4f3462522a80ddf025eebe883}
+      \strng{authorfullhashraw}{04a74bc4f3462522a80ddf025eebe883}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{SAN FRANCISCO — The Electronic Frontier Foundation (EFF) and Pierce Bainbridge Beck Price...}
+      \field{day}{16}
+      \field{hour}{9}
+      \field{langid}{english}
+      \field{minute}{55}
+      \field{month}{7}
+      \field{second}{48}
+      \field{timezone}{-07\bibtzminsep 00}
+      \field{title}{{{EFF Sues AT}}\&{{T}}, {{Data Aggregators For Giving Bounty Hunters}} and {{Other Third Parties Access}} to {{Customers}}’ {{Real-Time Locations}}}
+      \field{urlday}{1}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/cisco/Zotero/storage/4P4WZYK6/eff-sues-att-data-aggregators-giving-bounty-hunters-and-other-third-parties-access.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.eff.org/press/releases/eff-sues-att-data-aggregators-giving-bounty-hunters-and-other-third-parties-access
+      \endverb
+      \verb{url}
+      \verb https://www.eff.org/press/releases/eff-sues-att-data-aggregators-giving-bounty-hunters-and-other-third-parties-access
+      \endverb
+    \endentry
+    \entry{mckinsey_monetizing_2016}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=87c6845cac588f4e93adddfb7e731442}{%
+           family={{McKinsey}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{87c6845cac588f4e93adddfb7e731442}
+      \strng{fullhash}{87c6845cac588f4e93adddfb7e731442}
+      \strng{fullhashraw}{87c6845cac588f4e93adddfb7e731442}
+      \strng{bibnamehash}{87c6845cac588f4e93adddfb7e731442}
+      \strng{authorbibnamehash}{87c6845cac588f4e93adddfb7e731442}
+      \strng{authornamehash}{87c6845cac588f4e93adddfb7e731442}
+      \strng{authorfullhash}{87c6845cac588f4e93adddfb7e731442}
+      \strng{authorfullhashraw}{87c6845cac588f4e93adddfb7e731442}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{9}
+      \field{title}{Monetizing Car Data}
+      \field{urlday}{2}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/cisco/Zotero/storage/S6URJ957/Monetizing car data McKinsey.pdf;/home/cisco/Zotero/storage/PJTVDXDR/monetizing-car-data.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mckinsey.com/industries/automotive-and-assembly/our-insights/monetizing-car-data
+      \endverb
+      \verb{url}
+      \verb https://www.mckinsey.com/industries/automotive-and-assembly/our-insights/monetizing-car-data
+      \endverb
+    \endentry
+    \entry{mejias_data_2024}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=05f9d160f9842d77e812e87274fc8651}{%
+           family={Mejias},
+           familyi={M\bibinitperiod},
+           given={Ulises\bibnamedelima Ali},
+           giveni={U\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc5d122e2712fea5da748f4a7590fef1}{%
+           family={Couldry},
+           familyi={C\bibinitperiod},
+           given={Nick},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Chicago}%
+      }
+      \list{publisher}{1}{%
+        {The University of Chicago Press}%
+      }
+      \strng{namehash}{953049c968e4e6f6f7f6afd2ee1bb733}
+      \strng{fullhash}{953049c968e4e6f6f7f6afd2ee1bb733}
+      \strng{fullhashraw}{953049c968e4e6f6f7f6afd2ee1bb733}
+      \strng{bibnamehash}{953049c968e4e6f6f7f6afd2ee1bb733}
+      \strng{authorbibnamehash}{953049c968e4e6f6f7f6afd2ee1bb733}
+      \strng{authornamehash}{953049c968e4e6f6f7f6afd2ee1bb733}
+      \strng{authorfullhash}{953049c968e4e6f6f7f6afd2ee1bb733}
+      \strng{authorfullhashraw}{953049c968e4e6f6f7f6afd2ee1bb733}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{"In the present day, Big Tech is extracting resources from us, transferring and centralizing resources from people to companies. These companies are grabbing our most basic natural resources--our data--exploiting our labor and connections, and repackaging our information to control our views, track our movements, record our conversations, and discriminate against us. These companies tell us this is for our own good, to build innovation and develop new technology. But in fact every time we unthinkingly click "Accept" on a set of Terms and Conditions, we allow our most personal information to be kept indefinitely, repackaged by companies to control and exploit us for their own profit. Each chapter of respected technology scholars Ulises Mejias and Nick Couldry's compelling book opens with a story of an ordinary person going about their life until they come up against technology taking their data: a migrant trying to reach Europe where drones are patrolling borders, a woman in the Philippines working for a software company that takes screenshots of her monitor, a food delivery driver in a Chinese city racing against an algorithm. All of these people could be us; the story of what tech companies are doing is a global story that is impossible to escape. Mejias and Couldry explain why postindustrial capitalism cannot be understood without colonialism, and why race is a critical factor in who benefits from data colonialism, just as it was for historic colonialism. In this searing, cutting-edge guide, two leading global researchers and founders of the concept of data colonialism reveal how history can help us understand the emerging future--and how we can fight back"--}
+      \field{isbn}{978-0-226-83230-2}
+      \field{shorttitle}{Data Grab}
+      \field{title}{Data Grab: The New Colonialism of Big Tech and How to Fight Back}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \keyw{Corporate power,Data privacy,Data sovereignty,Electronic data processing,Information technology,Internet industry,Social aspects}
+    \endentry
+    \entry{mello_google_2023}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=62cdef44dbb224f5df31690624636552}{%
+           family={Mello},
+           familyi={M\bibinitperiod},
+           given={Patrícia\bibnamedelima C.},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \strng{namehash}{62cdef44dbb224f5df31690624636552}
+      \strng{fullhash}{62cdef44dbb224f5df31690624636552}
+      \strng{fullhashraw}{62cdef44dbb224f5df31690624636552}
+      \strng{bibnamehash}{62cdef44dbb224f5df31690624636552}
+      \strng{authorbibnamehash}{62cdef44dbb224f5df31690624636552}
+      \strng{authornamehash}{62cdef44dbb224f5df31690624636552}
+      \strng{authorfullhash}{62cdef44dbb224f5df31690624636552}
+      \strng{authorfullhashraw}{62cdef44dbb224f5df31690624636552}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Segundo ex-presidente, ele está atuando como mediador há três semanas junto a parlamentares para discutir o tema}
+      \field{day}{30}
+      \field{entrysubtype}{newspaper}
+      \field{journalsubtitle}{Poder}
+      \field{journaltitle}{Folha de S. Paulo}
+      \field{langid}{brazilian}
+      \field{month}{6}
+      \field{title}{Google contrata Temer para atuar nas negociações sobre regulação de big techs}
+      \field{urlday}{5}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/cisco/Zotero/storage/M84MTMWH/google-contrata-temer-para-atuar-nas-negociacoes-sobre-regulacao-de-big-techs.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www1.folha.uol.com.br/poder/2023/06/google-contrata-temer-para-atuar-nas-negociacoes-sobre-regulacao-de-big-techs.shtml
+      \endverb
+      \verb{url}
+      \verb https://www1.folha.uol.com.br/poder/2023/06/google-contrata-temer-para-atuar-nas-negociacoes-sobre-regulacao-de-big-techs.shtml
+      \endverb
+    \endentry
+    \entry{morozov_big_2018}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=162ad7e877e1c016afee9bc2b08bfff4}{%
+           family={Morozov},
+           familyi={M\bibinitperiod},
+           given={Evgeny},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {Ubu Editora}%
+      }
+      \strng{namehash}{162ad7e877e1c016afee9bc2b08bfff4}
+      \strng{fullhash}{162ad7e877e1c016afee9bc2b08bfff4}
+      \strng{fullhashraw}{162ad7e877e1c016afee9bc2b08bfff4}
+      \strng{bibnamehash}{162ad7e877e1c016afee9bc2b08bfff4}
+      \strng{authorbibnamehash}{162ad7e877e1c016afee9bc2b08bfff4}
+      \strng{authornamehash}{162ad7e877e1c016afee9bc2b08bfff4}
+      \strng{authorfullhash}{162ad7e877e1c016afee9bc2b08bfff4}
+      \strng{authorfullhashraw}{162ad7e877e1c016afee9bc2b08bfff4}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{25}
+      \field{isbn}{978-85-7126-012-2}
+      \field{langid}{brazilian}
+      \field{month}{10}
+      \field{title}{Big Tech}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \keyw{Tecnologia (ciências aplicadas)}
+    \endentry
+    \entry{morozov_nao_2023}{online}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=162ad7e877e1c016afee9bc2b08bfff4}{%
+           family={Morozov},
+           familyi={M\bibinitperiod},
+           given={Evgeny},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=175679b06de8b15213a4e0519b0c5f97}{%
+           family={Denvir},
+           familyi={D\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=8fd9038f543bbb5ed5ff81e37dca514e}{%
+           family={Hoshika},
+           familyi={H\bibinitperiod},
+           given={Taís},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Jacobin Brasil}%
+      }
+      \strng{namehash}{4644ba91ca32c2b9246948eca5c06421}
+      \strng{fullhash}{4644ba91ca32c2b9246948eca5c06421}
+      \strng{fullhashraw}{4644ba91ca32c2b9246948eca5c06421}
+      \strng{bibnamehash}{4644ba91ca32c2b9246948eca5c06421}
+      \strng{authorbibnamehash}{4644ba91ca32c2b9246948eca5c06421}
+      \strng{authornamehash}{4644ba91ca32c2b9246948eca5c06421}
+      \strng{authorfullhash}{4644ba91ca32c2b9246948eca5c06421}
+      \strng{authorfullhashraw}{4644ba91ca32c2b9246948eca5c06421}
+      \strng{translatorbibnamehash}{8fd9038f543bbb5ed5ff81e37dca514e}
+      \strng{translatornamehash}{8fd9038f543bbb5ed5ff81e37dca514e}
+      \strng{translatorfullhash}{8fd9038f543bbb5ed5ff81e37dca514e}
+      \strng{translatorfullhashraw}{8fd9038f543bbb5ed5ff81e37dca514e}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Alguns pensadores estão defendendo que o capitalismo, conforme definido por Marx, acabou e estamos entrando em algo semelhante a um neofeudalismo digital. Não é verdade, argumenta Evgeny Morozov. Para entender como o capitalismo opera hoje, os marxistas precisam abandonar o viés da fábrica.}
+      \field{day}{23}
+      \field{hour}{16}
+      \field{langid}{brazilian}
+      \field{minute}{3}
+      \field{month}{6}
+      \field{second}{41}
+      \field{timezone}{Z}
+      \field{title}{Não, não é tecnofeudalismo. Ainda é capitalismo.}
+      \field{urlday}{8}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/cisco/Zotero/storage/HBXUMET9/nao-nao-e-tecnofeudalismo-ainda-e-capitalismo.html
+      \endverb
+      \verb{urlraw}
+      \verb https://jacobin.com.br/2023/06/nao-nao-e-tecnofeudalismo-ainda-e-capitalismo/
+      \endverb
+      \verb{url}
+      \verb https://jacobin.com.br/2023/06/nao-nao-e-tecnofeudalismo-ainda-e-capitalismo/
+      \endverb
+    \endentry
+    \entry{ohm_broken_2009}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=42a4e45a62db90fb26313d916de20e5c}{%
+           family={Ohm},
+           familyi={O\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{42a4e45a62db90fb26313d916de20e5c}
+      \strng{fullhash}{42a4e45a62db90fb26313d916de20e5c}
+      \strng{fullhashraw}{42a4e45a62db90fb26313d916de20e5c}
+      \strng{bibnamehash}{42a4e45a62db90fb26313d916de20e5c}
+      \strng{authorbibnamehash}{42a4e45a62db90fb26313d916de20e5c}
+      \strng{authornamehash}{42a4e45a62db90fb26313d916de20e5c}
+      \strng{authorfullhash}{42a4e45a62db90fb26313d916de20e5c}
+      \strng{authorfullhashraw}{42a4e45a62db90fb26313d916de20e5c}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{13}
+      \field{journaltitle}{UCLA Law Review}
+      \field{month}{8}
+      \field{shorttitle}{Broken {{Promises}} of {{Privacy}}}
+      \field{title}{Broken {{Promises}} of {{Privacy}}: {{Responding}} to the {{Surprising Failure}} of {{Anonymization}}}
+      \field{urlday}{1}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{volume}{57}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1701}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://ssrn.com/abstract=1450006
+      \endverb
+      \verb{url}
+      \verb https://ssrn.com/abstract=1450006
+      \endverb
+    \endentry
+    \entry{pnadcontínua_acesso_2024}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0afefb76ba37f92bfc89bb1cbbc1e88c}{%
+           family={{PNAD Contínua}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=7cecc052f96ddde509a2d56ec1b28744}{%
+           family={{Coordenação de Pesquisas por Amostra de Domicílios}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Rio de Janeiro, RJ}%
+      }
+      \list{publisher}{1}{%
+        {IBGE}%
+      }
+      \strng{namehash}{0afefb76ba37f92bfc89bb1cbbc1e88c}
+      \strng{fullhash}{0afefb76ba37f92bfc89bb1cbbc1e88c}
+      \strng{fullhashraw}{0afefb76ba37f92bfc89bb1cbbc1e88c}
+      \strng{bibnamehash}{0afefb76ba37f92bfc89bb1cbbc1e88c}
+      \strng{authorbibnamehash}{0afefb76ba37f92bfc89bb1cbbc1e88c}
+      \strng{authornamehash}{0afefb76ba37f92bfc89bb1cbbc1e88c}
+      \strng{authorfullhash}{0afefb76ba37f92bfc89bb1cbbc1e88c}
+      \strng{authorfullhashraw}{0afefb76ba37f92bfc89bb1cbbc1e88c}
+      \strng{editorbibnamehash}{7cecc052f96ddde509a2d56ec1b28744}
+      \strng{editornamehash}{7cecc052f96ddde509a2d56ec1b28744}
+      \strng{editorfullhash}{7cecc052f96ddde509a2d56ec1b28744}
+      \strng{editorfullhashraw}{7cecc052f96ddde509a2d56ec1b28744}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A Pesquisa Nacional por Amostra de Domicílios Contínua - PNAD Contínua1, divulgada pelo Instituto Brasileiro de Geografia e Estatística - IBGE, investigou o módulo temático sobre Tecnologia da Informação e Comunicação - TIC no quarto trimestre de 2023. A investigação abrangeu o acesso à Internet e à televisão, bem como a existência de telefone, entre outros equipamentos como microcomputador, tablet e rádio, nos domicílios particulares permanentes; e o acesso à Internet e a posse de telefone móvel celular para uso pessoal entre as pessoas de 10 anos ou mais de idade. Cabe destacar que tanto o questionário de domicílios quanto o de pessoas passaram por reformulação em 2022, com o objetivo de aprofundar e melhorar a investigação do uso e acesso a essas tecnologias, tais como serviço pago de streaming de vídeo; existência de dispositivo inteligente; acesso gratuito à Internet em locais públicos; acréscimo de finalidades de acesso à Internet; inclusão do 5G em banda larga móvel etc. Desta forma, a série histórica para alguns indicadores foi interrompida, enquanto outras séries foram iniciadas a partir de 2022.}
+      \field{day}{9}
+      \field{isbn}{978-85-240-4622-3}
+      \field{langid}{brazilian}
+      \field{month}{9}
+      \field{pagetotal}{17}
+      \field{title}{Acesso à internet e à televisão e posse de telefone móvel celular para uso pessoal 2023}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \keyw{Brasil,Domicílios,Estatística - Brasil,Internet,PNAD,telefone,televisão,Usuários}
+    \endentry
+    \entry{schurig_quem_2024}{online}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c213cdff3d4985e641e4197ce7312ae6}{%
+           family={Schurig},
+           familyi={S\bibinitperiod},
+           given={Sofia},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d8025258441c322f11a6c287643f281e}{%
+           family={Almeida},
+           familyi={A\bibinitperiod},
+           given={Rodolfo},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Núcleo Jornalismo}%
+      }
+      \strng{namehash}{365038952a08d3122d0570e843db3f4d}
+      \strng{fullhash}{365038952a08d3122d0570e843db3f4d}
+      \strng{fullhashraw}{365038952a08d3122d0570e843db3f4d}
+      \strng{bibnamehash}{365038952a08d3122d0570e843db3f4d}
+      \strng{authorbibnamehash}{365038952a08d3122d0570e843db3f4d}
+      \strng{authornamehash}{365038952a08d3122d0570e843db3f4d}
+      \strng{authorfullhash}{365038952a08d3122d0570e843db3f4d}
+      \strng{authorfullhashraw}{365038952a08d3122d0570e843db3f4d}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Centrão lidera apresentação e relatoria de projetos sobre inteligência artificial nas comissões da Câmara — análise do Núcleo mostra os deputados envolvidos com a pauta}
+      \field{day}{8}
+      \field{hour}{12}
+      \field{langid}{brazilian}
+      \field{minute}{26}
+      \field{month}{11}
+      \field{second}{43}
+      \field{title}{De quem são os projetos de lei sobre IA na Câmara}
+      \field{urlday}{2}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://nucleo.jor.br/especiais/2024-11-08-projetos-lei-ia-congresso/
+      \endverb
+      \verb{url}
+      \verb https://nucleo.jor.br/especiais/2024-11-08-projetos-lei-ia-congresso/
+      \endverb
+    \endentry
+    \entry{schurig_como_2024}{online}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c213cdff3d4985e641e4197ce7312ae6}{%
+           family={Schurig},
+           familyi={S\bibinitperiod},
+           given={Sofia},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5e02a578be4a9e89ca5ecb9a389a5f21}{%
+           family={Granjeia},
+           familyi={G\bibinitperiod},
+           given={Julianna},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Núcleo Jornalismo}%
+      }
+      \strng{namehash}{e6f8de1c34dd4ee043d56bf60b283d21}
+      \strng{fullhash}{e6f8de1c34dd4ee043d56bf60b283d21}
+      \strng{fullhashraw}{e6f8de1c34dd4ee043d56bf60b283d21}
+      \strng{bibnamehash}{e6f8de1c34dd4ee043d56bf60b283d21}
+      \strng{authorbibnamehash}{e6f8de1c34dd4ee043d56bf60b283d21}
+      \strng{authornamehash}{e6f8de1c34dd4ee043d56bf60b283d21}
+      \strng{authorfullhash}{e6f8de1c34dd4ee043d56bf60b283d21}
+      \strng{authorfullhashraw}{e6f8de1c34dd4ee043d56bf60b283d21}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Disputas entre big techs, governo e sociedade civil moldam o PL 2.338/23, com foco na integridade da informação e nos sistemas de alto risco. O lobby do setor privado influencia mudanças no texto, enquanto conceitos-chave como liberdade de expressão permanecem no centro das controvérsias.}
+      \field{day}{11}
+      \field{hour}{16}
+      \field{langid}{brazilian}
+      \field{minute}{39}
+      \field{month}{12}
+      \field{second}{6}
+      \field{title}{Como conflitos entre ministérios e Big Tech moldaram a proposta de regulação de IA no Senado}
+      \field{urlday}{2}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/cisco/Zotero/storage/ASAY9U35/2024-12-11-conflito-entre-ministerios-e-lobby-da-industria-alteram-proposta-de-regulacao-de-ia.html
+      \endverb
+      \verb{urlraw}
+      \verb https://nucleo.jor.br/reportagem/2024-12-11-conflito-entre-ministerios-e-lobby-da-industria-alteram-proposta-de-regulacao-de-ia/
+      \endverb
+      \verb{url}
+      \verb https://nucleo.jor.br/reportagem/2024-12-11-conflito-entre-ministerios-e-lobby-da-industria-alteram-proposta-de-regulacao-de-ia/
+      \endverb
+    \endentry
+    \entry{schurig_meta_2024}{online}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c213cdff3d4985e641e4197ce7312ae6}{%
+           family={Schurig},
+           familyi={S\bibinitperiod},
+           given={Sofia},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a5eb921efeb601c0fe8a4e4d5c9b7e40}{%
+           family={Spagnuolo},
+           familyi={S\bibinitperiod},
+           given={Sérgio},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Núcleo Jornalismo}%
+      }
+      \strng{namehash}{20a29416eea5766632010d986f548740}
+      \strng{fullhash}{20a29416eea5766632010d986f548740}
+      \strng{fullhashraw}{20a29416eea5766632010d986f548740}
+      \strng{bibnamehash}{20a29416eea5766632010d986f548740}
+      \strng{authorbibnamehash}{20a29416eea5766632010d986f548740}
+      \strng{authornamehash}{20a29416eea5766632010d986f548740}
+      \strng{authorfullhash}{20a29416eea5766632010d986f548740}
+      \strng{authorfullhashraw}{20a29416eea5766632010d986f548740}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{ANPD determinou suspensão de uso de dados pessoais de Facebook e Instagram para treinamento de IA da Meta, a qual potencialmente colocou usuários, incluindo crianças, em risco com essa prática}
+      \field{day}{2}
+      \field{hour}{13}
+      \field{langid}{brazilian}
+      \field{minute}{0}
+      \field{month}{7}
+      \field{second}{57}
+      \field{title}{Meta colocou dados de crianças em risco para treinar IA, diz ANPD}
+      \field{urlday}{18}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/cisco/Zotero/storage/PJUPPEJM/2024-07-02-meta-colocou-dados-de-brasileiros-em-risco-para-treinar-ia.html
+      \endverb
+      \verb{urlraw}
+      \verb https://nucleo.jor.br/reportagem/2024-07-02-meta-colocou-dados-de-brasileiros-em-risco-para-treinar-ia/
+      \endverb
+      \verb{url}
+      \verb https://nucleo.jor.br/reportagem/2024-07-02-meta-colocou-dados-de-brasileiros-em-risco-para-treinar-ia/
+      \endverb
+    \endentry
+    \entry{soltani_privacy_2015}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f687093aa02c3bf51f870451ece49484}{%
+           family={Soltani},
+           familyi={S\bibinitperiod},
+           given={Ashkan},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Federal Trade Commission}%
+      }
+      \strng{namehash}{f687093aa02c3bf51f870451ece49484}
+      \strng{fullhash}{f687093aa02c3bf51f870451ece49484}
+      \strng{fullhashraw}{f687093aa02c3bf51f870451ece49484}
+      \strng{bibnamehash}{f687093aa02c3bf51f870451ece49484}
+      \strng{authorbibnamehash}{f687093aa02c3bf51f870451ece49484}
+      \strng{authornamehash}{f687093aa02c3bf51f870451ece49484}
+      \strng{authorfullhash}{f687093aa02c3bf51f870451ece49484}
+      \strng{authorfullhashraw}{f687093aa02c3bf51f870451ece49484}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{30}
+      \field{hour}{11}
+      \field{langid}{english}
+      \field{minute}{59}
+      \field{month}{4}
+      \field{second}{19}
+      \field{timezone}{-04\bibtzminsep 00}
+      \field{title}{Privacy Trade-Offs in Retail Tracking}
+      \field{urlday}{2}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/cisco/Zotero/storage/S922CKTA/privacy-trade-offs-retail-tracking.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ftc.gov/policy/advocacy-research/tech-at-ftc/2015/04/privacy-trade-offs-retail-tracking
+      \endverb
+      \verb{url}
+      \verb https://www.ftc.gov/policy/advocacy-research/tech-at-ftc/2015/04/privacy-trade-offs-retail-tracking
+      \endverb
+    \endentry
+    \entry{soprana_viaquatro_2021}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d84a29a571041787e840517f48c85547}{%
+           family={Soprana},
+           familyi={S\bibinitperiod},
+           given={Paula},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc9b77d110257d77fe45bdbbf26425b8}{%
+           family={Amâncio},
+           familyi={A\bibinitperiod},
+           given={Thiago},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \strng{namehash}{e27de9eedd6b0d5bb2d70c3c3448e4bb}
+      \strng{fullhash}{e27de9eedd6b0d5bb2d70c3c3448e4bb}
+      \strng{fullhashraw}{e27de9eedd6b0d5bb2d70c3c3448e4bb}
+      \strng{bibnamehash}{e27de9eedd6b0d5bb2d70c3c3448e4bb}
+      \strng{authorbibnamehash}{e27de9eedd6b0d5bb2d70c3c3448e4bb}
+      \strng{authornamehash}{e27de9eedd6b0d5bb2d70c3c3448e4bb}
+      \strng{authorfullhash}{e27de9eedd6b0d5bb2d70c3c3448e4bb}
+      \strng{authorfullhashraw}{e27de9eedd6b0d5bb2d70c3c3448e4bb}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{11}
+      \field{entrysubtype}{newspaper}
+      \field{journaltitle}{Folha de S. Paulo}
+      \field{langid}{brazilian}
+      \field{month}{5}
+      \field{title}{ViaQuatro é condenada por reconhecimento facial sem autorização no Metrô de SP}
+      \field{urlday}{1}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www1.folha.uol.com.br/cotidiano/2021/05/viaquatro-e-condenada-por-reconhecimento-facil-sem-autorizacao-no-metro-de-sp.shtml
+      \endverb
+      \verb{url}
+      \verb https://www1.folha.uol.com.br/cotidiano/2021/05/viaquatro-e-condenada-por-reconhecimento-facil-sem-autorizacao-no-metro-de-sp.shtml
+      \endverb
+    \endentry
+    \entry{spagnuolo_lobby_2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a5eb921efeb601c0fe8a4e4d5c9b7e40}{%
+           family={Spagnuolo},
+           familyi={S\bibinitperiod},
+           given={Sérgio},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Núcleo Jornalismo}%
+      }
+      \strng{namehash}{a5eb921efeb601c0fe8a4e4d5c9b7e40}
+      \strng{fullhash}{a5eb921efeb601c0fe8a4e4d5c9b7e40}
+      \strng{fullhashraw}{a5eb921efeb601c0fe8a4e4d5c9b7e40}
+      \strng{bibnamehash}{a5eb921efeb601c0fe8a4e4d5c9b7e40}
+      \strng{authorbibnamehash}{a5eb921efeb601c0fe8a4e4d5c9b7e40}
+      \strng{authornamehash}{a5eb921efeb601c0fe8a4e4d5c9b7e40}
+      \strng{authorfullhash}{a5eb921efeb601c0fe8a4e4d5c9b7e40}
+      \strng{authorfullhashraw}{a5eb921efeb601c0fe8a4e4d5c9b7e40}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Ninguém mais fala de regulação de redes sociais na Câmara; enquanto isso, regulação de IA fica só na expectativa no Senado}
+      \field{day}{11}
+      \field{hour}{13}
+      \field{langid}{brazilian}
+      \field{minute}{29}
+      \field{month}{7}
+      \field{second}{3}
+      \field{title}{O lobby das Big Techs venceu no Brasil}
+      \field{urlday}{5}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/cisco/Zotero/storage/3S8UHPE8/2024-07-11-lobby-big-techs-venceu-brasil.html
+      \endverb
+      \verb{urlraw}
+      \verb https://nucleo.jor.br/raiox/2024-07-11-lobby-big-techs-venceu-brasil/
+      \endverb
+      \verb{url}
+      \verb https://nucleo.jor.br/raiox/2024-07-11-lobby-big-techs-venceu-brasil/
+      \endverb
+    \endentry
+    \entry{sy_tracking_2018}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=7b1d35b9f5fa10f2d2f41bb343908122}{%
+           family={Sy},
+           familyi={S\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=628e08501121b69b2297eee26e1f8573}{%
+           family={Burkert},
+           familyi={B\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b2f80d7ef07c503b6deb9dbaed7672cc}{%
+           family={Federrath},
+           familyi={F\bibinitperiod},
+           given={Hannes},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a91061db0efe4b25d6bacbc4f42f2b92}{%
+           family={Fischer},
+           familyi={F\bibinitperiod},
+           given={Mathias},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{600714ba03139f9185277c0169f129e5}
+      \strng{fullhash}{1e9d2c79dc248d534b4948f12739b68b}
+      \strng{fullhashraw}{1e9d2c79dc248d534b4948f12739b68b}
+      \strng{bibnamehash}{600714ba03139f9185277c0169f129e5}
+      \strng{authorbibnamehash}{600714ba03139f9185277c0169f129e5}
+      \strng{authornamehash}{600714ba03139f9185277c0169f129e5}
+      \strng{authorfullhash}{1e9d2c79dc248d534b4948f12739b68b}
+      \strng{authorfullhashraw}{1e9d2c79dc248d534b4948f12739b68b}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{User tracking on the Internet can come in various forms, e.g., via cookies or by fingerprinting web browsers. A technique that got less attention so far is user tracking based on TLS and specifically based on the TLS session resumption mechanism. To the best of our knowledge, we are the first that investigate the applicability of TLS session resumption for user tracking. For that, we evaluated the configuration of 48 popular browsers and one million of the most popular websites. Moreover, we present a so-called prolongation attack, which allows extending the tracking period beyond the lifetime of the session resumption mechanism. To show that under the observed browser configurations tracking via TLS session resumptions is feasible, we also looked into DNS data to understand the longest consecutive tracking period for a user by a particular website. Our results indicate that with the standard setting of the session resumption lifetime in many current browsers, the average user can be tracked for up to eight days. With a session resumption lifetime of seven days, as recommended upper limit in the draft for TLS version 1.3, 65\% of all users in our dataset can be tracked permanently.}
+      \field{day}{3}
+      \field{journaltitle}{Proceedings of the 34th Annual Computer Security Applications Conference}
+      \field{month}{12}
+      \field{title}{Tracking {{Users}} across the {{Web}} via {{TLS Session Resumption}}}
+      \field{urlday}{1}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{289\bibrangedash 299}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1145/3274694.3274708
+      \endverb
+      \verb{file}
+      \verb /home/cisco/Zotero/storage/G3QWIA55/Sy et al. - 2018 - Tracking Users across the Web via TLS Session Resumption.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3274694.3274708
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3274694.3274708
+      \endverb
+    \endentry
+    \entry{teixeira_meta_2025}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=29ed7b66bde5bd8c7d12e2dd7ddd9a5b}{%
+           family={Teixeira},
+           familyi={T\bibinitperiod},
+           given={Pedro\bibnamedelima S.},
+           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \strng{namehash}{29ed7b66bde5bd8c7d12e2dd7ddd9a5b}
+      \strng{fullhash}{29ed7b66bde5bd8c7d12e2dd7ddd9a5b}
+      \strng{fullhashraw}{29ed7b66bde5bd8c7d12e2dd7ddd9a5b}
+      \strng{bibnamehash}{29ed7b66bde5bd8c7d12e2dd7ddd9a5b}
+      \strng{authorbibnamehash}{29ed7b66bde5bd8c7d12e2dd7ddd9a5b}
+      \strng{authornamehash}{29ed7b66bde5bd8c7d12e2dd7ddd9a5b}
+      \strng{authorfullhash}{29ed7b66bde5bd8c7d12e2dd7ddd9a5b}
+      \strng{authorfullhashraw}{29ed7b66bde5bd8c7d12e2dd7ddd9a5b}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{4}
+      \field{entrysubtype}{newspaper}
+      \field{journaltitle}{Folha de S. Paulo}
+      \field{month}{6}
+      \field{title}{Meta Espionou Histórico de Internet de Celulares {{Android}}, Burlando Guia Anônima e {{VPN}}, Diz Estudo}
+      \field{urlday}{5}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www1.folha.uol.com.br/tec/2025/06/meta-espionou-historico-de-internet-de-celulares-android-burlando-guia-anonima-e-vpn-diz-estudo.shtml
+      \endverb
+      \verb{url}
+      \verb https://www1.folha.uol.com.br/tec/2025/06/meta-espionou-historico-de-internet-de-celulares-android-burlando-guia-anonima-e-vpn-diz-estudo.shtml
+      \endverb
+    \endentry
+    \entry{varoufakis_tecnofeudalismo_2023}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3a56b481413851f2612f3523e2f27083}{%
+           family={Varoufakis},
+           familyi={V\bibinitperiod},
+           given={Yanis},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=3cf4250f46097b494d4273b8c021322e}{%
+           family={Oliveira},
+           familyi={O\bibinitperiod},
+           given={Gercyane},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{3a56b481413851f2612f3523e2f27083}
+      \strng{fullhash}{3a56b481413851f2612f3523e2f27083}
+      \strng{fullhashraw}{3a56b481413851f2612f3523e2f27083}
+      \strng{bibnamehash}{3a56b481413851f2612f3523e2f27083}
+      \strng{authorbibnamehash}{3a56b481413851f2612f3523e2f27083}
+      \strng{authornamehash}{3a56b481413851f2612f3523e2f27083}
+      \strng{authorfullhash}{3a56b481413851f2612f3523e2f27083}
+      \strng{authorfullhashraw}{3a56b481413851f2612f3523e2f27083}
+      \strng{translatorbibnamehash}{3cf4250f46097b494d4273b8c021322e}
+      \strng{translatornamehash}{3cf4250f46097b494d4273b8c021322e}
+      \strng{translatorfullhash}{3cf4250f46097b494d4273b8c021322e}
+      \strng{translatorfullhashraw}{3cf4250f46097b494d4273b8c021322e}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A afirmação de que o capitalismo está sendo derrubado por um novo modelo econômico vem na esteira de muitas previsões prematuras do fim do capitalismo, especialmente pela esquerda. Mas desta vez pode bem ser verdade, e os sinais disso já são visíveis há algum tempo.}
+      \field{day}{22}
+      \field{entrysubtype}{newspaper}
+      \field{hour}{12}
+      \field{journaltitle}{Jacobin Brasil}
+      \field{langid}{brazilian}
+      \field{minute}{25}
+      \field{month}{11}
+      \field{second}{6}
+      \field{timezone}{Z}
+      \field{title}{O tecnofeudalismo está dominando}
+      \field{urlday}{8}
+      \field{urlmonth}{6}
+      \field{urlyear}{2025}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/cisco/Zotero/storage/XGS2UWTX/o-tecno-feudalismo-esta-dominando.html
+      \endverb
+      \verb{urlraw}
+      \verb https://jacobin.com.br/2023/11/o-tecno-feudalismo-esta-dominando/
+      \endverb
+      \verb{url}
+      \verb https://jacobin.com.br/2023/11/o-tecno-feudalismo-esta-dominando/
+      \endverb
+    \endentry
+    \entry{vopson_information_2020}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bad08a00bcf0920108fedea73c509c10}{%
+           family={Vopson},
+           familyi={V\bibinitperiod},
+           given={Melvin\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bad08a00bcf0920108fedea73c509c10}
+      \strng{fullhash}{bad08a00bcf0920108fedea73c509c10}
+      \strng{fullhashraw}{bad08a00bcf0920108fedea73c509c10}
+      \strng{bibnamehash}{bad08a00bcf0920108fedea73c509c10}
+      \strng{authorbibnamehash}{bad08a00bcf0920108fedea73c509c10}
+      \strng{authornamehash}{bad08a00bcf0920108fedea73c509c10}
+      \strng{authorfullhash}{bad08a00bcf0920108fedea73c509c10}
+      \strng{authorfullhashraw}{bad08a00bcf0920108fedea73c509c10}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Currently, we produce ∼1021 digital bits of information annually on Earth. Assuming a 20\% annual growth rate, we estimate that after ∼350 years from now, the number of bits produced will exceed the number of all atoms on Earth, ∼1050. After ∼300 years, the power required to sustain this digital production will exceed 18.5 × 1015 W, i.e., the total planetary power consumption today, and after ∼500 years from now, the digital content will account for more than half Earth’s mass, according to the mass-energy–information equivalence principle. Besides the existing global challenges such as climate, environment, population, food, health, energy, and security, our estimates point to another singular event for our planet, called information catastrophe.}
+      \field{day}{1}
+      \field{issn}{2158-3226}
+      \field{journaltitle}{AIP Advances}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{8}
+      \field{title}{The Information Catastrophe}
+      \field{urlday}{3}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{volume}{10}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{085014}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/5.0019941
+      \endverb
+      \verb{file}
+      \verb /home/cisco/Zotero/storage/3FNLCE2W/Vopson - 2020 - The information catastrophe.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pubs.aip.org/adv/article/10/8/085014/990263/The-information-catastrophe
+      \endverb
+      \verb{url}
+      \verb https://pubs.aip.org/adv/article/10/8/085014/990263/The-information-catastrophe
+      \endverb
+    \endentry
+    \entry{youyou_computerbased_2015}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=7e82ccfd297048f79d171a5db5f838aa}{%
+           family={Youyou},
+           familyi={Y\bibinitperiod},
+           given={Wu},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0d3b7097a65959fe325e6cc5f3dd4f72}{%
+           family={Kosinski},
+           familyi={K\bibinitperiod},
+           given={Michal},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f7cd369c660d91ff39e60bbf5e0a5b88}{%
+           family={Stillwell},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cfd2eb01b811f4b1d89abc71a9b351a3}
+      \strng{fullhash}{cfd2eb01b811f4b1d89abc71a9b351a3}
+      \strng{fullhashraw}{cfd2eb01b811f4b1d89abc71a9b351a3}
+      \strng{bibnamehash}{cfd2eb01b811f4b1d89abc71a9b351a3}
+      \strng{authorbibnamehash}{cfd2eb01b811f4b1d89abc71a9b351a3}
+      \strng{authornamehash}{cfd2eb01b811f4b1d89abc71a9b351a3}
+      \strng{authorfullhash}{cfd2eb01b811f4b1d89abc71a9b351a3}
+      \strng{authorfullhashraw}{cfd2eb01b811f4b1d89abc71a9b351a3}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Significance This study compares the accuracy of personality judgment—a ubiquitous and important social-cognitive activity—between computer models and humans. Using several criteria, we show that computers’ judgments of people’s personalities based on their digital footprints are more accurate and valid than judgments made by their close others or acquaintances (friends, family, spouse, colleagues, etc.). Our findings highlight that people’s personalities can be predicted automatically and without involving human social-cognitive skills. , Judging others’ personalities is an essential skill in successful social living, as personality is a key driver behind people’s interactions, behaviors, and emotions. Although accurate personality judgments stem from social-cognitive skills, developments in machine learning show that computer models can also make valid judgments. This study compares the accuracy of human and computer-based personality judgments, using a sample of 86,220 volunteers who completed a 100-item personality questionnaire. We show that ( i ) computer predictions based on a generic digital footprint (Facebook Likes) are more accurate ( r = 0.56) than those made by the participants’ Facebook friends using a personality questionnaire ( r = 0.49); ( ii ) computer models show higher interjudge agreement; and ( iii ) computer personality judgments have higher external validity when predicting life outcomes such as substance use, political attitudes, and physical health; for some outcomes, they even outperform the self-rated personality scores. Computers outpacing humans in personality judgment presents significant opportunities and challenges in the areas of psychological assessment, marketing, and privacy.}
+      \field{day}{27}
+      \field{issn}{0027-8424, 1091-6490}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{4}
+      \field{shortjournal}{Proc. Natl. Acad. Sci. U.S.A.}
+      \field{title}{Computer-Based Personality Judgments Are More Accurate than Those Made by Humans}
+      \field{volume}{112}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{pages}{1036\bibrangedash 1040}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1073/pnas.1418680112
+      \endverb
+      \verb{file}
+      \verb /home/cisco/Zotero/storage/IHB5B576/Youyou et al. - 2015 - Computer-based personality judgments are more accurate than those made by humans.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pnas.org/doi/full/10.1073/pnas.1418680112
+      \endverb
+      \verb{url}
+      \verb https://pnas.org/doi/full/10.1073/pnas.1418680112
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
