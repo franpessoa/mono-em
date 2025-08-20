@@ -170,6 +170,66 @@
       \verb http://hdl.handle.net/2047/D20321280
       \endverb
     \endentry
+    \entry{belenkiy_groping_2016}{online}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b46d454c362baae75d63b5e611df18bc}{%
+           family={Belenkiy},
+           familyi={B\bibinitperiod},
+           given={Ari},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=57dc08d687fb056b9223692167868a28}{%
+           family={Echague},
+           familyi={E\bibinitperiod},
+           given={Eduardo\bibnamedelima Vila},
+           giveni={E\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bedf56dc65f7783e1d42fde4cdb31064}
+      \strng{fullhash}{bedf56dc65f7783e1d42fde4cdb31064}
+      \strng{fullhashraw}{bedf56dc65f7783e1d42fde4cdb31064}
+      \strng{bibnamehash}{bedf56dc65f7783e1d42fde4cdb31064}
+      \strng{authorbibnamehash}{bedf56dc65f7783e1d42fde4cdb31064}
+      \strng{authornamehash}{bedf56dc65f7783e1d42fde4cdb31064}
+      \strng{authorfullhash}{bedf56dc65f7783e1d42fde4cdb31064}
+      \strng{authorfullhashraw}{bedf56dc65f7783e1d42fde4cdb31064}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{In February 1700, Isaac Newton needed a precise tropical year to design a new universal calendar that would supersede the Gregorian one. However, 17th-Century astronomers were uncertain of the long-term variation in the inclination of the Earth's axis and were suspicious of Ptolemy's equinox observations. As a result, they produced a wide range of tropical years. Facing this problem, Newton attempted to compute the length of the year on his own, using the ancient equinox observations reported by a famous Greek astronomer Hipparchus of Rhodes, ten in number. Though Newton had a very thin sample of data, he obtained a tropical year only a few seconds longer than the correct length. The reason lies in Newton's application of a technique similar to modern regression analysis. Newton wrote down the first of the two so-called 'normal equations' known from the ordinary least-squares (OLS) method. In that procedure, Newton seems to have been the first to employ the mean (average) value of the data set, while the other leading astronomers of the era (Tycho Brahe, Galileo, and Kepler) used the median. Fifty years after Newton, in 1750, Newton's method was rediscovered and enhanced by Tobias Mayer. Remarkably, the same regression method served with distinction in the late 1920s when the founding fathers of modern cosmology, Georges Lemaitre (1927), Edwin Hubble (1929), and Willem de Sitter (1930), employed it to derive the Hubble constant.}
+      \field{day}{4}
+      \field{eprintclass}{physics}
+      \field{eprinttype}{arXiv}
+      \field{month}{2}
+      \field{pubstate}{prepublished}
+      \field{shorttitle}{Groping {{Toward Linear Regression Analysis}}}
+      \field{title}{Groping {{Toward Linear Regression Analysis}}: {{Newton}}'s {{Analysis}} of {{Hipparchus}}' {{Equinox Observations}}}
+      \field{urlday}{20}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.0810.4948
+      \endverb
+      \verb{eprint}
+      \verb 0810.4948
+      \endverb
+      \verb{file}
+      \verb /home/cisco/Zotero/storage/JLHRZIGF/Belenkiy and Echague - 2016 - Groping Toward Linear Regression Analysis Newton's Analysis of Hipparchus' Equinox Observations.pdf;/home/cisco/Zotero/storage/U9JH9SYY/0810.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/0810.4948
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/0810.4948
+      \endverb
+      \keyw{Astrophysics,Physics - History and Philosophy of Physics}
+    \endentry
     \entry{binder_republican_2019}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=40103cd971e94b3603a89efcd024cca3}{%

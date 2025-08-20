@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2026/dev/Arch Linux)  (format=lualatex 2025.7.28)  19 AUG 2025 20:55
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2026/dev/Arch Linux)  (format=lualatex 2025.7.28)  20 AUG 2025 19:59
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -973,22 +973,22 @@ Package csquotes Info: Redefining alias 'default' -> 'portuguese'.
 (./out/capa.aux) (./out/1.aux) (./out/2.aux))
 \openout1 = main.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 139.
-LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1200,8 +1200,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
 (./out/main.bbl)
-Package biblatex Info: Reference section=0 on input line 139.
-Package biblatex Info: Reference segment=0 on input line 139.
+Package biblatex Info: Reference section=0 on input line 140.
+Package biblatex Info: Reference segment=0 on input line 140.
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -1209,64 +1209,64 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 139.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 139.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 139.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 139.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 139.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 139.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 139.
-LaTeX Font Info:    Redeclaring math accent \check on input line 139.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 139.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 139.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 139.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 139.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 139.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 139.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 139.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 139.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 139.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 139.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 139.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 139.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 139.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 139.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 139.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 139.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 140.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 140.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 140.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 140.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 140.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 140.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 140.
+LaTeX Font Info:    Redeclaring math accent \check on input line 140.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 140.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 140.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 140.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 140.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 140.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 140.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 140.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 140.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 140.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 140.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 140.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 140.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 140.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 140.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 140.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 140.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 139.
+(Font)              `operators' in the math version `normal' on input line 140.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 1
-39.
+40.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 139.
+(Font)              `operators' in the math version `bold' on input line 140.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 
-139.
+140.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on 
-input line 139.
+input line 140.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line
- 139.
+ 140.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 
-139.
+140.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 139.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 140.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 139.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 140.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on 
-input line 139.
+input line 140.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input lin
-e 139.
+e 140.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 139.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 140.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 139.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 140.
 
 \openout2 = capa.aux
  (./capa.tex
@@ -1436,11 +1436,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 \openout2 = 2.aux
  (./2.tex
 Cap\'{\i }tulo 2.
-<static/R/plot/anom-1-hist.png, id=47, 246.6816pt x 138.7584pt>
+<static/R/plot/anom-1-hist.png, id=47, 693.792pt x 390.258pt>
 File: static/R/plot/anom-1-hist.png Graphic file (type png)
 <use static/R/plot/anom-1-hist.png>
 Package luatex.def Info: static/R/plot/anom-1-hist.png  used on input line 33.
-(luatex.def)             Requested size: 455.24411pt x 256.09982pt.
+(luatex.def)             Requested size: 455.24411pt x 256.0764pt.
 
 
 
@@ -1465,38 +1465,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [13<./static/R/plot/anom-1-hist.png>]
-<static/R/plot/anom-3-scatter+reg.png, id=54, 246.6816pt x 138.7584pt>
+<static/R/plot/anom-3-scatter+reg.png, id=54, 693.792pt x 390.258pt>
 File: static/R/plot/anom-3-scatter+reg.png Graphic file (type png)
 <use static/R/plot/anom-3-scatter+reg.png>
 Package luatex.def Info: static/R/plot/anom-3-scatter+reg.png  used on input li
 ne 75.
-(luatex.def)             Requested size: 455.24411pt x 256.09982pt.
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[14<./static/R/plot/anom-3-scatter+reg.png>]
-<static/R/plot/anom-5-scatter+reg+poly.png, id=58, 246.6816pt x 138.7584pt>
+(luatex.def)             Requested size: 455.24411pt x 256.0764pt.
+<static/R/plot/anom-5-scatter+reg+poly.png, id=55, 693.792pt x 390.258pt>
 File: static/R/plot/anom-5-scatter+reg+poly.png Graphic file (type png)
 <use static/R/plot/anom-5-scatter+reg+poly.png>
 Package luatex.def Info: static/R/plot/anom-5-scatter+reg+poly.png  used on inp
 ut line 93.
-(luatex.def)             Requested size: 455.24411pt x 256.09982pt.
-)
+(luatex.def)             Requested size: 455.24411pt x 256.0764pt.
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[15<./static/R/plot/anom-5-scatter+reg+poly.png>]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1505,20 +1486,39 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[16
+[14]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[15<./static/R/plot/anom-3-scatter+reg.png><./static/R/plot/anom-5-scatter+reg+p
+oly.png>])
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[16]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[17
 
 
 
 ]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[17]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1536,7 +1536,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[19] (./out/main.aux (./out/capa.aux) (./out/1.aux) (./out/2.aux))
+[19]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[20] (./out/main.aux (./out/capa.aux) (./out/1.aux) (./out/2.aux))
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
@@ -1547,25 +1556,27 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 21720 strings out of 475506
+ 21737 strings out of 475506
  125086,1648299 words of node,token memory allocated
- 901 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 15 glue, 4 kern, 1 glyph, 34 attribute, 99 glue_spe
-c, 19 attribute_list, 1 write nodes
-   avail lists: 1:4,2:1394,3:1975,4:108,5:99,6:55,7:9399,8:145,9:281,10:95,11:12
-87
- 44121 multiletter control sequences out of 65536+600000
- 82 fonts using 8284343 bytes
+ 913 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 15 glue, 4 kern, 1 glyph, 38 attribute, 99 glue_spe
+c, 21 attribute_list, 1 write nodes
+   avail lists: 1:4,2:1354,3:1718,4:108,5:110,6:58,7:9401,8:145,9:281,10:95,11:1
+295
+ 44138 multiletter control sequences out of 65536+600000
+ 83 fonts using 8410431 bytes
  97i,12n,151p,1825b,6193s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/fonts/TTF/timesi.ttf></usr/share/fonts/TTF/times.ttf></usr/share/fon
-ts/TTF/timesbd.ttf></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.
-pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (20 pages, 592756 bytes).
+</usr/share/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf></usr/share
+/fonts/TTF/timesi.ttf></usr/share/fonts/TTF/times.ttf></usr/share/fonts/TTF/time
+sbd.ttf></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/s
+hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb>
+Output written on main.pdf (21 pages, 738567 bytes).
 
-PDF statistics: 107 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
+PDF statistics: 122 PDF objects out of 1000 (max. 8388607)
+ 78 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -24,7 +24,7 @@ Isto é, um conjunto de instruções objetivas que permita realizar essas açõe
 Não. 
 E é aqui que entra o uso de uma IA: aproximar objetivamente processos que não podem ser descritos assim.
 
-\section{Regressões Lineares}
+\section{Regressões Lineares}\label{sec:2:regres}
 Observe o seguinte gráfico com o valor da anomalia da temperatura média do globo terrestre em relação à média do século 20, entre 1970 e 2025:
 
 \begin{figure}[H]
@@ -67,9 +67,9 @@ Para isso, muda-se ou $\beta_0$ ou $\beta_1$, incrementando-o por pouco.
 Se a mudança for bem-vinda, ou seja, diminuir o erro, ela é mantida; caso contrário, o original é melhor.
 Ao repetir esse processo várias vezes, a reta será acomodada nos coeficientes com menor valor de erro.
 
-No caso da figura \ref{fig:2:anom-1-hist}, isso se parece com 
+No caso da figura \ref{fig:2:anom-1-hist}, isso toma a forma da figura \ref{fig:2:anom-3-scatter+reg}.
 
-\begin{figure}[H]
+\begin{figure}
     \centering
     \caption{Gráfico da anomalia (°C) em função do tempo (anos), 1970-2025, com modelo de regressão linear}
     \includegraphics[width=\linewidth]{static/R/plot/anom-3-scatter+reg.png}
@@ -85,11 +85,44 @@ O modelo de reta, por ter que simplificar drasticamente, é incapaz de expressar
 Geralmente, o que importa não é o quão próximo o modelo está dos dados já existentes, mas sim o quão bem o modelo se dá com extrapolar esses dados e, literalmente, prever o futuro.
 Dadas essas tendências recentes, esse modelo pode não ser tão útil, uma vez que não detêm a habilidade de contemplá-las suficientemente.
 Um modelo melhor, nesse caso, ao invés de uma reta usaria uma curva.
-Por exemplo
+Um exemplo está na figura \ref{fig:2:anom-3-scatter+reg+poly}.
 
-\begin{figure}[H]
+\begin{figure}
     \centering
     \caption{Gráfico da anomalia (°C) em função do tempo (anos), 1970-2025, com regressão linear e aproximação polinomial}
     \includegraphics[width=\linewidth]{static/R/plot/anom-5-scatter+reg+poly.png}
     \label{fig:2:anom-3-scatter+reg+poly}
 \end{figure}
+
+Esses modelo não é mais linear, evidentemente.
+É, pelo contrário, uma curva definida por meio de um polinômio.
+Nesse caso, a representação matemática está mais aquém de
+
+\begin{equation}
+A(t) = \beta_0 + t \beta_1 + t^2 \beta_2 + t^3 \beta_3 \dots t^n \beta_n 
+\end{equation}
+
+Onde $n$ é o grau do polinômio a ser criado.
+Aqui, não se trata de uma regressão \textit{linear}, mas sim, \textit{polinomial}.
+
+Está além do escopo deste presente texto debater o funcionamento interno desses modelos (isto é, como efetivamente ocorre a regressão linear), mas é importante perceber que, quando se utiliza uma curva, ao invés de uma reta, o modelo torna-se mais flexível, podendo adaptar-se melhor às condições dos dados.
+O erro, que debatemos antes, é menor.
+Contudo, ao invés de dois parâmetros simples -- $\beta_0$ e $\beta_1$ -- agora há $n$, que não podem ser interpretados de uma maneira tão direta quanto esses dois.
+Isto é, ganha-se flexibilidade, mas há uma perda de interpretabilidade.
+Na próxima seção, \ref{sec:2:redes-neurais}, será estudado um modelo ainda mais flexível; e ainda menos interpretável
+A seção \ref{sec:2:exemplo-real} debaterá como essa ``interpretabilidade'' é refletida em um caso real: é possível pedir explicações desses modelos?
+Isto é, determinar porque algo foi classificado como bom ou ruim, A ou B?
+
+O exemplo aqui apresentado parece simples, mas serve para definir um conceito importante, que será retomado múltiplas vezes: o \textit{aprendizado de máquina}.
+Para um computador, aprender é diminuir uma função erro, por meio da alteração de um conjunto de parâmetros.
+O aprendizado requer dados; muitos dados; e aí entra o conteúdo do primeiro capítulo.
+Terminado o treinamento, o modelo vai poder, a partir dos dados coletados, realizar previsões, inferências, classificações, entre outros, acerca desses dados.
+
+Regressões lineares são um dos algoritmos mais simples que demonstram a dinâmica completa do aprendizado de máquina; tanto é, que foi o primeiro desses algoritmos a ser estudado, com o método de mínimos quadrados tendo sido empregado por Isaac Newton para determinar a duração exata do ano \cite{belenkiy_groping_2016}.
+
+Há diversas maneiras...
+
+
+\section{Redes Neurais}\label{sec:2:redes-neurais}
+\section{O Mundo Real}\label{sec:2:exemplo-real}
+\section{Natureza}
