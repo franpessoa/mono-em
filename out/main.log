@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2026/dev/Arch Linux)  (format=lualatex 2025.7.28)  20 AUG 2025 19:59
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2026/dev/Arch Linux)  (format=lualatex 2025.7.28)  21 AUG 2025 16:55
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1199,7 +1199,15 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
-(./out/main.bbl)
+(./out/main.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                lecun_mnist_
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 140.
 Package biblatex Info: Reference segment=0 on input line 140.
 
@@ -1496,7 +1504,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [15<./static/R/plot/anom-3-scatter+reg.png><./static/R/plot/anom-5-scatter+reg+p
-oly.png>])
+oly.png>]
+
+LaTeX Warning: Citation 'lecun_mnist_' on page 16 undefined on input line 139.
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1506,6 +1518,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [16]
+<static/MNIST.png, id=66, 597.27272pt x 597.27272pt>
+File: static/MNIST.png Graphic file (type png)
+<use static/MNIST.png>
+Package luatex.def Info: static/MNIST.png  used on input line 148.
+(luatex.def)             Requested size: 227.62206pt x 227.62216pt.
+)
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1514,11 +1532,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[17
-
-
-
-]
+[17<./static/MNIST.png>]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1536,7 +1550,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[19]
+[19
+
+
+
+]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1545,7 +1563,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[20] (./out/main.aux (./out/capa.aux) (./out/1.aux) (./out/2.aux))
+[20]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[21]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[22] (./out/main.aux (./out/capa.aux) (./out/1.aux) (./out/2.aux))
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
@@ -1556,27 +1592,30 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 21737 strings out of 475506
+ 21774 strings out of 475506
  125086,1648299 words of node,token memory allocated
- 913 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 15 glue, 4 kern, 1 glyph, 38 attribute, 99 glue_spe
-c, 21 attribute_list, 1 write nodes
-   avail lists: 1:4,2:1354,3:1718,4:108,5:110,6:58,7:9401,8:145,9:281,10:95,11:1
-295
- 44138 multiletter control sequences out of 65536+600000
+ 938 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 16 glue, 4 kern, 1 glyph, 44 attribute, 99 glue_spe
+c, 24 attribute_list, 1 write nodes
+   avail lists: 1:4,2:1436,3:1924,4:108,5:113,6:58,7:9404,8:145,9:281,10:95,11:1
+319
+ 44172 multiletter control sequences out of 65536+600000
  83 fonts using 8410431 bytes
  97i,12n,151p,1825b,6193s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf></usr/share
 /fonts/TTF/timesi.ttf></usr/share/fonts/TTF/times.ttf></usr/share/fonts/TTF/time
-sbd.ttf></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/s
-hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy10.pfb>
-Output written on main.pdf (21 pages, 738567 bytes).
+sbd.ttf></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/s
+hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
+share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb>
+Output written on main.pdf (23 pages, 1397341 bytes).
 
-PDF statistics: 122 PDF objects out of 1000 (max. 8388607)
- 78 compressed objects within 1 object stream
+PDF statistics: 145 PDF objects out of 1000 (max. 8388607)
+ 94 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -119,10 +119,37 @@ O aprendizado requer dados; muitos dados; e aí entra o conteúdo do primeiro ca
 Terminado o treinamento, o modelo vai poder, a partir dos dados coletados, realizar previsões, inferências, classificações, entre outros, acerca desses dados.
 
 Regressões lineares são um dos algoritmos mais simples que demonstram a dinâmica completa do aprendizado de máquina; tanto é, que foi o primeiro desses algoritmos a ser estudado, com o método de mínimos quadrados tendo sido empregado por Isaac Newton para determinar a duração exata do ano \cite{belenkiy_groping_2016}.
+Há diversas maneiras de melhorá-lo.
+Uma das mais simples é realizar a regressão em mais de uma variável; por exemplo, podemos estimar o preço de uma casa baseado no tamanho (em $\text{m}^2$), o número de quartos, a distância do centro, o andar, e a idade da casa.
+O modelo se assemelharia à equação \ref{eq:2:lm-mult}.
 
-Há diversas maneiras...
+\begin{equation}
+\label{eq:2:lm-mult}
+\text{Preço} = \beta_0 + \beta_1 \cdot (\text{Tamanho}) + \beta_2 \cdot (\text{Quartos}) + \beta_3\cdot (\text{Distância}) + \beta_5 \cdot (\text{Andar}) + \beta_6 \cdot (\text{Idade})
+\end{equation}
 
+Onde $\beta_1$, $\beta_2$, $\beta_3$, $\beta_4$, $\beta_5$ e $\beta_6$ representam o quão significativos seus respectivos parâmetros são para o preço total do apartamento.
 
 \section{Redes Neurais}\label{sec:2:redes-neurais}
+Por mais úteis que as regressões lineares possam ser, ainda são um modelo rudimentar, que trabalha com alguns pressupostos bastante restritivos.
+Um deles é o da linearidade da relação entre uma variável -- como o ano, no caso da anomalia de temperatura, ou o andar, no caso do preço de apartamentos -- e o resultado desejado.
+Assim, pressupõe-se que essa relação se dá por uma reta, e não, por exemplo, um curva exponencial, logarítmica, ou qualquer outra coisa que fuja da linearidade.
+Viu-se que isso pode ser consertado por meio de uma regressão polinomial\footnote{A regressão polinomial está associada à muitos outros métodos que a acompanham. Para estendê-la para uma predição com base em multiplas variáveis, como na equação \ref{eq:2:lm-mult}, por exemplo, é possível usar um Método Aditivo Generalizado (GAM). Os GAMs estabelescem uma função polinomial de grau $n$ \textit{para cada variável}, ou seja, uma função para o tamanho, uma para o número de quartos, uma para a distância do centro, e por aí vai. Assim, o modelo toma a cara de $\text{Preço} = \beta_0 + f_1(X_1) + f_2(X_2) + f_3(X_3) + \dots + f_i(X_i)$, onde $X_1\dots X_i$ são as variáveis (como o andar e o número de quartos) e $f_1\dots f_i$ são as funções de grau $n$ que dependem de cada variável \cite{james_introduction_2021a}}.
+Contudo, há ainda um problema maior que impede-a de ser utilizada em mais contextos: a possiblidade de relações entre variáveis.
+Para entender o que isso significa, considere um outro exemplo: o banco de dados MNIST \cite{lecun_mnist_}.
+
+Ele é composto por milhares de imagens de dígitos de 0-9 desenhados à mão, assim como na figura \ref{fig:2:mnist}.
+O objetivo que ele apresenta é fazer um modelo computacional capaz de identificar os dígitos baseando-se nas imagens apresentadas, semelhante ao que um ser humano faria ao ler esses números.
+Por mais que isso pareça simples, esse problema não o é -- as imagens variam muito em sua forma, e a computação demorou para desenvolver métodos flexíveis o suficiente para essa tarefa.
+
+\begin{figure}[H]
+\caption{Algumas imagens do banco de dados MNIST}
+\centering
+\includegraphics[width=0.5\linewidth]{static/MNIST.png}
+\label{fig:2:mnist}
+\end{figure}
+
+O banco de dados MNIST foi publicado em 1998, e, segundo o próprio autor, o recorde é de $0,23\%$ de erro, atingido em 2012, dentre os resultados publicados na literatura \cite{cireşan_multicolumn_2012}.
+As primeiras tentativas resultaram em taxas por volta dos $12\%$ \cite{lecun_mnist_1998}.
 \section{O Mundo Real}\label{sec:2:exemplo-real}
 \section{Natureza}

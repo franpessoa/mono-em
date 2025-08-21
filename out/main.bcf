@@ -2511,6 +2511,10 @@
     <bcf:citekey order="40" intorder="1">cadwalladr_50_2018</bcf:citekey>
     <bcf:citekey order="41" intorder="1">barron_could_2018</bcf:citekey>
     <bcf:citekey order="42" intorder="1">belenkiy_groping_2016</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">james_introduction_2021a</bcf:citekey>
+    <bcf:citekey order="44" intorder="1">lecun_mnist_</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">cireşan_multicolumn_2012</bcf:citekey>
+    <bcf:citekey order="46" intorder="1">lecun_mnist_1998</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

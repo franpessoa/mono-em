@@ -6,9 +6,21 @@
 \contentsline {chapter}{\numberline {2}Título provisório do segundo capítulo}{12}{}%
 \contentsline {section}{\numberline {2.1}Regressões Lineares}{13}{}%
 \contentsline {section}{\numberline {2.2}Redes Neurais}{16}{}%
-\contentsline {section}{\numberline {2.3}O Mundo Real}{16}{}%
-\contentsline {section}{\numberline {2.4}Natureza}{16}{}%
-\contentsline {chapter}{Referências}{17}{}%
+\contentsline {section}{\numberline {2.3}O Mundo Real}{18}{}%
+\contentsline {section}{\numberline {2.4}Natureza}{18}{}%
+\contentsline {chapter}{Referências}{19}{}%
+\babel@toc {portuguese}{}\relax 
+\babel@toc {portuguese}{}\relax 
+\babel@toc {portuguese}{}\relax 
+\babel@toc {portuguese}{}\relax 
+\babel@toc {portuguese}{}\relax 
+\babel@toc {portuguese}{}\relax 
+\babel@toc {portuguese}{}\relax 
+\babel@toc {portuguese}{}\relax 
+\babel@toc {portuguese}{}\relax 
+\babel@toc {portuguese}{}\relax 
+\babel@toc {portuguese}{}\relax 
+\babel@toc {portuguese}{}\relax 
 \babel@toc {portuguese}{}\relax 
 \babel@toc {portuguese}{}\relax 
 \babel@toc {portuguese}{}\relax 

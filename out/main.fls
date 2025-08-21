@@ -266,6 +266,8 @@ INPUT ./static/R/plot/anom-3-scatter+reg.png
 INPUT ./static/R/plot/anom-3-scatter+reg.png
 INPUT ./static/R/plot/anom-5-scatter+reg+poly.png
 INPUT ./static/R/plot/anom-5-scatter+reg+poly.png
+INPUT ./static/MNIST.png
+INPUT ./static/MNIST.png
 INPUT /home/cisco/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmmono12-regular.luc
 INPUT ./out/main.aux
 INPUT ./out/capa.aux
@@ -273,8 +275,12 @@ INPUT ./out/1.aux
 INPUT ./out/2.aux
 INPUT ./out/main.run.xml
 OUTPUT out/main.run.xml
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb

@@ -391,71 +391,6 @@
       \endverb
       \keyw{Advertising and Marketing,Computer Security,Computers and the Internet,Fingerprinting,Mobile Applications,Online Advertising,Privacy,Web Browsers}
     \endentry
-    \entry{cireşan_multicolumn_2012}{online}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=b44d52b65e72fd8ceb4f0fe71c2d13b5}{%
-           family={Cireşan},
-           familyi={C\bibinitperiod},
-           given={Dan},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=be71dea014b345d130231579ad7a5115}{%
-           family={Meier},
-           familyi={M\bibinitperiod},
-           given={Ueli},
-           giveni={U\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2333709f91a1b22edafa71582c31e391}{%
-           family={Schmidhuber},
-           familyi={S\bibinitperiod},
-           given={Juergen},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{9fef942f24e57a49a7c7bdcc0614af99}
-      \strng{fullhash}{9fef942f24e57a49a7c7bdcc0614af99}
-      \strng{fullhashraw}{9fef942f24e57a49a7c7bdcc0614af99}
-      \strng{bibnamehash}{9fef942f24e57a49a7c7bdcc0614af99}
-      \strng{authorbibnamehash}{9fef942f24e57a49a7c7bdcc0614af99}
-      \strng{authornamehash}{9fef942f24e57a49a7c7bdcc0614af99}
-      \strng{authorfullhash}{9fef942f24e57a49a7c7bdcc0614af99}
-      \strng{authorfullhashraw}{9fef942f24e57a49a7c7bdcc0614af99}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Traditional methods of computer vision and machine learning cannot match human performance on tasks such as the recognition of handwritten digits or traffic signs. Our biologically plausible deep artificial neural network architectures can. Small (often minimal) receptive fields of convolutional winner-take-all neurons yield large network depth, resulting in roughly as many sparsely connected neural layers as found in mammals between retina and visual cortex. Only winner neurons are trained. Several deep neural columns become experts on inputs preprocessed in different ways; their predictions are averaged. Graphics cards allow for fast training. On the very competitive MNIST handwriting benchmark, our method is the first to achieve near-human performance. On a traffic sign recognition benchmark it outperforms humans by a factor of two. We also improve the state-of-the-art on a plethora of common image classification benchmarks.}
-      \field{day}{13}
-      \field{eprintclass}{cs}
-      \field{eprinttype}{arXiv}
-      \field{month}{2}
-      \field{pubstate}{prepublished}
-      \field{title}{Multi-Column {{Deep Neural Networks}} for {{Image Classification}}}
-      \field{urlday}{21}
-      \field{urlmonth}{8}
-      \field{urlyear}{2025}
-      \field{year}{2012}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{doi}
-      \verb 10.48550/arXiv.1202.2745
-      \endverb
-      \verb{eprint}
-      \verb 1202.2745
-      \endverb
-      \verb{file}
-      \verb /home/cisco/Zotero/storage/8HZDSFXH/Cireşan et al. - 2012 - Multi-column Deep Neural Networks for Image Classification.pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://arxiv.org/abs/1202.2745
-      \endverb
-      \verb{url}
-      \verb http://arxiv.org/abs/1202.2745
-      \endverb
-      \keyw{Computer Science - Artificial Intelligence,Computer Science - Computer Vision and Pattern Recognition}
-    \endentry
     \entry{coutts_antichoice_2016}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=c5216116f8eed13734bb9ed323830bae}{%
@@ -851,75 +786,6 @@
       \verb https://archive.org/web/petabox
       \endverb
     \endentry
-    \entry{james_introduction_2021a}{book}{}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=df184c5fa522ac8a515ec4de13aef234}{%
-           family={James},
-           familyi={J\bibinitperiod},
-           given={Gareth},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1ab16961e0de50711fa6bd9425f9b4a6}{%
-           family={Witten},
-           familyi={W\bibinitperiod},
-           given={Daniela},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0cb8fe4210baa81c4b0e67913b4d2768}{%
-           family={Hastie},
-           familyi={H\bibinitperiod},
-           given={Trevor},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=88eea600247d798f8b2ce0b2dc614492}{%
-           family={Tibshirani},
-           familyi={T\bibinitperiod},
-           given={Robert},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {New York, NY}%
-      }
-      \list{publisher}{1}{%
-        {Springer US}%
-      }
-      \strng{namehash}{f8f737f83d9e451c1afaa13cdc120516}
-      \strng{fullhash}{da61646157a6be769f34984f5cb603b0}
-      \strng{fullhashraw}{da61646157a6be769f34984f5cb603b0}
-      \strng{bibnamehash}{f8f737f83d9e451c1afaa13cdc120516}
-      \strng{authorbibnamehash}{f8f737f83d9e451c1afaa13cdc120516}
-      \strng{authornamehash}{f8f737f83d9e451c1afaa13cdc120516}
-      \strng{authorfullhash}{da61646157a6be769f34984f5cb603b0}
-      \strng{authorfullhashraw}{da61646157a6be769f34984f5cb603b0}
-      \field{sortinit}{J}
-      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{isbn}{978-1-0716-1417-4 978-1-0716-1418-1}
-      \field{langid}{english}
-      \field{series}{Springer {{Texts}} in {{Statistics}}}
-      \field{shorttitle}{An {{Introduction}} to {{Statistical Learning}}}
-      \field{title}{An {{Introduction}} to {{Statistical Learning}}: With {{Applications}} in {{R}}}
-      \field{urlday}{9}
-      \field{urlmonth}{8}
-      \field{urlyear}{2025}
-      \field{year}{2021}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{doi}
-      \verb 10.1007/978-1-0716-1418-1
-      \endverb
-      \verb{urlraw}
-      \verb https://link.springer.com/10.1007/978-1-0716-1418-1
-      \endverb
-      \verb{url}
-      \verb https://link.springer.com/10.1007/978-1-0716-1418-1
-      \endverb
-      \keyw{data mining,inference,R,R software,statistical learning,supervised learning,unsupervised learning}
-    \endentry
     \entry{kelion_spy_2021}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=bae8aeb618018dfc75aa251a84c8bdff}{%
@@ -967,58 +833,6 @@
       \endverb
       \verb{url}
       \verb https://www.bbc.com/news/technology-56071437
-      \endverb
-    \endentry
-    \entry{lecun_mnist_1998}{online}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=6a1aa6b7eab12b931ca7c7e3f927231d}{%
-           family={LeCun},
-           familyi={L\bibinitperiod},
-           given={Yann},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=17acda211a651e90e228f1776ee07818}{%
-           family={Cortes},
-           familyi={C\bibinitperiod},
-           given={Corinna},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1b3c3e507782e9c149fd6f4efa5fb7be}{%
-           family={Burges},
-           familyi={B\bibinitperiod},
-           given={Cristopher\bibnamedelimb J.\bibnamedelimi C.},
-           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{e122e5166a1e63e307ef3421b3d1af42}
-      \strng{fullhash}{e122e5166a1e63e307ef3421b3d1af42}
-      \strng{fullhashraw}{e122e5166a1e63e307ef3421b3d1af42}
-      \strng{bibnamehash}{e122e5166a1e63e307ef3421b3d1af42}
-      \strng{authorbibnamehash}{e122e5166a1e63e307ef3421b3d1af42}
-      \strng{authornamehash}{e122e5166a1e63e307ef3421b3d1af42}
-      \strng{authorfullhash}{e122e5166a1e63e307ef3421b3d1af42}
-      \strng{authorfullhashraw}{e122e5166a1e63e307ef3421b3d1af42}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{{MNIST}} Handwritten Digit Database, {{Yann LeCun}}, {{Corinna Cortes}} and {{Chris Burges}}}
-      \field{urlday}{21}
-      \field{urlmonth}{8}
-      \field{urlyear}{2025}
-      \field{year}{1998}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb /home/cisco/Zotero/storage/97V452G4/index.html
-      \endverb
-      \verb{urlraw}
-      \verb https://yann.lecun.org/exdb/mnist/index.html
-      \endverb
-      \verb{url}
-      \verb https://yann.lecun.org/exdb/mnist/index.html
       \endverb
     \endentry
     \entry{mackey_eff_2019}{report}{}{}
@@ -2003,7 +1817,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{lecun_mnist_}
 \endrefsection
 \endinput
 
