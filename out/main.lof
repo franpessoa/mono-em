@@ -1,15 +1,12 @@
 \babel@toc {portuguese}{}\relax 
-\contentsline {chapter}{Lista de Figuras}{2}{}%
-\contentsline {chapter}{\numberline {1}Os olhos que tudo vêem: caracterizando a coleta de dados}{3}{}%
-\contentsline {section}{\numberline {1.1}Características técnicas da vigilância}{4}{}%
-\contentsline {section}{\numberline {1.2}Os indivíduos sob os olhos da vigilância}{6}{}%
-\contentsline {section}{\numberline {1.3}Vigilância política}{8}{}%
-\contentsline {chapter}{\numberline {2}Título provisório do segundo capítulo}{13}{}%
-\contentsline {section}{\numberline {2.1}Regressões Lineares}{14}{}%
-\contentsline {section}{\numberline {2.2}Redes Neurais}{17}{}%
-\contentsline {section}{\numberline {2.3}O Mundo Real}{22}{}%
-\contentsline {section}{\numberline {2.4}Natureza}{22}{}%
-\contentsline {chapter}{Referências}{23}{}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Gráfico da anomalia (°C) em função do tempo (anos), 1970-2025}}{14}{}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Gráfico da anomalia (°C) em função do tempo (anos), 1970-2025, com modelo de regressão linear}}{16}{}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Gráfico da anomalia (°C) em função do tempo (anos), 1970-2025, com regressão linear e aproximação polinomial}}{16}{}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Algumas imagens do banco de dados MNIST}}{18}{}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Arquitetura de uma rede neural básica}}{19}{}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Algumas das funções de ativação mais comuns, representadas no intervalo $[0, 1]$]. Em laranja e vermelho, duas sigmoides com $k = 5$ e $k = 10$, respectivamente. Em preto, subposta ao segmento verde, a ReLU, e, em verde, a função degrau.}}{21}{}%
 \babel@toc {portuguese}{}\relax 
 \babel@toc {portuguese}{}\relax 
 \babel@toc {portuguese}{}\relax 

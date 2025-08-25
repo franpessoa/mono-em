@@ -25,7 +25,7 @@ Não.
 E é aqui que entra o uso de uma IA: aproximar objetivamente processos que não podem ser descritos assim.
 
 \section{Regressões Lineares}\label{sec:2:regres}
-Observe o seguinte gráfico com o valor da anomalia da temperatura média do globo terrestre em relação à média do século 20, entre 1970 e 2025:
+Observe o seguinte gráfico com o valor da anomalia da temperatura média do globo terrestre em relação à média do século XX, entre 1970 e 2025:
 
 \begin{figure}[H]
     \centering
@@ -36,7 +36,7 @@ Observe o seguinte gráfico com o valor da anomalia da temperatura média do glo
 
 Empiricamente, é possível perceber que existe uma tendência nesses dados, que seguem aproximadamente uma reta.
 Porém, é difícil determinar precisamente de quanto é essa tendência, e para onde o gráfico continuará. 
-Isso se deve ao fato de que o planeta Terra é um sistema complexo: ele não segue uma ordem do tipo ``aumente 0,5°C ao ano''.
+Isso se deve ao fato de que o planeta Terra é um sistema complexo: ele não segue uma ordem do tipo ``aumente 0,5 °C ao ano''.
 Na metáfora da seção anterior, é impossível estabelecer uma receita para a temperatura do planeta em função do ano.
 
 Pode-se, contudo, aproximá-la.
@@ -77,7 +77,7 @@ No caso da figura \ref{fig:2:anom-1-hist}, isso toma a forma da figura \ref{fig:
 \end{figure}
 
 Antes, foi dito que $\beta_1$ representava a inclinação da reta.
-Além disso, ele cumpre uma outra função importante: representar a \textit{taxa de variação} da reta; como a unidade de medida em questão é anos, isso significa quanto a temperatura vai variar por ano.
+Além disso, ele cumpre outra função importante: representar a \textit{taxa de variação} da reta; como a unidade de medida em questão é anos, isso significa quanto a temperatura vai variar por ano.
 A regressão realizada nesse conjunto de dados revela que a anomalia de temperatura média global cresce em um ritmo de $0,01879 °C$ ao ano.
 
 Perceptivelmente, essa anomalia vem crescendo mais nos últimos anos do que vinha anteriormente, devido às mudanças climáticas.
@@ -133,10 +133,10 @@ Onde $\beta_1$, $\beta_2$, $\beta_3$, $\beta_4$, $\beta_5$ e $\beta_6$ represent
 \section{Redes Neurais}\label{sec:2:redes-neurais}
 Por mais úteis que as regressões lineares possam ser, ainda são um modelo rudimentar, que trabalha com alguns pressupostos bastante restritivos.
 Um deles é o da linearidade da relação entre uma variável -- como o ano, no caso da anomalia de temperatura, ou o andar, no caso do preço de apartamentos -- e o resultado desejado.
-Assim, pressupõe-se que essa relação se dá por uma reta, e não, por exemplo, um curva exponencial, logarítmica, ou qualquer outra coisa que fuja da linearidade.
-Viu-se que isso pode ser consertado por meio de uma regressão polinomial\footnote{A regressão polinomial está associada à muitos outros métodos que a acompanham. Para estendê-la para uma predição com base em multiplas variáveis, como na equação \ref{eq:2:lm-mult}, por exemplo, é possível usar um Método Aditivo Generalizado (GAM). Os GAMs estabelescem uma função polinomial de grau $n$ \textit{para cada variável}, ou seja, uma função para o tamanho, uma para o número de quartos, uma para a distância do centro, e por aí vai. Assim, o modelo toma a cara de $\text{Preço} = \beta_0 + f_1(X_1) + f_2(X_2) + f_3(X_3) + \dots + f_i(X_i)$, onde $X_1\dots X_i$ são as variáveis (como o andar e o número de quartos) e $f_1\dots f_i$ são as funções de grau $n$ que dependem de cada variável \cite{james_introduction_2021a}}.
-Contudo, há ainda um problema maior que impede-a de ser utilizada em mais contextos: a possiblidade de relações entre variáveis.
-Para entender o que isso significa, considere um outro exemplo: o banco de dados MNIST \cite{lecun_mnist_}.
+Assim, pressupõe-se que essa relação se dá por uma reta, e não, por exemplo, uma curva exponencial, logarítmica, ou qualquer outra coisa que fuja da linearidade.
+Viu-se que isso pode ser consertado por meio de uma regressão polinomial\footnote{A regressão polinomial está associada a muitos outros métodos que a acompanham. Para estendê-la para uma predição com base em multiplas variáveis, como na equação \ref{eq:2:lm-mult}, por exemplo, é possível usar um Método Aditivo Generalizado (GAM). Os GAMs estabelecem uma função polinomial de grau $n$ \textit{para cada variável}, ou seja, uma função para o tamanho, uma para o número de quartos, uma para a distância do centro, e por aí vai. Assim, o modelo toma a cara de $\text{Preço} = \beta_0 + f_1(X_1) + f_2(X_2) + f_3(X_3) + \dots + f_i(X_i)$, onde $X_1\dots X_i$ são as variáveis (como o andar e o número de quartos) e $f_1\dots f_i$ são as funções de grau $n$ que dependem de cada variável \cite{james_introduction_2021a}}.
+Contudo, há ainda um problema maior que a impede de ser utilizada em mais contextos: a possibilidade de relações entre variáveis.
+Para entender o que isso significa, considere outro exemplo: o banco de dados MNIST \cite{lecun_mnist_1998}.
 
 Ele é composto por milhares de imagens de dígitos de 0-9 desenhados à mão, assim como na figura \ref{fig:2:mnist}.
 O objetivo que ele apresenta é fazer um modelo computacional capaz de identificar os dígitos baseando-se nas imagens apresentadas, semelhante ao que um ser humano faria ao ler esses números.
@@ -151,5 +151,102 @@ Por mais que isso pareça simples, esse problema não o é -- as imagens variam 
 
 O banco de dados MNIST foi publicado em 1998, e, segundo o próprio autor, o recorde é de $0,23\%$ de erro, atingido em 2012, dentre os resultados publicados na literatura \cite{cireşan_multicolumn_2012}.
 As primeiras tentativas resultaram em taxas por volta dos $12\%$ \cite{lecun_mnist_1998}.
+
+Essas imagens são na resolução de 28x28, ou seja, são constituídas de 28 linhas e 28 colunas de píxeis.
+Cada píxel pode assumir um valor em escala de cinza, representado como um número inteiro entre 0 (preto) e 255 (branco)\footnote{Se 255 parece um número arbitrário, lembre-se que ele é igual a $2^8 - 1$, o maior valor possível que pode ser guardado em oito bits}.
+Isso significa que um modelo para prever o dígito escrito deve ter $28 \cdot 28 = 784$ entradas, e deve ter como saída um número inteiro entre 0 e 9.
+
+A complicação aqui apresentada é que, como cada um desses valores é uma variável, não se quer mais analisar a relação de uma única variável com a saída -- é inútil saber quanto um único píxel influencia na saída --, mas sim, é necessário considerar um \textit{conjunto} de variáveis combinadas, como um traço ou uma curva.
+O modelo de regressões lineares, e mesmo as regressões polinomiais, não permitem isso, uma vez que tratam todas as variáveis de maneira independente.
+
+Um dos métodos mais famosos para resolver tal problema são as redes neurais, que ganharam esse nome por seus componentes se assemelharem a neurônios.
+A arquitetura de uma rede neural básica está representada na figura \ref{fig:2:rede-neural}.
+
+\begin{figure}[H]
+\centering
+\caption{Arquitetura de uma rede neural básica}
+\includegraphics[width=0.7\linewidth]{static/Rede Neural.png}
+\label{fig:2:rede-neural}
+\end{figure}
+
+Nesse modelo simples, há três camadas.
+A \textit{camada de entrada} representa as variáveis sobre as quais se quer prever o resultado.
+Aqui, são três, $E_1$, $E_2$, e $E_3$, mas outros modelos podem ser estruturados de modo a ter mais, ou menos.
+No caso do MNIST, é estritamente necessário que haja 784 nós de entrada, um para cada píxel da imagem.
+
+No meio, temos uma \textit{camada oculta}, que recebe esse nome, pois não é nem de entrada, nem de saída.
+Cada nó da camada oculta representa uma combinação de todos os nós da camada anterior, como se cada um deles fosse uma regressão linear feita na camada anterior.
+Por exemplo, o nó intermediário $O_1$ pode ser representado, a grosso modo, como:
+
+\begin{equation}
+\label{eq:2:no-oculto-errado}
+O_1 = \beta_0 + \beta_1 \cdot E_1 + \beta_2 \cdot E_2 + \beta_3 \cdot E_3
+\end{equation}
+
+A \textit{camada de saída} tem o mesmo princípio da camada oculta: cada nó dela é uma combinação de todos os nós da camada anterior (ou seja, os nós da camada oculta).
+A única diferença é que, no modelo já treinado, esses nós representam valores reais.
+Para o MNIST, isso geralmente é modelado como dez nós, cada um representando um dígito diferente, de modo que o valor computado de um nó seja equivalente à probabilidade (ou confiança), de que o algarismo certo seja aquele.
+Assim, o nó de maior valor será o dígito certo.
+
+Contudo, o leitor astuto perceberá que nessa arquitetura é possível ``simplificar'' a rede neural, voltando a ser uma única função linear\footnote{Formalmente, a composição de várias funções lineares, que se dá por meio dos nós, ainda é uma função linear.}.
+E isso é verdade.
+O pulo do gato, porém, é que a equação \ref{eq:2:no-oculto-errado} só conta metade da história.
+A maneira certa de expressar o valor de um nó $N$ em função de suas entradas (os nós da camada anterior que ``apontam'' para $N$) $I_1 \dots I_n$ é
+
+\begin{equation}
+\label{eq:2:no-certo}
+N = \phi (\beta_0 + \beta_1 \cdot I_1 + \beta_2 \cdot I_2 + \dots + \beta_n \cdot I_n)
+\end{equation}
+
+A única diferença da equação \ref{eq:2:no-certo} para a equação \ref{eq:2:no-oculto-errado} é a introdução de $\phi$, uma função não-linear pré-determinada que atua como uma fonte de não linearidade para o modelo.
+Essa é a chamada \textit{função de ativação}, e computa o valor de um nó da rede baseado em suas entradas e seus pesos (outro nome para os coeficientes que até agora foram chamados de $\beta_n$).
+Algumas funções de ativação comuns são a sigmoide\footnote{EXPLICAR}
+
+\begin{equation}
+\sigma(x) = \frac{1}{1 + e^{-kx}} 
+\end{equation}
+
+para uma dada constante $k$; a retificadora linear ReLU
+
+\begin{equation}
+\text{ReLU}(x) = \max (0, x)
+\end{equation}
+
+e a função degrau, ou função de Heaviside,
+
+\begin{equation}
+H(x) = \begin{cases}
+0 & x \le 0\\
+1 & x \geq 0
+\end{cases}
+\end{equation}
+
+A figura \ref{fig:2:func-ativ} mostra o comportamento delas.
+
+\begin{figure}[H]
+\label{fig:2:func-ativ}
+\centering
+\caption{Algumas das funções de ativação mais comuns, representadas no intervalo $[0, 1]$]. Em laranja e vermelho, duas sigmoides com $k = 5$ e $k = 10$, respectivamente. Em preto, subposta ao segmento verde, a ReLU, e, em verde, a função degrau.}
+\includegraphics[width=0.7\linewidth]{static/Funções de Ativação.png}
+\end{figure}
+
+A função dessas funções é introduzir a não-linearidade e, assim, permitir que se estabeleçam relações não-lineares entre as diversas entradas.
+Elas elevam a rede neural de uma simples ``combinação de combinações lineares'' para um modelo flexível capaz de expressar relações complexas.
+
+Uma rede neural têm muito mais parâmetros que uma regressão linear -- como se havia dito, cada nó tem tantos pesos quanto entradas, e podem haver tantos nós quantos forem necessários.
+A arquitetura da imagem \ref{fig:2:rede-neural} é simplista também por representar somente uma camada oculta, quando na maioria dos casos se usam múltiplas, gerando ainda mais parâmetros.
+A expressão inglesa \textit{Deep Learning} (aprendizado profundo) vem disso: uma rede neural é considerada profunda se tiver mais de uma camada oculta.
+Os grandes modelos de linguagem (LLMs) como o ChatGPT e o Deepseek, têm na ordem dos \textit{bilhões} de parâmetros.
+O problema com isso é que se torna basicamente impossível entender individualmente o que um determinado parâmetro significa.
+A rede neural é sobretudo opaca, ininterpretável.
+Sendo ela uma aproximação dos dados, sabe-se que ela funciona, mas não \textit{como} ela funciona, e, como uma aproximação, há sempre um erro.
+
+Nessa miríade de métodos e funções, há muita margem para que um modelo que está certo (isto é, diminui a função erro ao máximo) errar:
+é possível, por exemplo, que haja demasiada precisão nas ínfimas características dos dados de treinamento, de modo que a taxa de erro diminui vertiginosamente (pois o modelo acompanha cada mínimo ruído dos dados) mas a capacidade de generalização se perde. Esse é um problema conhecido como \textit{overfitting}.
+Ou também, é possível que o modelo entenda algum tipo de viés nos dados -- como, por exemplo, haver mais dados de homens do que de mulheres -- e enxergue uma relação disso com o resultado -- por exemplo, achar que como mais brancos historicamente passam em vestibulares, logo brancos seriam mais capacitados para passar em vestibulares, tendo assim maior chance de aprovação.
+Um exemplo real desse problema será analisado na próxima seção, \ref{sec:2:exemplo-real}.
+
+[pq eu não dei exemplos relevantes?]
+
 \section{O Mundo Real}\label{sec:2:exemplo-real}
 \section{Natureza}

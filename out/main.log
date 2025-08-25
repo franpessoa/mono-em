@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2026/dev/Arch Linux)  (format=lualatex 2025.7.28)  21 AUG 2025 16:55
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2026/dev/Arch Linux)  (format=lualatex 2025.7.28)  25 AUG 2025 20:56
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1199,15 +1199,7 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
-(./out/main.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                lecun_mnist_
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+(./out/main.bbl)
 Package biblatex Info: Reference section=0 on input line 140.
 Package biblatex Info: Reference segment=0 on input line 140.
 
@@ -1316,12 +1308,12 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ) (./out/main.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1343,6 +1335,28 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 
+] (./out/main.lof
+Overfull \hbox (2.57825pt too wide) in paragraph at lines 9--9
+ [][] []\TU/TimesNewRoman(0)/m/n/12 Al-gu-mas das fun-ções de ati-va-ção mai
+s co-muns, re-pre-sen-ta-das no in-ter-valo $\OT1/cmr/m/n/12 [0\OML/cmm/m/it/12
+ ; \OT1/cmr/m/n/12 1]$\TU/TimesNewRoman(0)/m/n/12 ]. 
+ []
+
+)
+\tf@lof=\write5
+
+\openout5 = main.lof
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[2
+
 ]
 \openout2 = 1.aux
  (./1.tex
@@ -1356,19 +1370,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[2
+[3
 
 
 ]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[3]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1431,7 +1436,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[10])
+[10]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1440,11 +1445,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[11]
+[11])
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[12]
 \openout2 = 2.aux
  (./2.tex
 Cap\'{\i }tulo 2.
-<static/R/plot/anom-1-hist.png, id=47, 693.792pt x 390.258pt>
+<static/R/plot/anom-1-hist.png, id=50, 693.792pt x 390.258pt>
 File: static/R/plot/anom-1-hist.png Graphic file (type png)
 <use static/R/plot/anom-1-hist.png>
 Package luatex.def Info: static/R/plot/anom-1-hist.png  used on input line 33.
@@ -1458,7 +1472,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[12
+[13
 
 
 
@@ -1472,14 +1486,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[13<./static/R/plot/anom-1-hist.png>]
-<static/R/plot/anom-3-scatter+reg.png, id=54, 693.792pt x 390.258pt>
+[14<./static/R/plot/anom-1-hist.png>]
+<static/R/plot/anom-3-scatter+reg.png, id=57, 693.792pt x 390.258pt>
 File: static/R/plot/anom-3-scatter+reg.png Graphic file (type png)
 <use static/R/plot/anom-3-scatter+reg.png>
 Package luatex.def Info: static/R/plot/anom-3-scatter+reg.png  used on input li
 ne 75.
 (luatex.def)             Requested size: 455.24411pt x 256.0764pt.
-<static/R/plot/anom-5-scatter+reg+poly.png, id=55, 693.792pt x 390.258pt>
+<static/R/plot/anom-5-scatter+reg+poly.png, id=58, 693.792pt x 390.258pt>
 File: static/R/plot/anom-5-scatter+reg+poly.png Graphic file (type png)
 <use static/R/plot/anom-5-scatter+reg+poly.png>
 Package luatex.def Info: static/R/plot/anom-5-scatter+reg+poly.png  used on inp
@@ -1494,7 +1508,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[14]
+[15]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1503,13 +1517,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[15<./static/R/plot/anom-3-scatter+reg.png><./static/R/plot/anom-5-scatter+reg+p
+[16<./static/R/plot/anom-3-scatter+reg.png><./static/R/plot/anom-5-scatter+reg+p
 oly.png>]
 
-LaTeX Warning: Citation 'lecun_mnist_' on page 16 undefined on input line 139.
-
-
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1517,13 +1527,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[16]
-<static/MNIST.png, id=66, 597.27272pt x 597.27272pt>
+[17]
+<static/MNIST.png, id=69, 597.27272pt x 597.27272pt>
 File: static/MNIST.png Graphic file (type png)
 <use static/MNIST.png>
 Package luatex.def Info: static/MNIST.png  used on input line 148.
 (luatex.def)             Requested size: 227.62206pt x 227.62216pt.
-)
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1532,7 +1542,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[17<./static/MNIST.png>]
+[18<./static/MNIST.png>]
+<static/Rede Neural.png, id=77, 2735.21875pt x 2283.53125pt>
+File: static/Rede Neural.png Graphic file (type png)
+<use static/Rede Neural.png>
+Package luatex.def Info: static/Rede Neural.png  used on input line 168.
+(luatex.def)             Requested size: 318.66948pt x 266.03268pt.
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1541,20 +1557,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[18]
+[19<./static/Rede Neural.png>]
+
+Package caption Warning: \label without proper reference on input line 227.
+See the caption package documentation for explanation.
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+LaTeX Warning: Reference `fig:2:func-ativ' on page 20 undefined on input line 2
+24.
 
-[19
+<static/Funções de Ativação.png, id=82, 2409.0pt x 1606.0pt>
+File: static/Funções de Ativação.png Graphic file (type png)
+<use static/Funções de Ativação.png>
+Package luatex.def Info: static/Funções de Ativação.png  used on input line
+ 230.
+(luatex.def)             Requested size: 318.66948pt x 212.43866pt.
 
-
-
-]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1572,7 +1590,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[21]
+[21<./static/Funções de Ativação.png>])
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1581,41 +1599,86 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[22] (./out/main.aux (./out/capa.aux) (./out/1.aux) (./out/2.aux))
+[22]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[23
+
+
+
+]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[24]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[25]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[26] (./out/main.aux (./out/capa.aux) (./out/1.aux) (./out/2.aux))
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 21774 strings out of 475506
+ 21811 strings out of 475506
  125086,1648299 words of node,token memory allocated
- 938 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 16 glue, 4 kern, 1 glyph, 44 attribute, 99 glue_spe
-c, 24 attribute_list, 1 write nodes
-   avail lists: 1:4,2:1436,3:1924,4:108,5:113,6:58,7:9404,8:145,9:281,10:95,11:1
+ 1037 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 19 glue, 4 kern, 1 glyph, 70 attribute, 99 glue_spe
+c, 37 attribute_list, 1 write nodes
+   avail lists: 1:4,2:1436,3:1924,4:108,5:121,6:60,7:9402,8:145,9:351,10:95,11:1
 319
- 44172 multiletter control sequences out of 65536+600000
+ 44196 multiletter control sequences out of 65536+600000
  83 fonts using 8410431 bytes
  97i,12n,151p,1825b,6193s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf></usr/share
 /fonts/TTF/timesi.ttf></usr/share/fonts/TTF/times.ttf></usr/share/fonts/TTF/time
-sbd.ttf></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/s
-hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
-share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (23 pages, 1397341 bytes).
+sbd.ttf></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/s
+hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
+/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (27 pages, 1760937 bytes).
 
-PDF statistics: 145 PDF objects out of 1000 (max. 8388607)
- 94 compressed objects within 1 object stream
+PDF statistics: 170 PDF objects out of 1000 (max. 8388607)
+ 108 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
