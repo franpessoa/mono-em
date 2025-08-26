@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2026/dev/Arch Linux)  (format=lualatex 2025.7.28)  26 AUG 2025 18:30
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2026/dev/Arch Linux)  (format=lualatex 2025.7.28)  26 AUG 2025 19:44
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1583,7 +1583,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[21<./static/Funções de Ativação.png>])
+[21<./static/Funções de Ativação.png>]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1592,7 +1592,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[22]
+[22])
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1601,20 +1601,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[23
+[23]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[24
 
 
 
 ]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[24]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1632,7 +1632,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[26] (./out/main.aux (./out/capa.aux) (./out/1.aux) (./out/2.aux))
+[26]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[27]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[28] (./out/main.aux (./out/capa.aux) (./out/1.aux) (./out/2.aux))
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
@@ -1647,14 +1665,14 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 21812 strings out of 475506
+ 21823 strings out of 475506
  125086,1648299 words of node,token memory allocated
- 1037 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 19 glue, 4 kern, 1 glyph, 70 attribute, 99 glue_spe
-c, 37 attribute_list, 1 write nodes
-   avail lists: 1:4,2:1436,3:1924,4:108,5:121,6:60,7:9402,8:145,9:351,10:95,11:1
-319
- 44197 multiletter control sequences out of 65536+600000
+ 1056 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 20 glue, 4 kern, 1 glyph, 74 attribute, 99 glue_spe
+c, 39 attribute_list, 1 write nodes
+   avail lists: 1:4,2:1477,3:2269,4:108,5:122,6:67,7:9404,8:145,9:351,10:95,11:1
+335
+ 44208 multiletter control sequences out of 65536+600000
  83 fonts using 8410431 bytes
  97i,12n,151p,1825b,6193s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf></usr/share
@@ -1668,10 +1686,10 @@ blic/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
 t/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
 msy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (27 pages, 1763704 bytes).
+Output written on main.pdf (29 pages, 1769744 bytes).
 
-PDF statistics: 170 PDF objects out of 1000 (max. 8388607)
- 108 compressed objects within 2 object streams
+PDF statistics: 176 PDF objects out of 1000 (max. 8388607)
+ 112 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

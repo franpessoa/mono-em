@@ -262,5 +262,38 @@ Só os \textit{Data Centers} especializados, que se estendem por múltiplos quil
 A era do Big Data é um tempo em que o conjunto de dados que um ser humano produz é alienado dele, passando para o uso quase livre das empresas de tecnologia que têm a infraestrutura necessária para o processar: as assim chamadas ``Big Techs'', ou grandes empresas de tecnologia.
 
 \section{O Mundo Real}\label{sec:2:exemplo-real}
+Deixe os grandes algoritmos de lado; considere agora um pequeno exemplo com grandes implicações.
+Desde 2014, a Amazon vinha tentando filtrar computacionalmente os currículos a ela enviados.
+Em 2018, contudo, essa iniciativa foi posta abaixo em completo.
+O motivo?
+O algoritmo que haviam desenvolvido penalizava mulheres; considerava a experiência de ser ``capitã de um time feminino de xadrez'' negativa, por conter o termo ``feminino'', assim como descreditava a candidata se ela houvesse se formado em uma instituição de ensino exclusivamente feminina.
+Para complementar, incentivava a presença de termos mais frequentemente usados por homens \cite{dastin_amazon_2018}.
+
+Isso aconteceu por que os dados que tinham de ``bons currículos''' provinham da força de trabalho da própria Amazon, majoritariamente masculina.
+Por isso, o algoritmo aprendeu e internalizou a disparidade de gênero, e aplicou-a para os novos candidatos à qual foi apresentado.
+Mesmo que ``gênero'' não fosse, explicitamente, um parâmetro dado ao algoritmo, ele assimilou-o, reconstruindo-o a partir de outros dados (como, nesse caso, as expressões utilizadas).
+Ou, como \textcite[tradução~própria]{hooker_moving_2021} coloca,
+
+\begin{quoting}
+Para domínios como imagens, linguagem e vídeo, a alta dimensionalidade do problema e o tamanho maior do conjunto de dados modernos torna difícil garantir que todas as características foram sistematicamente rotuladas.
+Mesmo se podemos rotulado em escala atributos sensíveis como gênero e raça, algoritmos ainda podem usar variáveis \textit{proxy} para reconstruir o rótulo proibido.
+Coleta de mesmo um número limitado de atributos protegidos pode ser oneroso.
+Por exemplo, é difícil alinhar-se em uma taxonomia padrão -- categorias atribuídas à raça ou gênero são frequentemente codificadas de maneiras inconsistentes entre conjuntos de dados.
+Ademais, adquirir rótulos para os atributos protegidos legalmente é comumente percebido como intrusivo, levando a rótulos com ruído ou incompletos.
+\footnote{Traduzido do inglês. Original: \textit{``For domains such as images, language, and video, the high dimensionality of the problem and large size of modern datasets make it hard to guarantee all features are comprehensively labeled.
+Even if we are able to label sensitive attributes at scale such as gender and race, algorithms can still leverage proxy variables to reconstruct the forbidden label.
+Data collection of even a limited number of protected attributes can be onerous.
+For example, it is hard to align on a standard taxonomy—categories attributed to race or gender are frequently encoded in inconsistent ways across datasets.
+Furthermore, procuring labels for these legally protected attributes is often perceived as intrusive leading to noisy or incomplete labels.''} \cite{hooker_moving_2021}}
+\end{quoting}
+
+Num caso simples, seria possível tratar os dados -- ``desenviesá-los'''.
+Se tratando de textos (como um currículo), porém, essa tarefa é ainda mais difícil: seria possível ``desgenerizar'' um texto, sem retirar a essência da expressão pessoal ali contida?
+Assepsiá-lo, anonimizá-lo, removendo assim a possibilidade de qualquer viés -- não só de gênero -- ser identificado pelo algoritmo?
+A resposta é um contundente não: como Hooker diz, é difícil garantir que ``todas as categorias foram sistematicamente rotuladas'', ou seja, mesmo que fosse possível identificá-las, a alta complexidade e dimensionalidade (isto é, presença de muitas variáveis diferentes para uma mesma observação) do problema asseguram que tal identificação será falha.
+Isso, sem contar que as tais ``categorias sensíveis'', que deveriam ser eliminadas para garantir a total neutralidade -- gênero, raça, etnia, origem, posicionamento político -- são intrínsecas ao sujeito, e, mesmo que inconscientemente, afluem na sua produção.
+Um algoritmo suficientemente sensível pode (e muito provavelmente vai, se treinado com tempo e recursos suficientes) identificar mínimas sutilezas, mesmo que invisíveis para um ser humano.
+
+Além da possibilidade de um viés nos dados, há também a possibilidade de um viés no modelo: [racismo em CV]
 
 \section{Natureza}\label{sec:2:impacto-ambiental}

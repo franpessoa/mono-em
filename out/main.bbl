@@ -199,7 +199,6 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{abstract}{In February 1700, Isaac Newton needed a precise tropical year to design a new universal calendar that would supersede the Gregorian one. However, 17th-Century astronomers were uncertain of the long-term variation in the inclination of the Earth's axis and were suspicious of Ptolemy's equinox observations. As a result, they produced a wide range of tropical years. Facing this problem, Newton attempted to compute the length of the year on his own, using the ancient equinox observations reported by a famous Greek astronomer Hipparchus of Rhodes, ten in number. Though Newton had a very thin sample of data, he obtained a tropical year only a few seconds longer than the correct length. The reason lies in Newton's application of a technique similar to modern regression analysis. Newton wrote down the first of the two so-called 'normal equations' known from the ordinary least-squares (OLS) method. In that procedure, Newton seems to have been the first to employ the mean (average) value of the data set, while the other leading astronomers of the era (Tycho Brahe, Galileo, and Kepler) used the median. Fifty years after Newton, in 1750, Newton's method was rediscovered and enhanced by Tobias Mayer. Remarkably, the same regression method served with distinction in the late 1920s when the founding fathers of modern cosmology, Georges Lemaitre (1927), Edwin Hubble (1929), and Willem de Sitter (1930), employed it to derive the Hubble constant.}
       \field{day}{4}
       \field{eprintclass}{physics}
       \field{eprinttype}{arXiv}
@@ -218,9 +217,6 @@
       \endverb
       \verb{eprint}
       \verb 0810.4948
-      \endverb
-      \verb{file}
-      \verb /home/cisco/Zotero/storage/JLHRZIGF/Belenkiy and Echague - 2016 - Groping Toward Linear Regression Analysis Newton's Analysis of Hipparchus' Equinox Observations.pdf;/home/cisco/Zotero/storage/U9JH9SYY/0810.html
       \endverb
       \verb{urlraw}
       \verb http://arxiv.org/abs/0810.4948
@@ -426,7 +422,6 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Traditional methods of computer vision and machine learning cannot match human performance on tasks such as the recognition of handwritten digits or traffic signs. Our biologically plausible deep artificial neural network architectures can. Small (often minimal) receptive fields of convolutional winner-take-all neurons yield large network depth, resulting in roughly as many sparsely connected neural layers as found in mammals between retina and visual cortex. Only winner neurons are trained. Several deep neural columns become experts on inputs preprocessed in different ways; their predictions are averaged. Graphics cards allow for fast training. On the very competitive MNIST handwriting benchmark, our method is the first to achieve near-human performance. On a traffic sign recognition benchmark it outperforms humans by a factor of two. We also improve the state-of-the-art on a plethora of common image classification benchmarks.}
       \field{day}{13}
       \field{eprintclass}{cs}
       \field{eprinttype}{arXiv}
@@ -444,9 +439,6 @@
       \endverb
       \verb{eprint}
       \verb 1202.2745
-      \endverb
-      \verb{file}
-      \verb /home/cisco/Zotero/storage/8HZDSFXH/Cireşan et al. - 2012 - Multi-column Deep Neural Networks for Image Classification.pdf
       \endverb
       \verb{urlraw}
       \verb http://arxiv.org/abs/1202.2745
@@ -556,6 +548,51 @@
       \endverb
       \verb{url}
       \verb https://www.eff.org/wp/behind-the-one-way-mirror
+      \endverb
+    \endentry
+    \entry{dastin_amazon_2018}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fe0a91ed503170165d701447b4c6fbdf}{%
+           family={Dastin},
+           familyi={D\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Reuters}%
+      }
+      \strng{namehash}{fe0a91ed503170165d701447b4c6fbdf}
+      \strng{fullhash}{fe0a91ed503170165d701447b4c6fbdf}
+      \strng{fullhashraw}{fe0a91ed503170165d701447b4c6fbdf}
+      \strng{bibnamehash}{fe0a91ed503170165d701447b4c6fbdf}
+      \strng{authorbibnamehash}{fe0a91ed503170165d701447b4c6fbdf}
+      \strng{authornamehash}{fe0a91ed503170165d701447b4c6fbdf}
+      \strng{authorfullhash}{fe0a91ed503170165d701447b4c6fbdf}
+      \strng{authorfullhashraw}{fe0a91ed503170165d701447b4c6fbdf}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{11}
+      \field{hour}{0}
+      \field{minute}{50}
+      \field{month}{10}
+      \field{second}{34}
+      \field{title}{Amazon Scraps Secret {{AI}} Recruiting Tool That Showed Bias against Women}
+      \field{urlday}{26}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.reuters.com/article/world/insight-amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK0AG/
+      \endverb
+      \verb{url}
+      \verb https://www.reuters.com/article/world/insight-amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK0AG/
       \endverb
     \endentry
     \entry{desouza_treinamento_2025}{online}{}{}
@@ -819,6 +856,54 @@
       \endverb
       \keyw{Automobile Insurance and Liability,Automobiles,Data-Mining and Database Marketing,General Motors,Honda Motor Co Ltd,Kia Motors Corp,LexisNexis Group,Mitsubishi Motor Corp,Mobile Applications,OnStar Corp,Privacy,Subaru}
     \endentry
+    \entry{hooker_moving_2021}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c26c60500cfffd20972310345c0a7a96}{%
+           family={Hooker},
+           familyi={H\bibinitperiod},
+           given={Sara},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c26c60500cfffd20972310345c0a7a96}
+      \strng{fullhash}{c26c60500cfffd20972310345c0a7a96}
+      \strng{fullhashraw}{c26c60500cfffd20972310345c0a7a96}
+      \strng{bibnamehash}{c26c60500cfffd20972310345c0a7a96}
+      \strng{authorbibnamehash}{c26c60500cfffd20972310345c0a7a96}
+      \strng{authornamehash}{c26c60500cfffd20972310345c0a7a96}
+      \strng{authorfullhash}{c26c60500cfffd20972310345c0a7a96}
+      \strng{authorfullhashraw}{c26c60500cfffd20972310345c0a7a96}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{26663899}
+      \field{journaltitle}{Patterns}
+      \field{month}{4}
+      \field{number}{4}
+      \field{shortjournal}{Patterns}
+      \field{title}{Moving beyond “Algorithmic Bias Is a Data Problem”}
+      \field{urlday}{31}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{2}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{100241}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.patter.2021.100241
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S2666389921000611
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S2666389921000611
+      \endverb
+    \endentry
     \entry{internetarchive_petabox_}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=cbd2fd311741990b3e76308c90a5ddf2}{%
@@ -899,7 +984,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{isbn}{978-1-0716-1417-4 978-1-0716-1418-1}
-      \field{langid}{english}
       \field{series}{Springer {{Texts}} in {{Statistics}}}
       \field{shorttitle}{An {{Introduction}} to {{Statistical Learning}}}
       \field{title}{An {{Introduction}} to {{Statistical Learning}}: With {{Applications}} in {{R}}}
@@ -1011,9 +1095,6 @@
       \field{year}{1998}
       \field{dateera}{ce}
       \field{urldateera}{ce}
-      \verb{file}
-      \verb /home/cisco/Zotero/storage/97V452G4/index.html
-      \endverb
       \verb{urlraw}
       \verb https://yann.lecun.org/exdb/mnist/index.html
       \endverb

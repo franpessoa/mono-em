@@ -8,8 +8,16 @@
 \contentsline {section}{\numberline {2.1}Regressões Lineares}{14}{}%
 \contentsline {section}{\numberline {2.2}Redes Neurais}{17}{}%
 \contentsline {section}{\numberline {2.3}O Mundo Real}{22}{}%
-\contentsline {section}{\numberline {2.4}Natureza}{22}{}%
-\contentsline {chapter}{Referências}{23}{}%
+\contentsline {section}{\numberline {2.4}Natureza}{23}{}%
+\contentsline {chapter}{Referências}{24}{}%
+\babel@toc {portuguese}{}\relax 
+\babel@toc {portuguese}{}\relax 
+\babel@toc {portuguese}{}\relax 
+\babel@toc {portuguese}{}\relax 
+\babel@toc {portuguese}{}\relax 
+\babel@toc {portuguese}{}\relax 
+\babel@toc {portuguese}{}\relax 
+\babel@toc {portuguese}{}\relax 
 \babel@toc {portuguese}{}\relax 
 \babel@toc {portuguese}{}\relax 
 \babel@toc {portuguese}{}\relax 

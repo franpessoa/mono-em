@@ -2515,6 +2515,10 @@
     <bcf:citekey order="44" intorder="1">lecun_mnist_1998</bcf:citekey>
     <bcf:citekey order="45" intorder="1">cireşan_multicolumn_2012</bcf:citekey>
     <bcf:citekey order="46" intorder="1">lecun_mnist_1998</bcf:citekey>
+    <bcf:citekey order="47" intorder="1">dastin_amazon_2018</bcf:citekey>
+    <bcf:citekey order="48" intorder="1">hooker_moving_2021</bcf:citekey>
+    <bcf:citekey order="49" intorder="1">hooker_moving_2021</bcf:citekey>
+    <bcf:citekey order="50" intorder="1">hooker_moving_2021</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
