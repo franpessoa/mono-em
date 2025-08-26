@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2026/dev/Arch Linux)  (format=lualatex 2025.7.28)  25 AUG 2025 20:56
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2026/dev/Arch Linux)  (format=lualatex 2025.7.28)  26 AUG 2025 18:30
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1335,14 +1335,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 
-] (./out/main.lof
-Overfull \hbox (2.57825pt too wide) in paragraph at lines 9--9
- [][] []\TU/TimesNewRoman(0)/m/n/12 Al-gu-mas das fun-ções de ati-va-ção mai
-s co-muns, re-pre-sen-ta-das no in-ter-valo $\OT1/cmr/m/n/12 [0\OML/cmm/m/it/12
- ; \OT1/cmr/m/n/12 1]$\TU/TimesNewRoman(0)/m/n/12 ]. 
- []
-
-)
+] (./out/main.lof)
 \tf@lof=\write5
 
 \openout5 = main.lof
@@ -1654,14 +1647,14 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 21811 strings out of 475506
+ 21812 strings out of 475506
  125086,1648299 words of node,token memory allocated
  1037 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 19 glue, 4 kern, 1 glyph, 70 attribute, 99 glue_spe
 c, 37 attribute_list, 1 write nodes
    avail lists: 1:4,2:1436,3:1924,4:108,5:121,6:60,7:9402,8:145,9:351,10:95,11:1
 319
- 44196 multiletter control sequences out of 65536+600000
+ 44197 multiletter control sequences out of 65536+600000
  83 fonts using 8410431 bytes
  97i,12n,151p,1825b,6193s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf></usr/share
@@ -1675,7 +1668,7 @@ blic/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
 t/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
 msy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (27 pages, 1760937 bytes).
+Output written on main.pdf (27 pages, 1763704 bytes).
 
 PDF statistics: 170 PDF objects out of 1000 (max. 8388607)
  108 compressed objects within 2 object streams

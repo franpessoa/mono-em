@@ -226,17 +226,24 @@ A figura \ref{fig:2:func-ativ} mostra o comportamento delas.
 \begin{figure}[H]
 \label{fig:2:func-ativ}
 \centering
-\caption{Algumas das funções de ativação mais comuns, representadas no intervalo $[0, 1]$]. Em laranja e vermelho, duas sigmoides com $k = 5$ e $k = 10$, respectivamente. Em preto, subposta ao segmento verde, a ReLU, e, em verde, a função degrau.}
+\caption{Algumas das funções de ativação mais comuns, representadas no intervalo $[0, 1]$. Em laranja e vermelho, duas sigmoides com $k = 5$ e $k = 10$, respectivamente. Em preto, subposta ao segmento verde, a ReLU, e, em verde, a função degrau.}
 \includegraphics[width=0.7\linewidth]{static/Funções de Ativação.png}
 \end{figure}
 
 A função dessas funções é introduzir a não-linearidade e, assim, permitir que se estabeleçam relações não-lineares entre as diversas entradas.
 Elas elevam a rede neural de uma simples ``combinação de combinações lineares'' para um modelo flexível capaz de expressar relações complexas.
 
+Sendo assim, como se otimiza esses pesos?
+Com cálculo diferencial, principalmente.
+Computa-se um gradiente multidimensional que indica para onde vai o erro (aumentar ou diminuir) baseado em uma mudança num determinado parâmetro.
+Simplificadamente, para otimizar o parâmetro $\beta_2$ do nó $X$, ``congela-se'' o resto dos parâmetros e calcula-se o quanto o erro vai mudar baseado em uma mudança minúscula em $\beta_2$.
+Na realidade, esse processo usa de vários métodos matemáticos, como diferenciação automática, descida de gradiente e retro-propagação.
+É muito elegante, mas foge ao escopo desse texto.
+
 Uma rede neural têm muito mais parâmetros que uma regressão linear -- como se havia dito, cada nó tem tantos pesos quanto entradas, e podem haver tantos nós quantos forem necessários.
 A arquitetura da imagem \ref{fig:2:rede-neural} é simplista também por representar somente uma camada oculta, quando na maioria dos casos se usam múltiplas, gerando ainda mais parâmetros.
 A expressão inglesa \textit{Deep Learning} (aprendizado profundo) vem disso: uma rede neural é considerada profunda se tiver mais de uma camada oculta.
-Os grandes modelos de linguagem (LLMs) como o ChatGPT e o Deepseek, têm na ordem dos \textit{bilhões} de parâmetros.
+Os grandes modelos de linguagem (LLMs) como o ChatGPT e o Deepseek, têm na ordem dos \textit{bilhões} de parâmetros [CITAÇÂO NECESSÁRIA].
 O problema com isso é que se torna basicamente impossível entender individualmente o que um determinado parâmetro significa.
 A rede neural é sobretudo opaca, ininterpretável.
 Sendo ela uma aproximação dos dados, sabe-se que ela funciona, mas não \textit{como} ela funciona, e, como uma aproximação, há sempre um erro.
@@ -246,7 +253,14 @@ Nessa miríade de métodos e funções, há muita margem para que um modelo que 
 Ou também, é possível que o modelo entenda algum tipo de viés nos dados -- como, por exemplo, haver mais dados de homens do que de mulheres -- e enxergue uma relação disso com o resultado -- por exemplo, achar que como mais brancos historicamente passam em vestibulares, logo brancos seriam mais capacitados para passar em vestibulares, tendo assim maior chance de aprovação.
 Um exemplo real desse problema será analisado na próxima seção, \ref{sec:2:exemplo-real}.
 
-[pq eu não dei exemplos relevantes?]
+O leitor agora pode estar se perguntando por que os exemplos aqui utilizados não têm relação com o conteúdo do capítulo anterior.
+Afinal, para onde vão tantos dados coletados?
+A resposta é, para algoritmos muito parecidos com os apresentados, porém com quantidades de parâmetros e complexidade muito maiores.
+Um algoritmo de recomendação, por exemplo, tem de lidar com um fluxo enorme de dados concomitante.
+São tantos dados que esse segmento da indústria foi batizado de \textit{Big Data} (literalmente, ``Grande Dado''), concernindo os casos onde há uma vigilância tão presente, que produz uma massa de dados gigantesca; muito além do que pode ser tratado em um computador comum.
+Só os \textit{Data Centers} especializados, que se estendem por múltiplos quilômetros quadrados e tem o consumo energético de cidades inteiras, podem manejar os tantos dados necessários para todos os múltiplos usuários simultâneos desses serviços.
+A era do Big Data é um tempo em que o conjunto de dados que um ser humano produz é alienado dele, passando para o uso quase livre das empresas de tecnologia que têm a infraestrutura necessária para o processar: as assim chamadas ``Big Techs'', ou grandes empresas de tecnologia.
 
 \section{O Mundo Real}\label{sec:2:exemplo-real}
-\section{Natureza}
+
+\section{Natureza}\label{sec:2:impacto-ambiental}

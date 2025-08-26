@@ -6,7 +6,7 @@
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Gráfico da anomalia (°C) em função do tempo (anos), 1970-2025, com regressão linear e aproximação polinomial}}{16}{}%
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Algumas imagens do banco de dados MNIST}}{18}{}%
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Arquitetura de uma rede neural básica}}{19}{}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Algumas das funções de ativação mais comuns, representadas no intervalo $[0, 1]$]. Em laranja e vermelho, duas sigmoides com $k = 5$ e $k = 10$, respectivamente. Em preto, subposta ao segmento verde, a ReLU, e, em verde, a função degrau.}}{21}{}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Algumas das funções de ativação mais comuns, representadas no intervalo $[0, 1]$. Em laranja e vermelho, duas sigmoides com $k = 5$ e $k = 10$, respectivamente. Em preto, subposta ao segmento verde, a ReLU, e, em verde, a função degrau.}}{21}{}%
 \babel@toc {portuguese}{}\relax 
 \babel@toc {portuguese}{}\relax 
 \babel@toc {portuguese}{}\relax 
