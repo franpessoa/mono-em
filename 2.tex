@@ -45,7 +45,6 @@ Não é possível, principalmente quando se trata de algo tão simples como uma 
 
 Qual deverá ser a forma desse modelo?
 Matematicamente, uma reta pode ser definida por meio de uma função linear, que, nesse caso, assumiria a forma de
-
 \begin{equation}
 A(t) = t\cdot\beta_1 + \beta_0
 \end{equation}
@@ -96,8 +95,7 @@ Um exemplo está na figura \ref{fig:2:anom-3-scatter+reg+poly}.
 
 Esses modelo não é mais linear, evidentemente.
 É, pelo contrário, uma curva definida por meio de um polinômio.
-Nesse caso, a representação matemática está mais aquém de
-
+Nesse caso, a representação matemática é de
 \begin{equation}
 A(t) = \beta_0 + t \beta_1 + t^2 \beta_2 + t^3 \beta_3 \dots t^n \beta_n 
 \end{equation}
@@ -106,10 +104,10 @@ Onde $n$ é o grau do polinômio a ser criado.
 Aqui, não se trata de uma regressão \textit{linear}, mas sim, \textit{polinomial}.
 
 Está além do escopo deste presente texto debater o funcionamento interno desses modelos (isto é, como efetivamente ocorre a regressão linear), mas é importante perceber que, quando se utiliza uma curva, ao invés de uma reta, o modelo torna-se mais flexível, podendo adaptar-se melhor às condições dos dados.
-O erro, que debatemos antes, é menor.
-Contudo, ao invés de dois parâmetros simples -- $\beta_0$ e $\beta_1$ -- agora há $n$, que não podem ser interpretados de uma maneira tão direta quanto esses dois.
+Isto é, o erro do modelo é menor.
+Contudo, ao invés de dois parâmetros simples -- $\beta_0$ e $\beta_1$ -- agora há $n$, que não podem ser compreendidos de uma maneira tão direta quanto esses dois.
 Isto é, ganha-se flexibilidade, mas há uma perda de interpretabilidade.
-Na próxima seção, \ref{sec:2:redes-neurais}, será estudado um modelo ainda mais flexível; e ainda menos interpretável
+Na próxima seção, \ref{sec:2:redes-neurais}, será estudado um modelo ainda mais flexível; e ainda menos interpretável: as redes neurais.
 A seção \ref{sec:2:exemplo-real} debaterá como essa ``interpretabilidade'' é refletida em um caso real: é possível pedir explicações desses modelos?
 Isto é, determinar porque algo foi classificado como bom ou ruim, A ou B?
 
@@ -122,7 +120,6 @@ Regressões lineares são um dos algoritmos mais simples que demonstram a dinâm
 Há diversas maneiras de melhorá-lo.
 Uma das mais simples é realizar a regressão em mais de uma variável; por exemplo, podemos estimar o preço de uma casa baseado no tamanho (em $\text{m}^2$), o número de quartos, a distância do centro, o andar, e a idade da casa.
 O modelo se assemelharia à equação \ref{eq:2:lm-mult}.
-
 \begin{equation}
 \label{eq:2:lm-mult}
 \text{Preço} = \beta_0 + \beta_1 \cdot (\text{Tamanho}) + \beta_2 \cdot (\text{Quartos}) + \beta_3\cdot (\text{Distância}) + \beta_5 \cdot (\text{Andar}) + \beta_6 \cdot (\text{Idade})
@@ -134,7 +131,7 @@ Onde $\beta_1$, $\beta_2$, $\beta_3$, $\beta_4$, $\beta_5$ e $\beta_6$ represent
 Por mais úteis que as regressões lineares possam ser, ainda são um modelo rudimentar, que trabalha com alguns pressupostos bastante restritivos.
 Um deles é o da linearidade da relação entre uma variável -- como o ano, no caso da anomalia de temperatura, ou o andar, no caso do preço de apartamentos -- e o resultado desejado.
 Assim, pressupõe-se que essa relação se dá por uma reta, e não, por exemplo, uma curva exponencial, logarítmica, ou qualquer outra coisa que fuja da linearidade.
-Viu-se que isso pode ser consertado por meio de uma regressão polinomial\footnote{A regressão polinomial está associada a muitos outros métodos que a acompanham. Para estendê-la para uma predição com base em multiplas variáveis, como na equação \ref{eq:2:lm-mult}, por exemplo, é possível usar um Método Aditivo Generalizado (GAM). Os GAMs estabelecem uma função polinomial de grau $n$ \textit{para cada variável}, ou seja, uma função para o tamanho, uma para o número de quartos, uma para a distância do centro, e por aí vai. Assim, o modelo toma a cara de $\text{Preço} = \beta_0 + f_1(X_1) + f_2(X_2) + f_3(X_3) + \dots + f_i(X_i)$, onde $X_1\dots X_i$ são as variáveis (como o andar e o número de quartos) e $f_1\dots f_i$ são as funções de grau $n$ que dependem de cada variável \cite{james_introduction_2021a}}.
+Viu-se que isso pode ser consertado por meio de uma regressão polinomial\footnote{A regressão polinomial está associada a muitos outros métodos que a acompanham. Para estendê-la para uma predição com base em multiplas variáveis, como na equação \ref{eq:2:lm-mult}, por exemplo, é possível usar um Método Aditivo Generalizado (GAM). Os GAMs criam uma função polinomial de grau $n$ \textit{para cada variável}, ou seja, uma função para o tamanho, uma para o número de quartos, uma para a distância do centro, e por aí vai. Assim, o modelo toma a cara de $\text{Preço} = \beta_0 + f_1(X_1) + f_2(X_2) + f_3(X_3) + \dots + f_i(X_i)$, onde $X_1\dots X_i$ são as variáveis (como o andar e o número de quartos) e $f_1\dots f_i$ são as funções de grau $n$ que dependem de cada variável \cite{james_introduction_2021a}}.
 Contudo, há ainda um problema maior que a impede de ser utilizada em mais contextos: a possibilidade de relações entre variáveis.
 Para entender o que isso significa, considere outro exemplo: o banco de dados MNIST \cite{lecun_mnist_1998}.
 
@@ -142,7 +139,7 @@ Ele é composto por milhares de imagens de dígitos de 0-9 desenhados à mão, a
 O objetivo que ele apresenta é fazer um modelo computacional capaz de identificar os dígitos baseando-se nas imagens apresentadas, semelhante ao que um ser humano faria ao ler esses números.
 Por mais que isso pareça simples, esse problema não o é -- as imagens variam muito em sua forma, e a computação demorou para desenvolver métodos flexíveis o suficiente para essa tarefa.
 
-\begin{figure}[H]
+\begin{figure}
 \caption{Algumas imagens do banco de dados MNIST}
 \centering
 \includegraphics[width=0.35\linewidth]{static/MNIST.png}
@@ -177,7 +174,6 @@ No caso do MNIST, é estritamente necessário que haja 784 nós de entrada, um p
 No meio, temos uma \textit{camada oculta}, que recebe esse nome, pois não é nem de entrada, nem de saída.
 Cada nó da camada oculta representa uma combinação de todos os nós da camada anterior, como se cada um deles fosse uma regressão linear feita na camada anterior.
 Por exemplo, o nó intermediário $O_1$ pode ser representado, a grosso modo, como:
-
 \begin{equation}
 \label{eq:2:no-oculto-errado}
 O_1 = \beta_0 + \beta_1 \cdot E_1 + \beta_2 \cdot E_2 + \beta_3 \cdot E_3
@@ -192,7 +188,6 @@ Contudo, o leitor astuto perceberá que nessa arquitetura é possível ``simplif
 E isso é verdade.
 O pulo do gato, porém, é que a equação \ref{eq:2:no-oculto-errado} só conta metade da história.
 A maneira certa de expressar o valor de um nó $N$ em função de suas entradas (os nós da camada anterior que ``apontam'' para $N$) $I_1 \dots I_n$ é
-
 \begin{equation}
 \label{eq:2:no-certo}
 N = \phi (\beta_0 + \beta_1 \cdot I_1 + \beta_2 \cdot I_2 + \dots + \beta_n \cdot I_n)
@@ -201,19 +196,16 @@ N = \phi (\beta_0 + \beta_1 \cdot I_1 + \beta_2 \cdot I_2 + \dots + \beta_n \cdo
 A única diferença da equação \ref{eq:2:no-certo} para a equação \ref{eq:2:no-oculto-errado} é a introdução de $\phi$, uma função não-linear pré-determinada que atua como uma fonte de não linearidade para o modelo.
 Essa é a chamada \textit{função de ativação}, e computa o valor de um nó da rede baseado em suas entradas e seus pesos (outro nome para os coeficientes que até agora foram chamados de $\beta_n$).
 Algumas funções de ativação comuns são a sigmoide\footnote{EXPLICAR}
-
 \begin{equation}
 \sigma(x) = \frac{1}{1 + e^{-kx}} 
 \end{equation}
 
 para uma dada constante $k$; a retificadora linear ReLU
-
 \begin{equation}
 \text{ReLU}(x) = \max (0, x)
 \end{equation}
 
 e a função degrau, ou função de Heaviside,
-
 \begin{equation}
 H(x) = \begin{cases}
 0 & x \le 0\\
@@ -314,7 +306,7 @@ No segundo caso, para um modelo $b$ e uma instância $x$ onde o modelo $b$ foi u
 Assim, se o modelo original tiver raciocínios diferentes para casos muito diferentes, o segundo caso é melhor; seria algo parecido que poderia ser usado com a candidata hipotética a um emprego da Amazon.
 
 Uma questão que permanece é a forma de $\mathcal(E)$.
-Uma possibilidade é que seja o conjunto de todos as funções lineares, que, como já foi visto na seção \ref{sec:2:regres}, tem só dois parâmetros (inclinação, que se chamou de $\beta_1$ e altura, que se chamou de $\beta_0$), e por isso, é facilmente compreensível.
+Uma possibilidade é que seja o conjunto de todos as funções lineares, que, como já foi visto na seção \ref{sec:2:regres}, tem só dois parâmetros (inclinação, que se chamou de $\beta_1$, e altura, que se chamou de $\beta_0$), e por isso, é facilmente compreensível.
 Outras maneiras de fornecer explicações são árvores de decisões (basicamente, fluxogramas) e listas de regras (no estilo ``se isso, então aquilo'').
 São, necessariamente, simplificações, construídas em torno do modelo original.
 Uma maneira de aproximar a aproximação ao raciocínio orgânico.
