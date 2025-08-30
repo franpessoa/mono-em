@@ -19,6 +19,81 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global/global}
+    \entry{aïvodji_fairwashing_2019}{online}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=c7b5ed24e6e4b77fbccd3ac6cff3be37}{%
+           family={Aïvodji},
+           familyi={A\bibinitperiod},
+           given={Ulrich},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e4507a3d339a9ed410df36a7b9486979}{%
+           family={Arai},
+           familyi={A\bibinitperiod},
+           given={Hiromi},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f165a00b4f0164e3cef3a3606abcde6f}{%
+           family={Fortineau},
+           familyi={F\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ca6802162743050897521e8ad8a6b6b9}{%
+           family={Gambs},
+           familyi={G\bibinitperiod},
+           given={Sébastien},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f1c73be5a51c18273dd3e33ee8085cab}{%
+           family={Hara},
+           familyi={H\bibinitperiod},
+           given={Satoshi},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ffbcbc5eda6edf64a21ce3b8529b1ce0}{%
+           family={Tapp},
+           familyi={T\bibinitperiod},
+           given={Alain},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d126bbe081fa3a2524348f602a355333}
+      \strng{fullhash}{53cc1ca62f1dbaa241d60f6132709c22}
+      \strng{fullhashraw}{53cc1ca62f1dbaa241d60f6132709c22}
+      \strng{bibnamehash}{d126bbe081fa3a2524348f602a355333}
+      \strng{authorbibnamehash}{d126bbe081fa3a2524348f602a355333}
+      \strng{authornamehash}{d126bbe081fa3a2524348f602a355333}
+      \strng{authorfullhash}{53cc1ca62f1dbaa241d60f6132709c22}
+      \strng{authorfullhashraw}{53cc1ca62f1dbaa241d60f6132709c22}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{15}
+      \field{eprinttype}{arXiv}
+      \field{month}{5}
+      \field{pubstate}{prepublished}
+      \field{shorttitle}{Fairwashing}
+      \field{title}{Fairwashing: The Risk of Rationalization}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.1901.09749
+      \endverb
+      \verb{eprint}
+      \verb 1901.09749
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1901.09749
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1901.09749
+      \endverb
+      \keyw{Computer Science - Machine Learning,Statistics - Machine Learning}
+    \endentry
     \entry{asadu_nigeria_2024}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=78d7759cab1fcbed74fcfaf85ff5d624}{%

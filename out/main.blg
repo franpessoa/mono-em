@@ -1,20 +1,20 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'out/main.blg'
-[45] biber:342> INFO - === Tue Aug 26, 2025, 19:13:01
-[55] Biber.pm:421> INFO - Reading 'out/main.bcf'
-[102] Biber.pm:1002> INFO - Found 40 citekeys in bib section 0
+[46] biber:342> INFO - === Sat Aug 30, 2025, 16:43:51
+[56] Biber.pm:421> INFO - Reading 'out/main.bcf'
+[102] Biber.pm:1002> INFO - Found 41 citekeys in bib section 0
 [112] Biber.pm:4487> INFO - Processing section 0
-[117] Biber.pm:4678> INFO - Looking for bibtex file './1.bib' for section 0
-[118] bibtex.pm:1713> INFO - LaTeX decoding ...
-[152] bibtex.pm:1519> INFO - Found BibTeX data source './1.bib'
-[293] Biber.pm:4678> INFO - Looking for bibtex file './2.bib' for section 0
+[118] Biber.pm:4678> INFO - Looking for bibtex file './1.bib' for section 0
+[119] bibtex.pm:1713> INFO - LaTeX decoding ...
+[153] bibtex.pm:1519> INFO - Found BibTeX data source './1.bib'
+[291] Biber.pm:4678> INFO - Looking for bibtex file './2.bib' for section 0
 [293] bibtex.pm:1713> INFO - LaTeX decoding ...
 [301] bibtex.pm:1519> INFO - Found BibTeX data source './2.bib'
-[368] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[368] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'variable = shifted' with 'variable = non-ignorable'
-[368] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'pt-PT'
-[368] Biber.pm:4313> INFO - No sort tailoring available for locale 'pt-PT'
-[396] bbl.pm:676> INFO - Writing 'out/main.bbl' with encoding 'UTF-8'
-[407] bbl.pm:779> INFO - Output to out/main.bbl
-[407] Biber.pm:132> WARN - ISBN '978-1-0716-1417-4 978-1-0716-1418-1' in entry 'james_introduction_2021a' is invalid - run biber with '--validate_datamodel' for details.
-[407] Biber.pm:134> INFO - WARNINGS: 1
+[375] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[375] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[375] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'pt-PT'
+[375] Biber.pm:4313> INFO - No sort tailoring available for locale 'pt-PT'
+[403] bbl.pm:676> INFO - Writing 'out/main.bbl' with encoding 'UTF-8'
+[414] bbl.pm:779> INFO - Output to out/main.bbl
+[415] Biber.pm:132> WARN - ISBN '978-1-0716-1417-4 978-1-0716-1418-1' in entry 'james_introduction_2021a' is invalid - run biber with '--validate_datamodel' for details.
+[415] Biber.pm:134> INFO - WARNINGS: 1

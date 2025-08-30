@@ -30,7 +30,7 @@ Observe o seguinte gráfico com o valor da anomalia da temperatura média do glo
 \begin{figure}[H]
     \centering
     \caption{Gráfico da anomalia (°C) em função do tempo (anos), 1970-2025}
-    \includegraphics[width=\linewidth]{static/R/plot/anom-1-hist.png}
+    \includegraphics[width=0.8\linewidth]{static/R/plot/anom-1-hist.png}
     \label{fig:2:anom-1-hist}
 \end{figure}
 
@@ -69,10 +69,10 @@ Ao repetir esse processo várias vezes, a reta será acomodada nos coeficientes 
 
 No caso da figura \ref{fig:2:anom-1-hist}, isso toma a forma da figura \ref{fig:2:anom-3-scatter+reg}.
 
-\begin{figure}
+\begin{figure}[H]
     \centering
     \caption{Gráfico da anomalia (°C) em função do tempo (anos), 1970-2025, com modelo de regressão linear}
-    \includegraphics[width=\linewidth]{static/R/plot/anom-3-scatter+reg.png}
+    \includegraphics[width=0.7\linewidth]{static/R/plot/anom-3-scatter+reg.png}
     \label{fig:2:anom-3-scatter+reg}
 \end{figure}
 
@@ -87,10 +87,10 @@ Dadas essas tendências recentes, esse modelo pode não ser tão útil, uma vez 
 Um modelo melhor, nesse caso, ao invés de uma reta usaria uma curva.
 Um exemplo está na figura \ref{fig:2:anom-3-scatter+reg+poly}.
 
-\begin{figure}
+\begin{figure}[H]
     \centering
     \caption{Gráfico da anomalia (°C) em função do tempo (anos), 1970-2025, com regressão linear e aproximação polinomial}
-    \includegraphics[width=\linewidth]{static/R/plot/anom-5-scatter+reg+poly.png}
+    \includegraphics[width=0.7\linewidth]{static/R/plot/anom-5-scatter+reg+poly.png}
     \label{fig:2:anom-3-scatter+reg+poly}
 \end{figure}
 
@@ -145,7 +145,7 @@ Por mais que isso pareça simples, esse problema não o é -- as imagens variam 
 \begin{figure}[H]
 \caption{Algumas imagens do banco de dados MNIST}
 \centering
-\includegraphics[width=0.5\linewidth]{static/MNIST.png}
+\includegraphics[width=0.35\linewidth]{static/MNIST.png}
 \label{fig:2:mnist}
 \end{figure}
 
@@ -162,10 +162,10 @@ O modelo de regressões lineares, e mesmo as regressões polinomiais, não permi
 Um dos métodos mais famosos para resolver tal problema são as redes neurais, que ganharam esse nome por seus componentes se assemelharem a neurônios.
 A arquitetura de uma rede neural básica está representada na figura \ref{fig:2:rede-neural}.
 
-\begin{figure}[H]
+\begin{figure}
 \centering
 \caption{Arquitetura de uma rede neural básica}
-\includegraphics[width=0.7\linewidth]{static/Rede Neural.png}
+\includegraphics[width=0.6\linewidth]{static/Rede Neural.png}
 \label{fig:2:rede-neural}
 \end{figure}
 
@@ -223,11 +223,11 @@ H(x) = \begin{cases}
 
 A figura \ref{fig:2:func-ativ} mostra o comportamento delas.
 
-\begin{figure}[H]
-\label{fig:2:func-ativ}
+\begin{figure}
 \centering
 \caption{Algumas das funções de ativação mais comuns, representadas no intervalo $[0, 1]$. Em laranja e vermelho, duas sigmoides com $k = 5$ e $k = 10$, respectivamente. Em preto, subposta ao segmento verde, a ReLU, e, em verde, a função degrau.}
-\includegraphics[width=0.7\linewidth]{static/Funções de Ativação.png}
+\includegraphics[width=0.6\linewidth]{static/Funções de Ativação.png}
+\label{fig:2:func-ativ}
 \end{figure}
 
 A função dessas funções é introduzir a não-linearidade e, assim, permitir que se estabeleçam relações não-lineares entre as diversas entradas.
@@ -266,7 +266,7 @@ Deixe os grandes algoritmos de lado; considere agora um pequeno exemplo com gran
 Desde 2014, a Amazon vinha tentando filtrar computacionalmente os currículos a ela enviados.
 Em 2018, contudo, essa iniciativa foi posta abaixo em completo.
 O motivo?
-O algoritmo que haviam desenvolvido penalizava mulheres; considerava a experiência de ser ``capitã de um time feminino de xadrez'' negativa, por conter o termo ``feminino'', assim como descreditava a candidata se ela houvesse se formado em uma instituição de ensino exclusivamente feminina.
+O algoritmo que haviam desenvolvido penalizava mulheres; considerava a experiência de ser ``capitã de um time feminino de xadrez'' negativa, por conter o termo ``feminino'', assim como descreditava a =candidata se ela houvesse se formado em uma instituição de ensino exclusivamente feminina.
 Para complementar, incentivava a presença de termos mais frequentemente usados por homens \cite{dastin_amazon_2018}.
 
 Isso aconteceu por que os dados que tinham de ``bons currículos''' provinham da força de trabalho da própria Amazon, majoritariamente masculina.
@@ -275,8 +275,8 @@ Mesmo que ``gênero'' não fosse, explicitamente, um parâmetro dado ao algoritm
 Ou, como \textcite[tradução~própria]{hooker_moving_2021} coloca,
 
 \begin{quoting}
-Para domínios como imagens, linguagem e vídeo, a alta dimensionalidade do problema e o tamanho maior do conjunto de dados modernos torna difícil garantir que todas as características foram sistematicamente rotuladas.
-Mesmo se podemos rotulado em escala atributos sensíveis como gênero e raça, algoritmos ainda podem usar variáveis \textit{proxy} para reconstruir o rótulo proibido.
+Para domínios como imagens, linguagem e vídeo, a alta dimensionalidade do problema e o tamanho maior do conjunto de dados modernos torna difícil garantir que todas as características são sistematicamente rotuladas.
+Mesmo se podemos rotular, em escala, atributos sensíveis como gênero e raça, algoritmos ainda podem usar variáveis \textit{proxy} para reconstruir o rótulo proibido.
 Coleta de mesmo um número limitado de atributos protegidos pode ser oneroso.
 Por exemplo, é difícil alinhar-se em uma taxonomia padrão -- categorias atribuídas à raça ou gênero são frequentemente codificadas de maneiras inconsistentes entre conjuntos de dados.
 Ademais, adquirir rótulos para os atributos protegidos legalmente é comumente percebido como intrusivo, levando a rótulos com ruído ou incompletos.
@@ -287,12 +287,41 @@ For example, it is hard to align on a standard taxonomy—categories attributed 
 Furthermore, procuring labels for these legally protected attributes is often perceived as intrusive leading to noisy or incomplete labels.''} \cite{hooker_moving_2021}}
 \end{quoting}
 
-Num caso simples, seria possível tratar os dados -- ``desenviesá-los'''.
+Num caso simples, seria possível tratar os dados -- ``desenviesá-los''.
 Se tratando de textos (como um currículo), porém, essa tarefa é ainda mais difícil: seria possível ``desgenerizar'' um texto, sem retirar a essência da expressão pessoal ali contida?
 Assepsiá-lo, anonimizá-lo, removendo assim a possibilidade de qualquer viés -- não só de gênero -- ser identificado pelo algoritmo?
 A resposta é um contundente não: como Hooker diz, é difícil garantir que ``todas as categorias foram sistematicamente rotuladas'', ou seja, mesmo que fosse possível identificá-las, a alta complexidade e dimensionalidade (isto é, presença de muitas variáveis diferentes para uma mesma observação) do problema asseguram que tal identificação será falha.
 Isso, sem contar que as tais ``categorias sensíveis'', que deveriam ser eliminadas para garantir a total neutralidade -- gênero, raça, etnia, origem, posicionamento político -- são intrínsecas ao sujeito, e, mesmo que inconscientemente, afluem na sua produção.
 Um algoritmo suficientemente sensível pode (e muito provavelmente vai, se treinado com tempo e recursos suficientes) identificar mínimas sutilezas, mesmo que invisíveis para um ser humano.
+
+Suponha então que, nesse caso da Amazon, uma candidata fosse reprovada pelo algoritmo de triagem de currículos, e, desconfiada, exigisse uma explicação para o porquê do algoritmo ter dado tal resultado.
+Seria possível obter isso?
+Esse algoritmo precisa interpretar textos, o que não é uma tarefa simples, requerendo um modelo mais complexo do que, por exemplo, uma regressão linear.
+Um modelo mais complexo, como já foi dito, implica em uma maior quantidade de pesos/parâmetros, e, por isso, menor significância de cada parâmetro individualmente.
+Com parâmetros menos significantes, dificulta-se a compreensão do raciocínio realizado, precisamente porque esse ``raciocínio'' não é nada equivalente a um pensamento orgânico; mas sim, uma aproximação de um fenômeno, que não tem nada de racional ou lógica.
+
+Máquinas não pensam: elas seguem ordens.
+Para simular o pensamento, são usados milhões de parâmetros, que podem ter um resultado parecido com um raciocínio, mas não passa de um conjunto de parâmetros matemáticos.
+\textit{Quanto mais complexo é o fenômeno, maior deverá ser o modelo, e menos sentido ele fará}.
+A suposta candidata rejeitada poderia até ter acesso ao modelo inteiro, com todos seus milhares de números, e não conseguiria tirar nenhuma informação disso.
+O sistema é uma ``caixa-preta'': pode ser compreendido em termos de suas entradas e saídas, mas seu funcionamento interno é um mistério; por isso, não se pode pedir uma explicação (que está relacionada ao funcionamento interno), mas é possível perceber que o modelo está sendo sexista (pois suas saídas estão tortas).
+
+Não ser capaz de fornecer explicações pode ser muito danoso, principalmente em casos mais sensíveis, como \textit{scores} de cartão de crédito e prisões preventivas (ambos já documentados na literatura, como cita a introdução de \textcite{aïvodji_fairwashing_2019}).
+Por isso, surge a ideia de criar outro modelo para explicar o inexplicável, e tentar aproximar o raciocínio de um modelo caixa-preta original, tendo como saída algo que seres humanos possam compreender.
+Isso pode acontecer de duas maneiras: ou explicando o modelo, ou explicando o resultado de uma predição.
+No primeiro caso, para um modelo $b$, deve se encontrar uma relação $g(b) \in \mathcal{E}$, onde $\mathcal{E}$ é o conjunto de todas as explicações possíveis explicações e $g$ é o modelo explicador que se deseja.
+No segundo caso, para um modelo $b$ e uma instância $x$ onde o modelo $b$ foi usado, deve se encontrar $g(b, x) \in \mathcal{E}$, onde $\mathcal{E}$ permanece igual ao anterior, mas $g$ passa a explicar $b$ não em sua totalidade, mas sim para o caso $x$.
+Assim, se o modelo original tiver raciocínios diferentes para casos muito diferentes, o segundo caso é melhor; seria algo parecido que poderia ser usado com a candidata hipotética a um emprego da Amazon.
+
+Uma questão que permanece é a forma de $\mathcal(E)$.
+Uma possibilidade é que seja o conjunto de todos as funções lineares, que, como já foi visto na seção \ref{sec:2:regres}, tem só dois parâmetros (inclinação, que se chamou de $\beta_1$ e altura, que se chamou de $\beta_0$), e por isso, é facilmente compreensível.
+Outras maneiras de fornecer explicações são árvores de decisões (basicamente, fluxogramas) e listas de regras (no estilo ``se isso, então aquilo'').
+São, necessariamente, simplificações, construídas em torno do modelo original.
+Uma maneira de aproximar a aproximação ao raciocínio orgânico.
+
+Parece uma boa ideia, até que se leva em conta que $g$ pode mentir, num processo que \textcite{aïvodji_fairwashing_2019} chama de ``fairwashing'' -- em português, ``lavagem da verdade''.
+Se uma empresa desejar ser deliberadamente sexista, mas temer ser confrontada, poderia produzir um modelo $b$ enviesado, e fabricar $g$ de modo a fornecer uma explicação, ``passando pano'' no viés de $b$, de modo que o modelo torna-se racionalizado, mesmo que falsamente.
+No \textit{paper} supracitado, os autores não só teorizam, como fabricam um modelo capaz de realizar isso.
 
 Além da possibilidade de um viés nos dados, há também a possibilidade de um viés no modelo: [racismo em CV]
 

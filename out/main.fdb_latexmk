@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber out/main"] 1756246381.02125 "out/main.bcf" "out/main.bbl" "out/main" 1756248283.52914 0
+["biber out/main"] 1756583031.33032 "out/main.bcf" "out/main.bbl" "out/main" 1756583044.35343 0
   "./1.bib" 1755650676 42071 1d15be4092c4c69a247fced4a793f565 ""
-  "./2.bib" 1756245686.27684 5945 ae894824f2786ac6be6d55df06454518 ""
-  "out/main.bcf" 1756248283.32862 118232 95594759a65fad3a940c54c759a6949c "lualatex"
+  "./2.bib" 1756577438.45677 6456 874e258f1b98d5ef9d0dd23b41b198f7 ""
+  "out/main.bcf" 1756583044.1504 118556 4d4c96eb22178c39e9a5703893294683 "lualatex"
   (generated)
   "out/main.bbl"
   "out/main.blg"
   (rewritten before read)
-["lualatex"] 1756248277.43631 "main.tex" "out/main.pdf" "main" 1756248283.52942 0
+["lualatex"] 1756583038.24029 "main.tex" "out/main.pdf" "main" 1756583044.35371 0
   "/etc/texmf/tex/generic/config/language.dat" 1753713152.58883 5960 3d5d21f87da1c1249bc1ecea1895a000 ""
   "/home/cisco/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmmono12-regular.luc" 1755730703.54196 81759 f006975dd4d7a778e352ab473f64378e ""
   "/home/cisco/.texlive/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-bold.luc" 1753714046.60526 128286 8ede80404afe726f8b865628ebfd2b5d ""
@@ -225,17 +225,17 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1753713254 5467117 e063ce8e53b0cc3d0312473583ebc51c ""
   "/var/lib/texmf/web2c/luahbtex/lualatex.fmt" 1753713205 5585688 c4528142dc0f229aeacfd38e00f4f948 ""
   "1.tex" 1755650676 31719 1017c31fc12bf367974b9264f17d1e96 ""
-  "2.tex" 1756248274.69943 26809 225a776866f5d49236b81c05dca8686a ""
+  "2.tex" 1756583024.18095 30959 b028e7a2e2852eee737a500ee2073454 ""
   "capa.tex" 1755650676 497 96cc78a857bfb62d94f1f2872f41593e ""
   "main.tex" 1756165687.70913 3684 fdec153ceba31b119ae3e2d22ceefd2d ""
-  "out/1.aux" 1756248280.40656 4846 a2dce74754b63943148c0905699e3554 "lualatex"
-  "out/2.aux" 1756248282.3116 7165 c79a193d0c7be2a05f861b8daa00a530 "lualatex"
-  "out/capa.aux" 1756248279.09553 4251 e484a6fd6fcce323c312afb713c4becb "lualatex"
-  "out/main.aux" 1756248282.88361 13729 883d31d3750ccbbf5a763391c833c8a4 "lualatex"
-  "out/main.bbl" 1756246381.79602 93022 8fa81fcb2aafad8785bad05b133d92ad "biber out/main"
-  "out/main.lof" 1756248283.32946 5746 79fdea1d66ab69b8fd432bff040d4eae "lualatex"
-  "out/main.run.xml" 1756248283.32946 2537 ce71b063a2f6f3b359cc6521dbff81f6 "lualatex"
-  "out/main.toc" 1756248283.32946 5508 d591a5a5db42123130825219f5a365d0 "lualatex"
+  "out/1.aux" 1756583041.18533 4846 a2dce74754b63943148c0905699e3554 "lualatex"
+  "out/2.aux" 1756583043.11538 7115 51f15223911cc9e011abad4cefedc5ce "lualatex"
+  "out/capa.aux" 1756583039.8783 4251 e484a6fd6fcce323c312afb713c4becb "lualatex"
+  "out/main.aux" 1756583043.69839 14300 6f18d6d53921ec2d8c514f93aa7ebfb5 "lualatex"
+  "out/main.bbl" 1756583032.12113 95839 78f1415ddf08e34d36e913fce4808660 "biber out/main"
+  "out/main.lof" 1756583044.15198 5812 bb2fea08478a52dd10e3086e591a001e "lualatex"
+  "out/main.run.xml" 1756583044.15198 2537 ce71b063a2f6f3b359cc6521dbff81f6 "lualatex"
+  "out/main.toc" 1756583044.15198 5574 c123128aea5e18c0f5c40ae8a8c2e013 "lualatex"
   "static/Funções de Ativação.png" 1756161199.46936 231649 b5625cce26c71f33a8c93d98f10f11e1 ""
   "static/MNIST.png" 1755804905.69198 624297 21346ed7ba7e3bdaf6e2e6231c01fd28 ""
   "static/R/plot/anom-1-hist.png" 1755723029.08192 65426 f7e23f80904b2e56b1efdb390b91013a ""
