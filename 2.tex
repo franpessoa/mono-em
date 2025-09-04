@@ -315,6 +315,48 @@ Parece uma boa ideia, até que se leva em conta que $g$ pode mentir, num process
 Se uma empresa desejar ser deliberadamente sexista, mas temer ser confrontada, poderia produzir um modelo $b$ enviesado, e fabricar $g$ de modo a fornecer uma explicação, ``passando pano'' no viés de $b$, de modo que o modelo torna-se racionalizado, mesmo que falsamente.
 No \textit{paper} supracitado, os autores não só teorizam, como fabricam um modelo capaz de realizar isso.
 
-Além da possibilidade de um viés nos dados, há também a possibilidade de um viés no modelo: [racismo em CV]
+\section{O homem e a câmera}
+Durante o curso desta monografia, foram apresentados diversos exemplos onde as estruturas sociais de vigilância tiveram (ou têm) consequências palpáveis, concretas.
+Contudo, talvez nenhum caso seja mais emblemático nesse aspecto do que o uso de câmeras equipadas com reconhecimento facial como método de segurança pública.
+Segundo levantamento do Projeto Panóptico, dirigido pelo Centro de Estudos de Segurança e Cidadania, há 442 projetos do tipo em curso, espalhados por todo o Brasil.
+No total, mais de 80 milhões de pessoas são potencialmente vigiadas \cite{centrodeestudosdesegurançaecidadania_panoptico_}.
+Um dos projetos mais emblemáticos dessa categoria é o Smart Sampa, da Prefeitura de São Paulo, que planeja integrar 40 mil câmeras a seu sistema até o final de 2025.
+Entre as câmeras já instaladas e em funcionamento, cerca de 12 mil pertencem a empresas privadas de segurança \cite{palhares_prefeitura_2025}.
 
-\section{Natureza}\label{sec:2:impacto-ambiental}
+Em sistemas como esses, a fonte de dados é o corpo humano, que, observado à distância, terá sua imagem convertida em uma representação digital.
+Ou como \textcite[p.~160, tradução~própria]{dubbeld_observing_2003} coloca,
+
+\begin{quoting}
+Inicialmente, o corpo constitui o foco primário do olhar da câmera, e como tal ele é de importância maior no que diz respeito a iniciação e aplicação da vigilância por câmera -- em seu nível mais básico, câmeras observam corpos físicos, aparências corporais e características corporais distintas.
+Subsequentemente, quando o corpo é registrado por meio da visão mediada pela câmera, a manifestação física desaparece, sendo substituída por ou traduzida em abstrações digitais e representações de sua aparência exteriores nos sistemas de câmera (e tecnologias da informação associadas, como bases de dados).
+O corpo físico como tal parece não ter valor nesse processo: os dados digitais abstraídos a partir deles que constituem a fonte da informação dita valiosa, e o ator encarnado em si não é, de nenhuma maneira, confrontado.
+O corpo, eventualmente, volta a ser o foco, de novo, quando os julgamentos baseados na sua representação eletrônica tem consequências palpáveis nos comportamentos, percepções, e proteções do sujeito dos dados.
+Embora a vigilância por câmeras represente indivíduos como construtos virtuais, eletrônicos, e de dados, consequências concretas para o ator encarnado material e os espaços pelos quais ele se move podem seguir.\footnote{Original: \textit{``Initially, the body constitutes the prime focus of the camera gaze, and as such it is of major importance with respect to the initiation and application of camera surveillance – at their most basic level, cameras observe physical bodies, bodily appearances and distinct bodily features.
+    Subsequently, when the body is registered through the camera mediated vision, the physical manifestation disappears to be replaced by or translated into the digital abstractions and representations of its outside appearances in camera systems (and linked ICTs, such as databases).
+    The physical body as such appears to be of no value in this process: the digital data abstracted from it make up the source of information that is deemed valuable, and the embodied actor itself is in no way directly confronted. The body eventually comes back in to focus again, however, when the judgements based on its electronic representation have palpable consequences for the behaviours, perceptions and protections of data subjects.
+    Even though camera surveillance represents individuals as virtual electronic data constructs, concrete consequences for the material embodied actor and the spaces it moves through may follow as well.''
+}}
+\end{quoting}
+
+Ou seja, o julgamento feito por um sistema como o Smart Sampa depende de uma tradução de uma observação do corpo físico para uma representação digital de caráter simbólico.
+Esse processo é realizado por meio de um algoritmo de aprendizado de máquina, que ``aprendeu'' a classificar e categorizar as imagens conforme uma configuração pré-fornecida.
+O indivíduo, assim, perde a sua individualidade, tornando-se -- aos olhos da câmera -- só mais um num imenso fluxo de dados.
+Dubbled também entende que, quando mais compreensivo é o sistema de vigilância, perde-se a capacidade de desaparecer; fundamentalmente, esses sistemas são uma maneira de localizar alguém nas movimentadas cidades modernas.
+A segurança pública passa a ser feito com uma representação do indivíduo convertida, formatada, replicável.
+É, sobretudo um sistema de julgamento baseado em aparências.
+O indivíduo, de certa forma, torna-se transparente.
+
+A chamada Visão Computacional (CV, em inglês) aloca-se entre os algoritmos complexos, que, como foi visto antes sofrem de alguns problemas.
+Em primeiro, apesar de serem altamente flexíveis, ainda são aproximações: o Smart Sampa, em abril de 2025, mandou prender uma mulher grávida inocente, que, após sofrer agressão policial na abordagem, entrou em trabalho de parto prematuro e foi levada a uma unidade básica de saúde sob custódia \cite{audi_smart_2025}.
+
+Em segundo, esses algoritmos classificam e categorizam os indivíduos com base em determinadas categorias pré-estabelecidas que, geralmente, correspondem aos construtos sociais que já são usados para classificar pessoas, como gênero e raça.
+Ademais, podem assimilar outras variáveis sociais e econômicas a partir de vestimentas, comportamento, localização, entre outros.
+É, portanto, extremamente difícil evitar que tais sistemas adquiram vieses de gênero, raça, ou condição social -- vieses esses que também se encontram incrustados em nossos sistemas jurídicos e policiais.
+
+Por fim, essas categorias -- gênero, raça, origem, condição social -- são definidas, para um sistema de vigilância, de forma \textit{arbitrária}.
+Eles foram treinados sobre um conjunto de dados que continha milhares e milhares de casos rotulados do que \textit{deve ser} um branco, um preto, uma mulher, e por aí vai.
+Essas classificações respondem aos interesses de quem as criou.
+\textcite{dubbeld_observing_2003} também nota que muitas vezes esses sistemas são utilizados para rastrear e vigiar populações específicas ditas malfeitoras e marginais, que serão, portanto, mais fortemente policiadas.
+É difícil imaginar, em um país tão profundamente racista quanto o Brasil, que essas classificações de ``perigo'' não passem por uma concepção de raça, na visão da polícia.
+\textcite{khan_one_2021} analisa diversos conjuntos de dados relacionados a raça, e conclui que, ``apesar de categorias raciais utilizadas entre conjuntos de dados serem superficialmente similares, a complexidade da percepção humana de raça sugere que os sistemas raciais codificados em um conjunto de dados podem ser substancialmente inconsistentes com outro'' \cite[p.~587, tradução~própria]{khan_one_2021}\footnote{Original: \textit{``Although the racial categories used across datasets are superficially similar, the complexity of human race perception suggests the racial system encoded by one dataset maybe substantially inconsistent with another.''}}.
+
