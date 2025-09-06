@@ -1,4 +1,4 @@
-\chapter{Título provisório do segundo capítulo}
+\chapter{A alma das máquinas: como pode um algoritmo pensar?}
 É difícil ver o noticiário hoje sem se deparar com as Inteligências Artificiais (IAs).
 Contudo, entre o uso de ChatGPT para trabalhos escolares, trabalhadores preocupados com perder o emprego para uma máquina, e até alguns com medo da humanidade ser inteiramente aniquilada num apocalipse da era digital, o uso de IAs é tão mais comum quanto mais dissimulado.
 
@@ -24,7 +24,7 @@ Isto é, um conjunto de instruções objetivas que permita realizar essas açõe
 Não. 
 E é aqui que entra o uso de uma IA: aproximar objetivamente processos que não podem ser descritos assim.
 
-\section{Regressões Lineares}\label{sec:2:regres}
+\section{Retas e curvas}\label{sec:2:regres}
 Observe o seguinte gráfico com o valor da anomalia da temperatura média do globo terrestre em relação à média do século XX, entre 1970 e 2025:
 
 \begin{figure}[H]
@@ -51,7 +51,7 @@ A(t) = t\cdot\beta_1 + \beta_0
 
 Isto é, a anomalia $A$, em função do tempo $t$, pode ser definida como o tempo $t$ multiplicado por um coeficiente $\beta_1$ somado a um coeficiente estático $\beta_0$.
 Assim, para determinar a anomalia, $t$ deve ser transformado, segundo os parâmetros $\beta_0$ e $\beta_1$ que, até agora, \textit{não se sabe quais são}.
-Intuitivamente, $\beta_1$ é a inclinação da reta e $\beta_0$ a altura dela.
+Intuitivamente, $\beta_1$ é a inclinação da reta, e $\beta_0$ está relacionado com a altura dela, ou sua posição vertical.
 A grande pergunta, portanto, é quais são esses coeficientes, ou seja, como $t$ deve ser mudado para obter $A$.
 
 Para determinar esses dois coeficientes, $\beta_0$ e $\beta_1$, é necessário primeiro conceber uma maneira de comparar dois modelos, e descobrir qual deles mais se aproxima do fenômeno aproximado.
@@ -77,7 +77,7 @@ No caso da figura \ref{fig:2:anom-1-hist}, isso toma a forma da figura \ref{fig:
 
 Antes, foi dito que $\beta_1$ representava a inclinação da reta.
 Além disso, ele cumpre outra função importante: representar a \textit{taxa de variação} da reta; como a unidade de medida em questão é anos, isso significa quanto a temperatura vai variar por ano.
-A regressão realizada nesse conjunto de dados revela que a anomalia de temperatura média global cresce em um ritmo de $0,01879 °C$ ao ano.
+A regressão realizada nesse conjunto de dados revela que a anomalia de temperatura média global cresce em um ritmo de $0,019 °C$ ao ano.
 
 Perceptivelmente, essa anomalia vem crescendo mais nos últimos anos do que vinha anteriormente, devido às mudanças climáticas.
 O modelo de reta, por ter que simplificar drasticamente, é incapaz de expressar isso, de tal modo que nos últimos três anos sua estimativa está abaixo do valor real.
@@ -100,16 +100,19 @@ Nesse caso, a representação matemática é de
 A(t) = \beta_0 + t \beta_1 + t^2 \beta_2 + t^3 \beta_3 \dots t^n \beta_n 
 \end{equation}
 
-Onde $n$ é o grau do polinômio a ser criado.
+Em que $n$ é o grau do polinômio a ser criado.
 Aqui, não se trata de uma regressão \textit{linear}, mas sim, \textit{polinomial}.
 
 Está além do escopo deste presente texto debater o funcionamento interno desses modelos (isto é, como efetivamente ocorre a regressão linear), mas é importante perceber que, quando se utiliza uma curva, ao invés de uma reta, o modelo torna-se mais flexível, podendo adaptar-se melhor às condições dos dados.
 Isto é, o erro do modelo é menor.
+Porém, funções desse tipo têm uma tendência a ``explodir'' atingindo valores escalafobéticos, para cima ou para baixo, tanto antes quanto depois dos dados.
+São piores do que os modelos lineares em questão de inferência de valores futuros e passados, portanto, mas são melhores em termos de adaptarem-se aos dados presentes
+
 Contudo, ao invés de dois parâmetros simples -- $\beta_0$ e $\beta_1$ -- agora há $n$, que não podem ser compreendidos de uma maneira tão direta quanto esses dois.
 Isto é, ganha-se flexibilidade, mas há uma perda de interpretabilidade.
 Na próxima seção, \ref{sec:2:redes-neurais}, será estudado um modelo ainda mais flexível; e ainda menos interpretável: as redes neurais.
 A seção \ref{sec:2:exemplo-real} debaterá como essa ``interpretabilidade'' é refletida em um caso real: é possível pedir explicações desses modelos?
-Isto é, determinar porque algo foi classificado como bom ou ruim, A ou B?
+Determinar porque algo foi classificado como bom ou ruim, A ou B?
 
 O exemplo aqui apresentado parece simples, mas serve para definir um conceito importante, que será retomado múltiplas vezes: o \textit{aprendizado de máquina}.
 Para um computador, aprender é diminuir uma função erro, por meio da alteração de um conjunto de parâmetros.
@@ -125,9 +128,9 @@ O modelo se assemelharia à equação \ref{eq:2:lm-mult}.
 \text{Preço} = \beta_0 + \beta_1 \cdot (\text{Tamanho}) + \beta_2 \cdot (\text{Quartos}) + \beta_3\cdot (\text{Distância}) + \beta_5 \cdot (\text{Andar}) + \beta_6 \cdot (\text{Idade})
 \end{equation}
 
-Onde $\beta_1$, $\beta_2$, $\beta_3$, $\beta_4$, $\beta_5$ e $\beta_6$ representam o quão significativos seus respectivos parâmetros são para o preço total do apartamento.
+Em que $\beta_1$, $\beta_2$, $\beta_3$, $\beta_4$, $\beta_5$ e $\beta_6$ representam o quão significativos seus respectivos parâmetros são para o preço total do apartamento.
 
-\section{Redes Neurais}\label{sec:2:redes-neurais}
+\section{Imitando o cérebro}\label{sec:2:redes-neurais}
 Por mais úteis que as regressões lineares possam ser, ainda são um modelo rudimentar, que trabalha com alguns pressupostos bastante restritivos.
 Um deles é o da linearidade da relação entre uma variável -- como o ano, no caso da anomalia de temperatura, ou o andar, no caso do preço de apartamentos -- e o resultado desejado.
 Assim, pressupõe-se que essa relação se dá por uma reta, e não, por exemplo, uma curva exponencial, logarítmica, ou qualquer outra coisa que fuja da linearidade.
@@ -139,7 +142,7 @@ Ele é composto por milhares de imagens de dígitos de 0-9 desenhados à mão, a
 O objetivo que ele apresenta é fazer um modelo computacional capaz de identificar os dígitos baseando-se nas imagens apresentadas, semelhante ao que um ser humano faria ao ler esses números.
 Por mais que isso pareça simples, esse problema não o é -- as imagens variam muito em sua forma, e a computação demorou para desenvolver métodos flexíveis o suficiente para essa tarefa.
 
-\begin{figure}
+\begin{figure}[H]
 \caption{Algumas imagens do banco de dados MNIST}
 \centering
 \includegraphics[width=0.35\linewidth]{static/MNIST.png}
@@ -151,7 +154,7 @@ As primeiras tentativas resultaram em taxas por volta dos $12\%$ \cite{lecun_mni
 
 Essas imagens são na resolução de 28x28, ou seja, são constituídas de 28 linhas e 28 colunas de píxeis.
 Cada píxel pode assumir um valor em escala de cinza, representado como um número inteiro entre 0 (preto) e 255 (branco)\footnote{Se 255 parece um número arbitrário, lembre-se que ele é igual a $2^8 - 1$, o maior valor possível que pode ser guardado em oito bits}.
-Isso significa que um modelo para prever o dígito escrito deve ter $28 \cdot 28 = 784$ entradas, e deve ter como saída um número inteiro entre 0 e 9.
+Isso significa que um modelo para prever o dígito escrito deve ter $28 \cdot 28 = 784$ entradas, e como saída, um número inteiro entre 0 e 9.
 
 A complicação aqui apresentada é que, como cada um desses valores é uma variável, não se quer mais analisar a relação de uma única variável com a saída -- é inútil saber quanto um único píxel influencia na saída --, mas sim, é necessário considerar um \textit{conjunto} de variáveis combinadas, como um traço ou uma curva.
 O modelo de regressões lineares, e mesmo as regressões polinomiais, não permitem isso, uma vez que tratam todas as variáveis de maneira independente.
@@ -195,30 +198,23 @@ N = \phi (\beta_0 + \beta_1 \cdot I_1 + \beta_2 \cdot I_2 + \dots + \beta_n \cdo
 
 A única diferença da equação \ref{eq:2:no-certo} para a equação \ref{eq:2:no-oculto-errado} é a introdução de $\phi$, uma função não-linear pré-determinada que atua como uma fonte de não linearidade para o modelo.
 Essa é a chamada \textit{função de ativação}, e computa o valor de um nó da rede baseado em suas entradas e seus pesos (outro nome para os coeficientes que até agora foram chamados de $\beta_n$).
-Algumas funções de ativação comuns são a sigmoide\footnote{EXPLICAR}
+Algumas funções de ativação comuns são a sigmoide, uma curva em forma de `S':
 \begin{equation}
 \sigma(x) = \frac{1}{1 + e^{-kx}} 
 \end{equation}
-
-para uma dada constante $k$; a retificadora linear ReLU
+para uma dada constante $k$, e a retificadora linear ReLU:
 \begin{equation}
 \text{ReLU}(x) = \max (0, x)
-\end{equation}
-
-e a função degrau, ou função de Heaviside,
-\begin{equation}
-H(x) = \begin{cases}
-0 & x \le 0\\
-1 & x \geq 0
-\end{cases}
 \end{equation}
 
 A figura \ref{fig:2:func-ativ} mostra o comportamento delas.
 
 \begin{figure}
 \centering
-\caption{Algumas das funções de ativação mais comuns, representadas no intervalo $[0, 1]$. Em laranja e vermelho, duas sigmoides com $k = 5$ e $k = 10$, respectivamente. Em preto, subposta ao segmento verde, a ReLU, e, em verde, a função degrau.}
+\caption{Algumas funções de ativação comuns.}
 \includegraphics[width=0.6\linewidth]{static/Funções de Ativação.png}
+
+{\small\itshape Em vermelho e azul, duas sigmoides com $k=5$ e $k=10$, respectivamente. Em verde, a ReLU.}
 \label{fig:2:func-ativ}
 \end{figure}
 
@@ -253,12 +249,12 @@ São tantos dados que esse segmento da indústria foi batizado de \textit{Big Da
 Só os \textit{Data Centers} especializados, que se estendem por múltiplos quilômetros quadrados e tem o consumo energético de cidades inteiras, podem manejar os tantos dados necessários para todos os múltiplos usuários simultâneos desses serviços.
 A era do Big Data é um tempo em que o conjunto de dados que um ser humano produz é alienado dele, passando para o uso quase livre das empresas de tecnologia que têm a infraestrutura necessária para o processar: as assim chamadas ``Big Techs'', ou grandes empresas de tecnologia.
 
-\section{O Mundo Real}\label{sec:2:exemplo-real}
+\section{Colocando a máquina na rua}\label{sec:2:exemplo-real}
 Deixe os grandes algoritmos de lado; considere agora um pequeno exemplo com grandes implicações.
 Desde 2014, a Amazon vinha tentando filtrar computacionalmente os currículos a ela enviados.
 Em 2018, contudo, essa iniciativa foi posta abaixo em completo.
 O motivo?
-O algoritmo que haviam desenvolvido penalizava mulheres; considerava a experiência de ser ``capitã de um time feminino de xadrez'' negativa, por conter o termo ``feminino'', assim como descreditava a =candidata se ela houvesse se formado em uma instituição de ensino exclusivamente feminina.
+O algoritmo que haviam desenvolvido penalizava mulheres; considerava a experiência de ser ``capitã de um time feminino de xadrez'' negativa, por conter o termo ``feminino'', assim como descreditava a candidata se ela houvesse se formado em uma instituição de ensino exclusivamente feminina.
 Para complementar, incentivava a presença de termos mais frequentemente usados por homens \cite{dastin_amazon_2018}.
 
 Isso aconteceu por que os dados que tinham de ``bons currículos''' provinham da força de trabalho da própria Amazon, majoritariamente masculina.
@@ -301,22 +297,21 @@ O sistema é uma ``caixa-preta'': pode ser compreendido em termos de suas entrad
 Não ser capaz de fornecer explicações pode ser muito danoso, principalmente em casos mais sensíveis, como \textit{scores} de cartão de crédito e prisões preventivas (ambos já documentados na literatura, como cita a introdução de \textcite{aïvodji_fairwashing_2019}).
 Por isso, surge a ideia de criar outro modelo para explicar o inexplicável, e tentar aproximar o raciocínio de um modelo caixa-preta original, tendo como saída algo que seres humanos possam compreender.
 Isso pode acontecer de duas maneiras: ou explicando o modelo, ou explicando o resultado de uma predição.
-No primeiro caso, para um modelo $b$, deve se encontrar uma relação $g(b) \in \mathcal{E}$, onde $\mathcal{E}$ é o conjunto de todas as explicações possíveis explicações e $g$ é o modelo explicador que se deseja.
-No segundo caso, para um modelo $b$ e uma instância $x$ onde o modelo $b$ foi usado, deve se encontrar $g(b, x) \in \mathcal{E}$, onde $\mathcal{E}$ permanece igual ao anterior, mas $g$ passa a explicar $b$ não em sua totalidade, mas sim para o caso $x$.
+No primeiro caso, para um modelo $b$, deve se encontrar uma relação $g(b) \in \epsilon$, onde $\epsilon$ é o conjunto de todas as explicações possíveis explicações e $g$ é o modelo explicador que se deseja.
+No segundo caso, para um modelo $b$ e uma instância $x$ onde o modelo $b$ foi usado, deve se encontrar $g(b, x) \in \epsilon$, onde $\epsilon$ permanece igual ao anterior, mas $g$ passa a explicar $b$ não em sua totalidade, mas sim para o caso $x$.
 Assim, se o modelo original tiver raciocínios diferentes para casos muito diferentes, o segundo caso é melhor; seria algo parecido que poderia ser usado com a candidata hipotética a um emprego da Amazon.
 
-Uma questão que permanece é a forma de $\mathcal(E)$.
+Uma questão que permanece é a forma de $\epsilon$.
 Uma possibilidade é que seja o conjunto de todos as funções lineares, que, como já foi visto na seção \ref{sec:2:regres}, tem só dois parâmetros (inclinação, que se chamou de $\beta_1$, e altura, que se chamou de $\beta_0$), e por isso, é facilmente compreensível.
 Outras maneiras de fornecer explicações são árvores de decisões (basicamente, fluxogramas) e listas de regras (no estilo ``se isso, então aquilo'').
-São, necessariamente, simplificações, construídas em torno do modelo original.
-Uma maneira de aproximar a aproximação ao raciocínio orgânico.
+São, necessariamente, simplificações, construídas em torno do modelo original, tentando se aproximar do raciocínio orgânico.
 
 Parece uma boa ideia, até que se leva em conta que $g$ pode mentir, num processo que \textcite{aïvodji_fairwashing_2019} chama de ``fairwashing'' -- em português, ``lavagem da verdade''.
 Se uma empresa desejar ser deliberadamente sexista, mas temer ser confrontada, poderia produzir um modelo $b$ enviesado, e fabricar $g$ de modo a fornecer uma explicação, ``passando pano'' no viés de $b$, de modo que o modelo torna-se racionalizado, mesmo que falsamente.
 No \textit{paper} supracitado, os autores não só teorizam, como fabricam um modelo capaz de realizar isso.
 
 \section{O homem e a câmera}
-Durante o curso desta monografia, foram apresentados diversos exemplos onde as estruturas sociais de vigilância tiveram (ou têm) consequências palpáveis, concretas.
+Durante o curso desta monografia, foram apresentados diversos exemplos onde as estruturas sociais de vigilância têm, ou tiveram, consequências concretas.
 Contudo, talvez nenhum caso seja mais emblemático nesse aspecto do que o uso de câmeras equipadas com reconhecimento facial como método de segurança pública.
 Segundo levantamento do Projeto Panóptico, dirigido pelo Centro de Estudos de Segurança e Cidadania, há 442 projetos do tipo em curso, espalhados por todo o Brasil.
 No total, mais de 80 milhões de pessoas são potencialmente vigiadas \cite{centrodeestudosdesegurançaecidadania_panoptico_}.
@@ -325,18 +320,20 @@ Entre as câmeras já instaladas e em funcionamento, cerca de 12 mil pertencem a
 
 Em sistemas como esses, a fonte de dados é o corpo humano, que, observado à distância, terá sua imagem convertida em uma representação digital.
 Ou como \textcite[p.~160, tradução~própria]{dubbeld_observing_2003} coloca,
+\footnote{
+Original: \textit{``Initially, the body constitutes the prime focus of the camera gaze, and as such it is of major importance with respect to the initiation and application of camera surveillance – at their most basic level, cameras observe physical bodies, bodily appearances and distinct bodily features.
+    Subsequently, when the body is registered through the camera mediated vision, the physical manifestation disappears to be replaced by or translated into the digital abstractions and representations of its outside appearances in camera systems (and linked ICTs, such as databases).
+    The physical body as such appears to be of no value in this process: the digital data abstracted from it make up the source of information that is deemed valuable, and the embodied actor itself is in no way directly confronted. The body eventually comes back in to focus again, however, when the judgements based on its electronic representation have palpable consequences for the behaviours, perceptions and protections of data subjects.
+    Even though camera surveillance represents individuals as virtual electronic data constructs, concrete consequences for the material embodied actor and the spaces it moves through may follow as well.''
+}
+}
 
 \begin{quoting}
 Inicialmente, o corpo constitui o foco primário do olhar da câmera, e como tal ele é de importância maior no que diz respeito a iniciação e aplicação da vigilância por câmera -- em seu nível mais básico, câmeras observam corpos físicos, aparências corporais e características corporais distintas.
 Subsequentemente, quando o corpo é registrado por meio da visão mediada pela câmera, a manifestação física desaparece, sendo substituída por ou traduzida em abstrações digitais e representações de sua aparência exteriores nos sistemas de câmera (e tecnologias da informação associadas, como bases de dados).
 O corpo físico como tal parece não ter valor nesse processo: os dados digitais abstraídos a partir deles que constituem a fonte da informação dita valiosa, e o ator encarnado em si não é, de nenhuma maneira, confrontado.
 O corpo, eventualmente, volta a ser o foco, de novo, quando os julgamentos baseados na sua representação eletrônica tem consequências palpáveis nos comportamentos, percepções, e proteções do sujeito dos dados.
-Embora a vigilância por câmeras represente indivíduos como construtos virtuais, eletrônicos, e de dados, consequências concretas para o ator encarnado material e os espaços pelos quais ele se move podem seguir.\footnote{Original: \textit{``Initially, the body constitutes the prime focus of the camera gaze, and as such it is of major importance with respect to the initiation and application of camera surveillance – at their most basic level, cameras observe physical bodies, bodily appearances and distinct bodily features.
-    Subsequently, when the body is registered through the camera mediated vision, the physical manifestation disappears to be replaced by or translated into the digital abstractions and representations of its outside appearances in camera systems (and linked ICTs, such as databases).
-    The physical body as such appears to be of no value in this process: the digital data abstracted from it make up the source of information that is deemed valuable, and the embodied actor itself is in no way directly confronted. The body eventually comes back in to focus again, however, when the judgements based on its electronic representation have palpable consequences for the behaviours, perceptions and protections of data subjects.
-    Even though camera surveillance represents individuals as virtual electronic data constructs, concrete consequences for the material embodied actor and the spaces it moves through may follow as well.''
-}}
-\end{quoting}
+Embora a vigilância por câmeras represente indivíduos como construtos virtuais, eletrônicos, e de dados, consequências concretas para o ator encarnado material e os espaços pelos quais ele se move podem seguir.\end{quoting}
 
 Ou seja, o julgamento feito por um sistema como o Smart Sampa depende de uma tradução de uma observação do corpo físico para uma representação digital de caráter simbólico.
 Esse processo é realizado por meio de um algoritmo de aprendizado de máquina, que ``aprendeu'' a classificar e categorizar as imagens conforme uma configuração pré-fornecida.
@@ -358,13 +355,13 @@ Eles foram treinados sobre um conjunto de dados que continha milhares e milhares
 Essas classificações respondem aos interesses de quem as criou.
 \textcite{dubbeld_observing_2003} também nota que muitas vezes esses sistemas são utilizados para rastrear e vigiar populações específicas ditas malfeitoras e marginais, que serão, portanto, mais fortemente policiadas.
 É difícil imaginar, em um país tão profundamente racista quanto o Brasil, que essas classificações de ``perigo'' não passem por uma concepção de raça, na visão da polícia.
-\textcite{khan_one_2021} analisa diversos conjuntos de dados relacionados a raça, e conclui que, ``apesar de categorias raciais utilizadas entre conjuntos de dados serem superficialmente similares, a complexidade da percepção humana de raça sugere que os sistemas raciais codificados em um conjunto de dados podem ser substancialmente inconsistentes com outro'' \cite[p.~587, tradução~própria]{khan_one_2021}\footnote{Original: \textit{``Although the racial categories used across datasets are superficially similar, the complexity of human race perception suggests the racial system encoded by one dataset maybe substantially inconsistent with another.''}}.
+\textcite{khan_one_2021} analisam diversos conjuntos de dados relacionados a raça, e conclui que, ``apesar de categorias raciais utilizadas entre conjuntos de dados serem superficialmente similares, a complexidade da percepção humana de raça sugere que os sistemas raciais codificados em um conjunto de dados podem ser substancialmente inconsistentes com outro'' \cite[p.~587, tradução~própria]{khan_one_2021}\footnote{Original: \textit{``Although the racial categories used across datasets are superficially similar, the complexity of human race perception suggests the racial system encoded by one dataset maybe substantially inconsistent with another.''}}.
 
 Algoritmos de inteligência artificial são, sim, extremamente poderosos e tem amplo potencial de fazer o bem.
 Contudo, em uma sociedade que passa a se guiar cada vez mais a partir deles, seus problemas vêm à tona.
 Os algoritmos em si, claro, não tem culpa disso -- são meras ferramentas projetadas por agentes sociais com intenções distintas -- mas existem problemas estruturais com eles que guiam a formação de sociedade que eles produzem: a falta de transparência (isso é, não poder pedir explicações nem compreender o funcionamento dos modelos), a possibilidade de erros, a possibilidade de assimilação de vieses nos dados, ou a existência de um problema constitucional, na forma como o treinador escolheu e arquitetou o modelo.
 As bases da sociedade digital e plataformizada são sobretudo \textit{frágeis}.
-E hoje -- mais do que nunca, como mostra a seção \ref{sec:1:politica}, -- os próprios algoritmos fazem parte de estruturas de poder.
+E hoje, como mostra a última seção do primeiro capítulo, os próprios algoritmos fazem parte de estruturas de poder.
 Não são simples construções matemáticas, mas sim fatores determinantes na vida de pessoas e sociedades.
 
 O maior agravante dessa situação é, como foi descrita no primeiro capítulo, a infraestrutura de vigilância que se construiu ao redor das pessoas.
