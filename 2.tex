@@ -1,4 +1,14 @@
 \chapter{A alma das máquinas: como pode um algoritmo pensar?}
+
+\epigraph{
+\justifying{\itshape
+    E as máquinas faziam tudo com tanta habilidade que, por fim, acabaram recebendo a tarefa de descobrir qual seria o propósito elevado das criaturas.
+    Elas relataram com toda a sinceridade que não era possível dizer com certeza que realmente existisse um propósito para as criaturas.
+    Depois disso, as criaturas começaram a matar umas às outras, pois odiavam, acima de tudo, não ter um propósito.
+    E descobriram que não eram lá grande coisa em matança.    
+    Então também atribuíram essa tarefa às máquinas, que terminaram o serviço antes que pudessem dizer ``Tralfamadore''.
+}}
+    {-- Kurt Vonnegut, \textit{``As Sereias de Titã''}}
 É difícil ver o noticiário hoje sem se deparar com as Inteligências Artificiais (IAs).
 Contudo, entre o uso de ChatGPT para trabalhos escolares, trabalhadores preocupados com perder o emprego para uma máquina, e até alguns com medo da humanidade ser inteiramente aniquilada num apocalipse da era digital, o uso de IAs é tão mais comum quanto mais dissimulado.
 
@@ -25,7 +35,7 @@ Não.
 E é aqui que entra o uso de uma IA: aproximar objetivamente processos que não podem ser descritos assim.
 
 \section{Retas e curvas}\label{sec:2:regres}
-Observe o seguinte gráfico com o valor da anomalia da temperatura média do globo terrestre em relação à média do século XX, entre 1970 e 2025:
+Observe o seguinte gráfico com o valor da anomalia da temperatura média do globo terrestre em relação à média do século XX, entre 1970 e 2025, retirado de \textcite{noaanationalcentersforenvironmentalinformation_climate_2025}, órgão do governo dos Estados Unidos:
 
 \begin{figure}[H]
     \centering
@@ -68,7 +78,7 @@ Ao repetir esse processo várias vezes, a reta será acomodada nos coeficientes 
 
 No caso da figura \ref{fig:2:anom-1-hist}, isso toma a forma da figura \ref{fig:2:anom-3-scatter+reg}.
 
-\begin{figure}[H]
+\begin{figure}
     \centering
     \caption{Gráfico da anomalia (°C) em função do tempo (anos), 1970-2025, com modelo de regressão linear}
     \includegraphics[width=0.7\linewidth]{static/R/plot/anom-3-scatter+reg.png}
@@ -86,7 +96,7 @@ Dadas essas tendências recentes, esse modelo pode não ser tão útil, uma vez 
 Um modelo melhor, nesse caso, ao invés de uma reta usaria uma curva.
 Um exemplo está na figura \ref{fig:2:anom-3-scatter+reg+poly}.
 
-\begin{figure}[H]
+\begin{figure}
     \centering
     \caption{Gráfico da anomalia (°C) em função do tempo (anos), 1970-2025, com regressão linear e aproximação polinomial}
     \includegraphics[width=0.7\linewidth]{static/R/plot/anom-5-scatter+reg+poly.png}
