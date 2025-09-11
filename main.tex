@@ -7,6 +7,8 @@
 
 \documentclass[12pt, titlepage]{report} % Documento normal, formata o título
 
+\includeonly{capa, 2}
+
 % Pacotes para formatação de matemática
 \usepackage{amsmath, amssymb, amsthm} 
 
@@ -140,7 +142,12 @@
 \begin{document}
 \setlength \epigraphwidth {\textwidth-7cm}
 \include{capa}
-
+\newgeometry{
+    top=3cm,
+    bottom=2cm,
+    left=3cm,
+    right=2cm
+}
 \tableofcontents
 \listoffigures
 % \newpage

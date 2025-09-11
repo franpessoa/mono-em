@@ -1,14 +1,25 @@
 \chapter{A alma das máquinas: como pode um algoritmo pensar?}
 
 \epigraph{
-\justifying{\itshape
-    E as máquinas faziam tudo com tanta habilidade que, por fim, acabaram recebendo a tarefa de descobrir qual seria o propósito elevado das criaturas.
-    Elas relataram com toda a sinceridade que não era possível dizer com certeza que realmente existisse um propósito para as criaturas.
-    Depois disso, as criaturas começaram a matar umas às outras, pois odiavam, acima de tudo, não ter um propósito.
-    E descobriram que não eram lá grande coisa em matança.    
-    Então também atribuíram essa tarefa às máquinas, que terminaram o serviço antes que pudessem dizer ``Tralfamadore''.
-}}
-    {-- Kurt Vonnegut, \textit{``As Sereias de Titã''}}
+    \justifying{\itshape
+        Chega mais perto e contempla as palavras.\\
+        Cada uma\\
+        tem mil faces secretas sob a face neutra\\
+        e te pergunta, sem interesse pela resposta,\\
+        pobre ou terrível, que lhe deres:\\
+        Trouxeste a chave?\\
+    }
+}{--- Carlos Drummond de Andrade, \textit{``A Procura da Poesia''}}
+
+% \epigraph{
+%     \justifying{
+%         \itshape
+%         Há de haver algum lugar /
+%         Um confuso casarão /
+%         Onde os sonhos serão reais / 
+%         E a vida não 
+%     }
+% }{--- Chico Buarque, \textit{``A Moça do Sonho''}}
 É difícil ver o noticiário hoje sem se deparar com as Inteligências Artificiais (IAs).
 Contudo, entre o uso de ChatGPT para trabalhos escolares, trabalhadores preocupados com perder o emprego para uma máquina, e até alguns com medo da humanidade ser inteiramente aniquilada num apocalipse da era digital, o uso de IAs é tão mais comum quanto mais dissimulado.
 
@@ -68,7 +79,7 @@ Para determinar esses dois coeficientes, $\beta_0$ e $\beta_1$, é necessário p
 Uma maneira muito simples de fazer isso é, para cada ano, contabilizar a distância entre o valor previsto pelo modelo e a observação real.
 O objetivo da criação do modelo, assim, passa a ser reduzir ao máximo possível esse erro.
 Comumente, ao invés de simplesmente usar o erro, é considerado o erro elevado ao quadrado; assim, erros menores são menos penalizados, e erros maiores serão ainda mais penalizados, pois seu valor crescerá com mais rapidez.
-Essa abordagem é chamada de ``mínimos quadrados'', pois almeja minimizar os quadrados dos erros.
+Essa abordagem é chamada de ``mínimos quadrados'', pois almeja minimizar os quadrados dos erros \cite{james_introduction_2021a}.
 
 O processo de descobrir $\beta_0$ e $\beta_1$ é conhecido como \textit{aprendizado} ou \textit{treinamento}.
 Ele envolve inicializar esses valores com um ``chute'', e, gradualmente, melhorá-los.
@@ -98,7 +109,7 @@ Um exemplo está na figura \ref{fig:2:anom-3-scatter+reg+poly}.
 
 \begin{figure}
     \centering
-    \caption{Gráfico da anomalia (°C) em função do tempo (anos), 1970-2025, com regressão linear e aproximação polinomial}
+    \caption{Gráfico da anomalia (°C) em função do tempo (anos), 1970-2025, com regressão linear e polinomial}
     \includegraphics[width=0.7\linewidth]{static/R/plot/anom-5-scatter+reg+poly.png}
     \label{fig:2:anom-3-scatter+reg+poly}
 \end{figure}
@@ -111,12 +122,12 @@ A(t) = \beta_0 + t \beta_1 + t^2 \beta_2 + t^3 \beta_3 \dots t^n \beta_n
 \end{equation}
 
 Em que $n$ é o grau do polinômio a ser criado.
-Aqui, não se trata de uma regressão \textit{linear}, mas sim, \textit{polinomial}.
+Aqui, não se trata de uma regressão \textit{linear}, mas sim, \textit{polinomial} \cite{james_introduction_2021a}.
 
 Está além do escopo deste presente texto debater o funcionamento interno desses modelos (isto é, como efetivamente ocorre a regressão linear), mas é importante perceber que, quando se utiliza uma curva, ao invés de uma reta, o modelo torna-se mais flexível, podendo adaptar-se melhor às condições dos dados.
 Isto é, o erro do modelo é menor.
 Porém, funções desse tipo têm uma tendência a ``explodir'' atingindo valores escalafobéticos, para cima ou para baixo, tanto antes quanto depois dos dados.
-São piores do que os modelos lineares em questão de inferência de valores futuros e passados, portanto, mas são melhores em termos de adaptarem-se aos dados presentes
+São piores do que os modelos lineares em questão de inferência de valores futuros e passados, portanto, mas são melhores em termos de adaptarem-se aos dados presentes.
 
 Contudo, ao invés de dois parâmetros simples -- $\beta_0$ e $\beta_1$ -- agora há $n$, que não podem ser compreendidos de uma maneira tão direta quanto esses dois.
 Isto é, ganha-se flexibilidade, mas há uma perda de interpretabilidade.
@@ -170,7 +181,7 @@ A complicação aqui apresentada é que, como cada um desses valores é uma vari
 O modelo de regressões lineares, e mesmo as regressões polinomiais, não permitem isso, uma vez que tratam todas as variáveis de maneira independente.
 
 Um dos métodos mais famosos para resolver tal problema são as redes neurais, que ganharam esse nome por seus componentes se assemelharem a neurônios.
-A arquitetura de uma rede neural básica está representada na figura \ref{fig:2:rede-neural}.
+A arquitetura de uma rede neural básica está representada na figura \ref{fig:2:rede-neural} \cite{james_introduction_2021a}.
 
 \begin{figure}
 \centering
@@ -207,7 +218,7 @@ N = \phi (\beta_0 + \beta_1 \cdot I_1 + \beta_2 \cdot I_2 + \dots + \beta_n \cdo
 \end{equation}
 
 A única diferença da equação \ref{eq:2:no-certo} para a equação \ref{eq:2:no-oculto-errado} é a introdução de $\phi$, uma função não-linear pré-determinada que atua como uma fonte de não linearidade para o modelo.
-Essa é a chamada \textit{função de ativação}, e computa o valor de um nó da rede baseado em suas entradas e seus pesos (outro nome para os coeficientes que até agora foram chamados de $\beta_n$).
+Essa é a chamada \textit{função de ativação}, e computa o valor de um nó da rede baseado em suas entradas e seus pesos (outro nome para os coeficientes que até agora foram chamados de $\beta_n$) \cite{james_introduction_2021a}.
 Algumas funções de ativação comuns são a sigmoide, uma curva em forma de `S':
 \begin{equation}
 \sigma(x) = \frac{1}{1 + e^{-kx}} 
@@ -241,7 +252,7 @@ Na realidade, esse processo usa de vários métodos matemáticos, como diferenci
 Uma rede neural têm muito mais parâmetros que uma regressão linear -- como se havia dito, cada nó tem tantos pesos quanto entradas, e podem haver tantos nós quantos forem necessários.
 A arquitetura da imagem \ref{fig:2:rede-neural} é simplista também por representar somente uma camada oculta, quando na maioria dos casos se usam múltiplas, gerando ainda mais parâmetros.
 A expressão inglesa \textit{Deep Learning} (aprendizado profundo) vem disso: uma rede neural é considerada profunda se tiver mais de uma camada oculta.
-Os grandes modelos de linguagem (LLMs) como o ChatGPT e o Deepseek, têm na ordem dos \textit{bilhões} de parâmetros [CITAÇÂO NECESSÁRIA].
+Os grandes modelos de linguagem (LLMs) como o ChatGPT e o Deepseek, têm centenas de \textit{bilhões} de parâmetros \cite{deepseek-ai_deepseekv3_2025}.
 O problema com isso é que se torna basicamente impossível entender individualmente o que um determinado parâmetro significa.
 A rede neural é sobretudo opaca, ininterpretável.
 Sendo ela uma aproximação dos dados, sabe-se que ela funciona, mas não \textit{como} ela funciona, e, como uma aproximação, há sempre um erro.
@@ -270,7 +281,13 @@ Para complementar, incentivava a presença de termos mais frequentemente usados 
 Isso aconteceu por que os dados que tinham de ``bons currículos''' provinham da força de trabalho da própria Amazon, majoritariamente masculina.
 Por isso, o algoritmo aprendeu e internalizou a disparidade de gênero, e aplicou-a para os novos candidatos à qual foi apresentado.
 Mesmo que ``gênero'' não fosse, explicitamente, um parâmetro dado ao algoritmo, ele assimilou-o, reconstruindo-o a partir de outros dados (como, nesse caso, as expressões utilizadas).
-Ou, como \textcite[tradução~própria]{hooker_moving_2021} coloca,
+Ou, como \textcite[tradução~própria]{hooker_moving_2021} coloca
+\footnote{Traduzido do inglês. Original: \textit{``For domains such as images, language, and video, the high dimensionality of the problem and large size of modern datasets make it hard to guarantee all features are comprehensively labeled.
+    Even if we are able to label sensitive attributes at scale such as gender and race, algorithms can still leverage proxy variables to reconstruct the forbidden label.
+    Data collection of even a limited number of protected attributes can be onerous.
+    For example, it is hard to align on a standard taxonomy—categories attributed to race or gender are frequently encoded in inconsistent ways across datasets.
+    Furthermore, procuring labels for these legally protected attributes is often perceived as intrusive leading to noisy or incomplete labels.''} \cite{hooker_moving_2021}},
+
 
 \begin{quoting}
 Para domínios como imagens, linguagem e vídeo, a alta dimensionalidade do problema e o tamanho maior do conjunto de dados modernos torna difícil garantir que todas as características são sistematicamente rotuladas.
@@ -278,11 +295,6 @@ Mesmo se podemos rotular, em escala, atributos sensíveis como gênero e raça, 
 Coleta de mesmo um número limitado de atributos protegidos pode ser oneroso.
 Por exemplo, é difícil alinhar-se em uma taxonomia padrão -- categorias atribuídas à raça ou gênero são frequentemente codificadas de maneiras inconsistentes entre conjuntos de dados.
 Ademais, adquirir rótulos para os atributos protegidos legalmente é comumente percebido como intrusivo, levando a rótulos com ruído ou incompletos.
-\footnote{Traduzido do inglês. Original: \textit{``For domains such as images, language, and video, the high dimensionality of the problem and large size of modern datasets make it hard to guarantee all features are comprehensively labeled.
-Even if we are able to label sensitive attributes at scale such as gender and race, algorithms can still leverage proxy variables to reconstruct the forbidden label.
-Data collection of even a limited number of protected attributes can be onerous.
-For example, it is hard to align on a standard taxonomy—categories attributed to race or gender are frequently encoded in inconsistent ways across datasets.
-Furthermore, procuring labels for these legally protected attributes is often perceived as intrusive leading to noisy or incomplete labels.''} \cite{hooker_moving_2021}}
 \end{quoting}
 
 Num caso simples, seria possível tratar os dados -- ``desenviesá-los''.
