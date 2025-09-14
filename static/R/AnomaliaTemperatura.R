@@ -13,35 +13,41 @@ data$Pred = predict(est)
 # Anomalia em função do tempo, histograma
 p1 <- ggplot(data, aes(x = Year, y = Anomaly)) + 
   geom_col() +
-  labs(y="Anomalia (°C)", x="Tempo (anos)", fill="Anomalia")
+  labs(y="Anomalia (°C)", x="Tempo (anos)", fill="Anomalia") +
+  scale_color_grey()
 ggsave("plot/anom-1-hist.png", plot = p1, dpi=400, unit="px", width=3840, height = 2160)
 
 # Anomalia em função do tempo, pirulito
 p2 <- ggplot(data, aes(x = Year, y = Anomaly)) + 
   geom_point() +
   geom_segment( aes(x=Year, xend=Year, y=0, yend=Anomaly)) +
-  labs(y="Anomalia (°C)", x="Tempo (anos)", color="Anomalia")
+  labs(y="Anomalia (°C)", x="Tempo (anos)", color="Anomalia") +
+  scale_color_grey()
 ggsave("plot/anom-2-lollipop.png", plot = p2, dpi=400, unit="px", width=3840, height = 2160)
 
 
 # Anomalia em função do tempo, scatter
 p3 <- ggplot(data, aes(x = Year, y = Anomaly)) + 
   geom_point() +
-  labs(y="Anomalia (°C)", x="Tempo (anos)", color="Anomalia")
+  labs(y="Anomalia (°C)", x="Tempo (anos)", color="Anomalia") +
+  scale_color_grey()
 ggsave("plot/anom-3-scatter.png", plot = p3, dpi=400, unit="px", width=3840, height = 2160)
 
 # Anomalia em função do tempo, scatter + linha de regressão
 p4 <- ggplot(data, aes(x = Year, y = Anomaly)) + 
   geom_point() + 
-  geom_smooth(aes(y=Pred)) +
-  labs(y="Anomalia(°C)", x="Tempo (anos)", color="Anomalia")
+  geom_smooth(aes(y=Pred, color="Regreessão Linear")) +
+  labs(y="Anomalia(°C)", x="Tempo (anos)", color="Curva")+
+  scale_color_grey()
 ggsave("plot/anom-3-scatter+reg.png", plot = p4, dpi=400, unit="px", width=3840, height = 2160)
 
 # Anomalia em função do tempo, scatter + linha de regressão + linha polinomial
 p5 <- ggplot(data, aes(x = Year, y = Anomaly)) + 
   geom_point() +
-  geom_smooth(aes(y=Pred)) +
-  geom_smooth(color="red", se=F) +
-  labs(y="Anomalia(°C)", x="Tempo (anos)", color="Anomalia")
+  geom_smooth(aes(color = "Linear (Grau 1)"), se=F, method="gam", formula = y ~ poly(x, 1)) +
+  geom_smooth(aes(color = "Grau 3"),se=F, method="gam", formula = y ~ poly(x, 3)) +
+  labs(y="Anomalia(°C)", x="Tempo (anos)", color="Curva") +
+  scale_color_grey()
 
 ggsave("plot/anom-5-scatter+reg+poly.png", plot = p5, dpi=400, unit="px", width=3840, height = 2160)
+

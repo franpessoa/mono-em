@@ -27,7 +27,7 @@ A culpa disso é do fato que ``Inteligência Artificial'' está muito mais próx
 Ela pressupõe uma semelhança entre o pensamento orgânico, tal como humanos o fazem, e um suposto pensamento sintético que, como há de ser visto nesse capítulo, é inteiramente dessemelhante a seu equivalente vivo.
 
 Por trás da Inteligência Artificial há um conjunto de técnicas estatísticas e computacionais que fazem o chamado \textit{aprendizado de máquina} ou \textit{aprendizado estatístico}.
-Antes de entender \textit{como} um computador pode aprender, é necessário responder \textit{por que} se quer que ele aprenda.
+Porém, antes de entender \textit{como} um computador pode aprender, é necessário responder \textit{por que} se quer que ele aprenda.
 Há muito que um computador pode fazer sem a necessidade desse treinamento: isso inclui fazer contas, navegar pela Internet, assistir a um filme, tipografar uma monografia, entre outros.
 Então, o que diferencia essas atividades de uma Inteligência Artificial?
 
@@ -39,8 +39,8 @@ Todo processador é construído aos moldes de uma Arquitetura de Conjunto de Ins
 Um dos componentes disso é um conjunto de instruções que o processador pode executar, para o qual \textit{todos} os programas que são usados devem ser reduzidos.
 Essas instruções são coisas simples, como ``coloque tal valor em tal lugar'', ``some tal valor com tal valor'' e ``faça isso se tal valor for verdadeiro''.
 
-É possível criar uma ``receita para escrever''?
-Ou uma ``receita para recomendar vídeos''?
+É possível criar uma ``receita para escrever uma crônica''?
+Ou uma ``receita para recomendar filmes pertinentes''?
 Isto é, um conjunto de instruções objetivas que permita realizar essas ações?
 Não. 
 E é aqui que entra o uso de uma IA: aproximar objetivamente processos que não podem ser descritos assim.
@@ -75,7 +75,7 @@ Assim, para determinar a anomalia, $t$ deve ser transformado, segundo os parâme
 Intuitivamente, $\beta_1$ é a inclinação da reta, e $\beta_0$ está relacionado com a altura dela, ou sua posição vertical.
 A grande pergunta, portanto, é quais são esses coeficientes, ou seja, como $t$ deve ser mudado para obter $A$.
 
-Para determinar esses dois coeficientes, $\beta_0$ e $\beta_1$, é necessário primeiro conceber uma maneira de comparar dois modelos, e descobrir qual deles mais se aproxima do fenômeno aproximado.
+Para determinar esses dois coeficientes, $\beta_0$ e $\beta_1$, é necessário primeiro conceber uma maneira de comparar dois modelos, e descobrir qual deles descreve o fenômeno com maior acurácia.
 Uma maneira muito simples de fazer isso é, para cada ano, contabilizar a distância entre o valor previsto pelo modelo e a observação real.
 O objetivo da criação do modelo, assim, passa a ser reduzir ao máximo possível esse erro.
 Comumente, ao invés de simplesmente usar o erro, é considerado o erro elevado ao quadrado; assim, erros menores são menos penalizados, e erros maiores serão ainda mais penalizados, pois seu valor crescerá com mais rapidez.
@@ -92,7 +92,7 @@ No caso da figura \ref{fig:2:anom-1-hist}, isso toma a forma da figura \ref{fig:
 \begin{figure}
     \centering
     \caption{Gráfico da anomalia (°C) em função do tempo (anos), 1970-2025, com modelo de regressão linear}
-    \includegraphics[width=0.7\linewidth]{static/R/plot/anom-3-scatter+reg.png}
+    \includegraphics[width=0.8\linewidth]{static/R/plot/anom-3-scatter+reg.png}
     \label{fig:2:anom-3-scatter+reg}
 \end{figure}
 
@@ -109,8 +109,8 @@ Um exemplo está na figura \ref{fig:2:anom-3-scatter+reg+poly}.
 
 \begin{figure}
     \centering
-    \caption{Gráfico da anomalia (°C) em função do tempo (anos), 1970-2025, com regressão linear e polinomial}
-    \includegraphics[width=0.7\linewidth]{static/R/plot/anom-5-scatter+reg+poly.png}
+    \caption{Gráfico da anomalia (°C) em função do tempo (anos), 1970-2025, com regressão linear, e polinomial de grau 3}
+    \includegraphics[width=0.8\linewidth]{static/R/plot/anom-5-scatter+reg+poly.png}
     \label{fig:2:anom-3-scatter+reg+poly}
 \end{figure}
 
@@ -129,7 +129,7 @@ Isto é, o erro do modelo é menor.
 Porém, funções desse tipo têm uma tendência a ``explodir'' atingindo valores escalafobéticos, para cima ou para baixo, tanto antes quanto depois dos dados.
 São piores do que os modelos lineares em questão de inferência de valores futuros e passados, portanto, mas são melhores em termos de adaptarem-se aos dados presentes.
 
-Contudo, ao invés de dois parâmetros simples -- $\beta_0$ e $\beta_1$ -- agora há $n$, que não podem ser compreendidos de uma maneira tão direta quanto esses dois.
+Além disso, ao invés de dois parâmetros simples -- $\beta_0$ e $\beta_1$ -- agora há $n$, que não podem ser compreendidos de uma maneira tão direta quanto esses dois.
 Isto é, ganha-se flexibilidade, mas há uma perda de interpretabilidade.
 Na próxima seção, \ref{sec:2:redes-neurais}, será estudado um modelo ainda mais flexível; e ainda menos interpretável: as redes neurais.
 A seção \ref{sec:2:exemplo-real} debaterá como essa ``interpretabilidade'' é refletida em um caso real: é possível pedir explicações desses modelos?
@@ -138,9 +138,9 @@ Determinar porque algo foi classificado como bom ou ruim, A ou B?
 O exemplo aqui apresentado parece simples, mas serve para definir um conceito importante, que será retomado múltiplas vezes: o \textit{aprendizado de máquina}.
 Para um computador, aprender é diminuir uma função erro, por meio da alteração de um conjunto de parâmetros.
 O aprendizado requer dados; muitos dados; e aí entra o conteúdo do primeiro capítulo.
-Terminado o treinamento, o modelo vai poder, a partir dos dados coletados, realizar previsões, inferências, classificações, entre outros, acerca desses dados.
+Terminado o treinamento, o modelo vai poder, a partir dos dados coletados, realizar previsões, inferências, classificações, entre outros, acerca de novos dados.
 
-Regressões lineares são um dos algoritmos mais simples que demonstram a dinâmica completa do aprendizado de máquina; tanto é, que foi o primeiro desses algoritmos a ser estudado, com o método de mínimos quadrados tendo sido empregado por Isaac Newton para determinar a duração exata do ano \cite{belenkiy_groping_2016}.
+Regressões lineares são um dos algoritmos mais simples que demonstram a dinâmica completa do aprendizado de máquina; tanto é, que foi o primeiro desses algoritmos a ser estudado: o método de mínimos quadrados já era empregado por Isaac Newton para determinar a duração exata do ano \cite{belenkiy_groping_2016}.
 Há diversas maneiras de melhorá-lo.
 Uma das mais simples é realizar a regressão em mais de uma variável; por exemplo, podemos estimar o preço de uma casa baseado no tamanho (em $\text{m}^2$), o número de quartos, a distância do centro, o andar, e a idade da casa.
 O modelo se assemelharia à equação \ref{eq:2:lm-mult}.
@@ -166,7 +166,7 @@ Por mais que isso pareça simples, esse problema não o é -- as imagens variam 
 \begin{figure}[H]
 \caption{Algumas imagens do banco de dados MNIST}
 \centering
-\includegraphics[width=0.35\linewidth]{static/MNIST.png}
+\includegraphics[width=0.4\linewidth]{static/MNIST.png}
 \label{fig:2:mnist}
 \end{figure}
 
@@ -186,7 +186,7 @@ A arquitetura de uma rede neural básica está representada na figura \ref{fig:2
 \begin{figure}
 \centering
 \caption{Arquitetura de uma rede neural básica}
-\includegraphics[width=0.6\linewidth]{static/Rede Neural.png}
+\includegraphics[width=0.7\linewidth]{static/Rede Neural.png}
 \label{fig:2:rede-neural}
 \end{figure}
 
@@ -208,7 +208,7 @@ A única diferença é que, no modelo já treinado, esses nós representam valor
 Para o MNIST, isso geralmente é modelado como dez nós, cada um representando um dígito diferente, de modo que o valor computado de um nó seja equivalente à probabilidade (ou confiança), de que o algarismo certo seja aquele.
 Assim, o nó de maior valor será o dígito certo.
 
-Contudo, o leitor astuto perceberá que nessa arquitetura é possível ``simplificar'' a rede neural, voltando a ser uma única função linear\footnote{Formalmente, a composição de várias funções lineares, que se dá por meio dos nós, ainda é uma função linear.}.
+Contudo, o leitor astuto perceberá que nessa arquitetura é possível ``simplificar'' a rede neural, voltando a ser uma única função linear\footnote{Formalmente, a composição de várias funções lineares, que se daria por meio dos nós, ainda é uma função linear.}.
 E isso é verdade.
 O pulo do gato, porém, é que a equação \ref{eq:2:no-oculto-errado} só conta metade da história.
 A maneira certa de expressar o valor de um nó $N$ em função de suas entradas (os nós da camada anterior que ``apontam'' para $N$) $I_1 \dots I_n$ é
@@ -217,7 +217,7 @@ A maneira certa de expressar o valor de um nó $N$ em função de suas entradas 
 N = \phi (\beta_0 + \beta_1 \cdot I_1 + \beta_2 \cdot I_2 + \dots + \beta_n \cdot I_n)
 \end{equation}
 
-A única diferença da equação \ref{eq:2:no-certo} para a equação \ref{eq:2:no-oculto-errado} é a introdução de $\phi$, uma função não-linear pré-determinada que atua como uma fonte de não linearidade para o modelo.
+A única diferença da equação \ref{eq:2:no-certo} para a equação \ref{eq:2:no-oculto-errado} é a introdução de $\phi$, uma função não-linear pré-determinada que atua como uma fonte de não-linearidade para o modelo.
 Essa é a chamada \textit{função de ativação}, e computa o valor de um nó da rede baseado em suas entradas e seus pesos (outro nome para os coeficientes que até agora foram chamados de $\beta_n$) \cite{james_introduction_2021a}.
 Algumas funções de ativação comuns são a sigmoide, uma curva em forma de `S':
 \begin{equation}
@@ -233,9 +233,9 @@ A figura \ref{fig:2:func-ativ} mostra o comportamento delas.
 \begin{figure}
 \centering
 \caption{Algumas funções de ativação comuns.}
-\includegraphics[width=0.6\linewidth]{static/Funções de Ativação.png}
+\includegraphics[width=0.8\linewidth]{static/Funções de Ativação.png}
 
-{\small\itshape Em vermelho e azul, duas sigmoides com $k=5$ e $k=10$, respectivamente. Em verde, a ReLU.}
+{\small\itshape Duas sigmoides, com $k = 5$ (mais horizontal) e $k = 10$ (mais vertical), e a ReLU, reta com duas partes}
 \label{fig:2:func-ativ}
 \end{figure}
 
@@ -245,7 +245,7 @@ Elas elevam a rede neural de uma simples ``combinação de combinações lineare
 Sendo assim, como se otimiza esses pesos?
 Com cálculo diferencial, principalmente.
 Computa-se um gradiente multidimensional que indica para onde vai o erro (aumentar ou diminuir) baseado em uma mudança num determinado parâmetro.
-Simplificadamente, para otimizar o parâmetro $\beta_2$ do nó $X$, ``congela-se'' o resto dos parâmetros e calcula-se o quanto o erro vai mudar baseado em uma mudança minúscula em $\beta_2$.
+Simplificadamente, para otimizar o parâmetro $\beta_2$ do nó $X$, por exemplo, ``congela-se'' o resto dos parâmetros e calcula-se o quanto o erro vai mudar baseado em uma mudança minúscula em $\beta_2$.
 Na realidade, esse processo usa de vários métodos matemáticos, como diferenciação automática, descida de gradiente e retro-propagação.
 É muito elegante, mas foge ao escopo desse texto.
 
@@ -262,13 +262,13 @@ Nessa miríade de métodos e funções, há muita margem para que um modelo que 
 Ou também, é possível que o modelo entenda algum tipo de viés nos dados -- como, por exemplo, haver mais dados de homens do que de mulheres -- e enxergue uma relação disso com o resultado -- por exemplo, achar que como mais brancos historicamente passam em vestibulares, logo brancos seriam mais capacitados para passar em vestibulares, tendo assim maior chance de aprovação.
 Um exemplo real desse problema será analisado na próxima seção, \ref{sec:2:exemplo-real}.
 
-O leitor agora pode estar se perguntando por que os exemplos aqui utilizados não têm relação com o conteúdo do capítulo anterior.
+O leitor agora pode estar se perguntando se os exemplos aqui utilizados têm relação com o conteúdo do capítulo anterior.
 Afinal, para onde vão tantos dados coletados?
-A resposta é, para algoritmos muito parecidos com os apresentados, porém com quantidades de parâmetros e complexidade muito maiores.
+A resposta é para algoritmos muito parecidos com os apresentados, porém com quantidades de parâmetros e complexidade muito maiores.
 Um algoritmo de recomendação, por exemplo, tem de lidar com um fluxo enorme de dados concomitante.
-São tantos dados que esse segmento da indústria foi batizado de \textit{Big Data} (literalmente, ``Grande Dado''), concernindo os casos onde há uma vigilância tão presente, que produz uma massa de dados gigantesca; muito além do que pode ser tratado em um computador comum.
+São tantos dados que esse segmento da indústria foi batizado de \textit{Big Data} (literalmente, ``Grandes Dados''), por reunir os casos onde há uma vigilância tão presente, que produz uma massa de dados gigantesca; muito além do que pode ser tratado em um computador comum.
 Só os \textit{Data Centers} especializados, que se estendem por múltiplos quilômetros quadrados e tem o consumo energético de cidades inteiras, podem manejar os tantos dados necessários para todos os múltiplos usuários simultâneos desses serviços.
-A era do Big Data é um tempo em que o conjunto de dados que um ser humano produz é alienado dele, passando para o uso quase livre das empresas de tecnologia que têm a infraestrutura necessária para o processar: as assim chamadas ``Big Techs'', ou grandes empresas de tecnologia.
+A era do Big Data é um tempo em que o conjunto de dados que um ser humano produz é alienado dele, passando para o uso quase livre das empresas de tecnologia que têm a infraestrutura necessária para o processar: as assim chamadas \textit{Big Techs}, ou grandes empresas de tecnologia.
 
 \section{Colocando a máquina na rua}\label{sec:2:exemplo-real}
 Deixe os grandes algoritmos de lado; considere agora um pequeno exemplo com grandes implicações.
@@ -281,18 +281,16 @@ Para complementar, incentivava a presença de termos mais frequentemente usados 
 Isso aconteceu por que os dados que tinham de ``bons currículos''' provinham da força de trabalho da própria Amazon, majoritariamente masculina.
 Por isso, o algoritmo aprendeu e internalizou a disparidade de gênero, e aplicou-a para os novos candidatos à qual foi apresentado.
 Mesmo que ``gênero'' não fosse, explicitamente, um parâmetro dado ao algoritmo, ele assimilou-o, reconstruindo-o a partir de outros dados (como, nesse caso, as expressões utilizadas).
-Ou, como \textcite[tradução~própria]{hooker_moving_2021} coloca
-\footnote{Traduzido do inglês. Original: \textit{``For domains such as images, language, and video, the high dimensionality of the problem and large size of modern datasets make it hard to guarantee all features are comprehensively labeled.
+Ou, como \textcite[tradução~própria]{hooker_moving_2021} coloca\footnote{Traduzido do inglês. Original: \textit{``For domains such as images, language, and video, the high dimensionality of the problem and large size of modern datasets make it hard to guarantee all features are comprehensively labeled.
     Even if we are able to label sensitive attributes at scale such as gender and race, algorithms can still leverage proxy variables to reconstruct the forbidden label.
     Data collection of even a limited number of protected attributes can be onerous.
     For example, it is hard to align on a standard taxonomy—categories attributed to race or gender are frequently encoded in inconsistent ways across datasets.
     Furthermore, procuring labels for these legally protected attributes is often perceived as intrusive leading to noisy or incomplete labels.''} \cite{hooker_moving_2021}},
 
-
 \begin{quoting}
 Para domínios como imagens, linguagem e vídeo, a alta dimensionalidade do problema e o tamanho maior do conjunto de dados modernos torna difícil garantir que todas as características são sistematicamente rotuladas.
-Mesmo se podemos rotular, em escala, atributos sensíveis como gênero e raça, algoritmos ainda podem usar variáveis \textit{proxy} para reconstruir o rótulo proibido.
-Coleta de mesmo um número limitado de atributos protegidos pode ser oneroso.
+Até se conseguíssemos rotular, em escala, atributos sensíveis como gênero e raça, algoritmos ainda podem usar variáveis \textit{proxy} para reconstruir o rótulo proibido.
+Mesmo a coleta de um número limitado de atributos protegidos pode ser oneroso.
 Por exemplo, é difícil alinhar-se em uma taxonomia padrão -- categorias atribuídas à raça ou gênero são frequentemente codificadas de maneiras inconsistentes entre conjuntos de dados.
 Ademais, adquirir rótulos para os atributos protegidos legalmente é comumente percebido como intrusivo, levando a rótulos com ruído ou incompletos.
 \end{quoting}
@@ -324,12 +322,12 @@ No segundo caso, para um modelo $b$ e uma instância $x$ onde o modelo $b$ foi u
 Assim, se o modelo original tiver raciocínios diferentes para casos muito diferentes, o segundo caso é melhor; seria algo parecido que poderia ser usado com a candidata hipotética a um emprego da Amazon.
 
 Uma questão que permanece é a forma de $\epsilon$.
-Uma possibilidade é que seja o conjunto de todos as funções lineares, que, como já foi visto na seção \ref{sec:2:regres}, tem só dois parâmetros (inclinação, que se chamou de $\beta_1$, e altura, que se chamou de $\beta_0$), e por isso, é facilmente compreensível.
+Uma possibilidade é que seja o conjunto de todas as funções lineares, que, como já foi visto na seção \ref{sec:2:regres}, tem só dois parâmetros (inclinação, que se chamou de $\beta_1$, e altura, que se chamou de $\beta_0$), e por isso, é facilmente compreensível.
 Outras maneiras de fornecer explicações são árvores de decisões (basicamente, fluxogramas) e listas de regras (no estilo ``se isso, então aquilo'').
 São, necessariamente, simplificações, construídas em torno do modelo original, tentando se aproximar do raciocínio orgânico.
 
 Parece uma boa ideia, até que se leva em conta que $g$ pode mentir, num processo que \textcite{aïvodji_fairwashing_2019} chama de ``fairwashing'' -- em português, ``lavagem da verdade''.
-Se uma empresa desejar ser deliberadamente sexista, mas temer ser confrontada, poderia produzir um modelo $b$ enviesado, e fabricar $g$ de modo a fornecer uma explicação, ``passando pano'' no viés de $b$, de modo que o modelo torna-se racionalizado, mesmo que falsamente.
+Se uma empresa desejar ser deliberadamente sexista, mas temer ser confrontada, poderia produzir um modelo $b$ enviesado, e fabricar $g$ de modo a fornecer uma explicação ``passando pano'' no viés de $b$, de modo que o modelo torna-se racionalizado, mesmo que falsamente.
 No \textit{paper} supracitado, os autores não só teorizam, como fabricam um modelo capaz de realizar isso.
 
 \section{O homem e a câmera}
@@ -355,7 +353,7 @@ Inicialmente, o corpo constitui o foco primário do olhar da câmera, e como tal
 Subsequentemente, quando o corpo é registrado por meio da visão mediada pela câmera, a manifestação física desaparece, sendo substituída por ou traduzida em abstrações digitais e representações de sua aparência exteriores nos sistemas de câmera (e tecnologias da informação associadas, como bases de dados).
 O corpo físico como tal parece não ter valor nesse processo: os dados digitais abstraídos a partir deles que constituem a fonte da informação dita valiosa, e o ator encarnado em si não é, de nenhuma maneira, confrontado.
 O corpo, eventualmente, volta a ser o foco, de novo, quando os julgamentos baseados na sua representação eletrônica tem consequências palpáveis nos comportamentos, percepções, e proteções do sujeito dos dados.
-Embora a vigilância por câmeras represente indivíduos como construtos virtuais, eletrônicos, e de dados, consequências concretas para o ator encarnado material e os espaços pelos quais ele se move podem seguir.\end{quoting}
+Embora a vigilância por câmeras represente indivíduos como construtos virtuais, eletrônicos e de dados, consequências concretas para o corpo físico e os espaços pelos quais ele transita podem decorrer dela.\end{quoting}
 
 Ou seja, o julgamento feito por um sistema como o Smart Sampa depende de uma tradução de uma observação do corpo físico para uma representação digital de caráter simbólico.
 Esse processo é realizado por meio de um algoritmo de aprendizado de máquina, que ``aprendeu'' a classificar e categorizar as imagens conforme uma configuração pré-fornecida.
@@ -366,9 +364,9 @@ A segurança pública passa a ser feito com uma representação do indivíduo co
 O indivíduo, de certa forma, torna-se transparente.
 
 A chamada Visão Computacional (CV, em inglês) aloca-se entre os algoritmos complexos, que, como foi visto antes sofrem de alguns problemas.
-Em primeiro, apesar de serem altamente flexíveis, ainda são aproximações: o Smart Sampa, em abril de 2025, mandou prender uma mulher grávida inocente, que, após sofrer agressão policial na abordagem, entrou em trabalho de parto prematuro e foi levada a uma unidade básica de saúde sob custódia \cite{audi_smart_2025}.
+Primeiro, apesar de serem altamente flexíveis, ainda são aproximações: o Smart Sampa, em abril de 2025, mandou prender uma mulher grávida inocente, que, após sofrer agressão policial na abordagem, entrou em trabalho de parto prematuro e foi levada a uma unidade básica de saúde sob custódia \cite{audi_smart_2025}.
 
-Em segundo, esses algoritmos classificam e categorizam os indivíduos com base em determinadas categorias pré-estabelecidas que, geralmente, correspondem aos construtos sociais que já são usados para classificar pessoas, como gênero e raça.
+Segundo, esses algoritmos classificam e categorizam os indivíduos com base em determinadas categorias pré-estabelecidas que, geralmente, correspondem aos construtos sociais que já são usados para classificar pessoas, como gênero e raça.
 Ademais, podem assimilar outras variáveis sociais e econômicas a partir de vestimentas, comportamento, localização, entre outros.
 É, portanto, extremamente difícil evitar que tais sistemas adquiram vieses de gênero, raça, ou condição social -- vieses esses que também se encontram incrustados em nossos sistemas jurídicos e policiais.
 
