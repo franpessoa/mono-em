@@ -7,8 +7,6 @@
 
 \documentclass[12pt, titlepage]{report} % Documento normal, formata o título
 
-\includeonly{capa, 2}
-
 % Pacotes para formatação de matemática
 \usepackage{amsmath, amssymb, amsthm} 
 
@@ -75,6 +73,7 @@
 \usepackage[style=abnt, backend=biber, sorting=nty]{biblatex}
 \addbibresource{./1.bib}
 \addbibresource{./2.bib}
+\addbibresource{./3.bib}
 \setlength\bibitemsep{0.5\baselineskip} % espaçamento entre itens da bibliografia
 \AtBeginBibliography{\singlespacing}
 
@@ -157,6 +156,7 @@
 
 \include{2}
 
+\include{3}
 \addcontentsline{toc}{chapter}{Referências}
 \printbibliography
 \end{document}
