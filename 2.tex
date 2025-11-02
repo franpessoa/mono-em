@@ -50,17 +50,18 @@ Observe o seguinte gráfico com o valor da anomalia da temperatura média do glo
 
 \begin{figure}[H]
     \centering
-    \caption{Gráfico da anomalia (°C) em função do tempo (anos), 1970-2025}
-    \includegraphics[width=0.8\linewidth]{static/R/plot/anom-1-hist.png}
-    \label{fig:2:anom-1-hist}
+    \caption{Gráfico da anomalia (°C) em função do tempo (anos), 1970-2025, com regressão linear, e polinomial de grau 3}
+    \includegraphics[width=0.8\linewidth]{static/R/plot/anom-5-scatter+reg+poly.png}
+    \label{fig:2:anom-scatter+reg+poly}
 \end{figure}
 
-Empiricamente, é possível perceber que existe uma tendência nesses dados, que seguem aproximadamente uma reta.
-Porém, é difícil determinar precisamente de quanto é essa tendência, e para onde o gráfico continuará. 
+Olhando somente para os pontos de dados, é possível perceber que existe uma tendência nesses dados, que seguem aproximadamente uma reta.
+Porém, é difícil dizer objetivamente de quanto é essa tendência, e para onde o gráfico continuará. 
 Isso se deve ao fato de que o planeta Terra é um sistema complexo: ele não segue uma ordem do tipo ``aumente 0,5 °C ao ano''.
 Na metáfora da seção anterior, é impossível estabelecer uma receita para a temperatura do planeta em função do ano.
 
 Pode-se, contudo, aproximá-la.
+O gráfico posto acima já tem duas dessas aproximações: uma reta e uma curva.
 Sabe-se, a partir desses dados, como o modelo deve se comportar.
 Não é possível, principalmente quando se trata de algo tão simples como uma reta, que ele abarque cada mínima mudança e inconsistência; é, afinal, uma aproximação.
 
@@ -85,16 +86,7 @@ O processo de descobrir $\beta_0$ e $\beta_1$ é conhecido como \textit{aprendiz
 Ele envolve inicializar esses valores com um ``chute'', e, gradualmente, melhorá-los.
 Para isso, muda-se ou $\beta_0$ ou $\beta_1$, incrementando-o por pouco. 
 Se a mudança for bem-vinda, ou seja, diminuir o erro, ela é mantida; caso contrário, o original é melhor.
-Ao repetir esse processo várias vezes, a reta será acomodada nos coeficientes com menor valor de erro.
-
-No caso da figura \ref{fig:2:anom-1-hist}, isso toma a forma da figura \ref{fig:2:anom-3-scatter+reg}.
-
-\begin{figure}
-    \centering
-    \caption{Gráfico da anomalia (°C) em função do tempo (anos), 1970-2025, com modelo de regressão linear}
-    \includegraphics[width=0.8\linewidth]{static/R/plot/anom-3-scatter+reg.png}
-    \label{fig:2:anom-3-scatter+reg}
-\end{figure}
+Ao repetir esse processo várias vezes, a reta será acomodada nos coeficientes com menor valor de erro: é assim que se obtém a reta da figura \ref{fig:2:anom-scatter+reg+poly}
 
 Antes, foi dito que $\beta_1$ representava a inclinação da reta.
 Além disso, ele cumpre outra função importante: representar a \textit{taxa de variação} da reta; como a unidade de medida em questão é anos, isso significa quanto a temperatura vai variar por ano.
@@ -105,14 +97,7 @@ O modelo de reta, por ter que simplificar drasticamente, é incapaz de expressar
 Geralmente, o que importa não é o quão próximo o modelo está dos dados já existentes, mas sim o quão bem o modelo se dá com extrapolar esses dados e, literalmente, prever o futuro.
 Dadas essas tendências recentes, esse modelo pode não ser tão útil, uma vez que não detêm a habilidade de contemplá-las suficientemente.
 Um modelo melhor, nesse caso, ao invés de uma reta usaria uma curva.
-Um exemplo está na figura \ref{fig:2:anom-3-scatter+reg+poly}.
-
-\begin{figure}
-    \centering
-    \caption{Gráfico da anomalia (°C) em função do tempo (anos), 1970-2025, com regressão linear, e polinomial de grau 3}
-    \includegraphics[width=0.8\linewidth]{static/R/plot/anom-5-scatter+reg+poly.png}
-    \label{fig:2:anom-3-scatter+reg+poly}
-\end{figure}
+Um exemplo está na figura \ref{fig:2:anom-scatter+reg+poly}.
 
 Esses modelo não é mais linear, evidentemente.
 É, pelo contrário, uma curva definida por meio de um polinômio.
@@ -159,16 +144,9 @@ Viu-se que isso pode ser consertado por meio de uma regressão polinomial\footno
 Contudo, há ainda um problema maior que a impede de ser utilizada em mais contextos: a possibilidade de relações entre variáveis.
 Para entender o que isso significa, considere outro exemplo: o banco de dados MNIST \cite{lecun_mnist_1998}.
 
-Ele é composto por milhares de imagens de dígitos de 0-9 desenhados à mão, assim como na figura \ref{fig:2:mnist}.
+Ele é composto por milhares de imagens de dígitos de 0-9 desenhados à mão.
 O objetivo que ele apresenta é fazer um modelo computacional capaz de identificar os dígitos baseando-se nas imagens apresentadas, semelhante ao que um ser humano faria ao ler esses números.
 Por mais que isso pareça simples, esse problema não o é -- as imagens variam muito em sua forma, e a computação demorou para desenvolver métodos flexíveis o suficiente para essa tarefa.
-
-\begin{figure}[H]
-\caption{Algumas imagens do banco de dados MNIST}
-\centering
-\includegraphics[width=0.4\linewidth]{static/MNIST.png}
-\label{fig:2:mnist}
-\end{figure}
 
 O banco de dados MNIST foi publicado em 1998, e, segundo o próprio autor, o recorde é de $0,23\%$ de erro, atingido em 2012, dentre os resultados publicados na literatura \cite{cireşan_multicolumn_2012}.
 As primeiras tentativas resultaram em taxas por volta dos $12\%$ \cite{lecun_mnist_1998}.
@@ -186,7 +164,7 @@ A arquitetura de uma rede neural básica está representada na figura \ref{fig:2
 \begin{figure}
 \centering
 \caption{Arquitetura de uma rede neural básica}
-\includegraphics[width=0.7\linewidth]{static/Rede Neural.png}
+\includegraphics[width=0.6\linewidth]{static/Rede Neural.png}
 \label{fig:2:rede-neural}
 \end{figure}
 
@@ -219,27 +197,23 @@ N = \phi (\beta_0 + \beta_1 \cdot I_1 + \beta_2 \cdot I_2 + \dots + \beta_n \cdo
 
 A única diferença da equação \ref{eq:2:no-certo} para a equação \ref{eq:2:no-oculto-errado} é a introdução de $\phi$, uma função não-linear pré-determinada que atua como uma fonte de não-linearidade para o modelo.
 Essa é a chamada \textit{função de ativação}, e computa o valor de um nó da rede baseado em suas entradas e seus pesos (outro nome para os coeficientes que até agora foram chamados de $\beta_n$) \cite{james_introduction_2021a}.
-Algumas funções de ativação comuns são a sigmoide, uma curva em forma de `S':
-\begin{equation}
-\sigma(x) = \frac{1}{1 + e^{-kx}} 
-\end{equation}
-para uma dada constante $k$, e a retificadora linear ReLU:
-\begin{equation}
-\text{ReLU}(x) = \max (0, x)
-\end{equation}
-
-A figura \ref{fig:2:func-ativ} mostra o comportamento delas.
-
-\begin{figure}
-\centering
-\caption{Algumas funções de ativação comuns.}
-\includegraphics[width=0.8\linewidth]{static/Funções de Ativação.png}
-
-{\small\itshape Duas sigmoides, com $k = 5$ (mais horizontal) e $k = 10$ (mais vertical), e a ReLU, reta com duas partes}
-\label{fig:2:func-ativ}
-\end{figure}
-
-A função dessas funções é introduzir a não-linearidade e, assim, permitir que se estabeleçam relações não-lineares entre as diversas entradas.
+% Algumas funções de ativação comuns são a sigmoide, uma curva em forma de `S':
+% \begin{equation}
+% \sigma(x) = \frac{1}{1 + e^{-kx}} 
+% \end{equation}
+% para uma dada constante $k$, e a retificadora linear ReLU:
+% \begin{equation}
+% \text{ReLU}(x) = \max (0, x)
+% \end{equation}
+% A figura \ref{fig:2:func-ativ} mostra o comportamento delas.
+% \begin{figure}
+% \centering
+% \caption{Algumas funções de ativação comuns.}
+% \includegraphics[width=0.8\linewidth]{static/Funções de Ativação.png}
+% {\small\itshape Duas sigmoides, com $k = 5$ (mais horizontal) e $k = 10$ (mais vertical), e a ReLU, reta com duas partes}
+% \label{fig:2:func-ativ}
+% \end{figure}
+Seu propósito é introduzir a não-linearidade e, assim, permitir que se estabeleçam relações não-lineares entre as diversas entradas.
 Elas elevam a rede neural de uma simples ``combinação de combinações lineares'' para um modelo flexível capaz de expressar relações complexas.
 
 Sendo assim, como se otimiza esses pesos?
@@ -302,6 +276,10 @@ Assepsiá-lo, anonimizá-lo, removendo assim a possibilidade de qualquer viés -
 A resposta é um contundente não: como Hooker diz, é difícil garantir que ``todas as categorias foram sistematicamente rotuladas'', ou seja, mesmo que fosse possível identificá-las, a alta complexidade e dimensionalidade (isto é, presença de muitas variáveis diferentes para uma mesma observação) do problema asseguram que tal identificação será falha.
 Isso, sem contar que as tais ``categorias sensíveis'', que deveriam ser eliminadas para garantir a total neutralidade -- gênero, raça, etnia, origem, posicionamento político -- são intrínsecas ao sujeito, e, mesmo que inconscientemente, afluem na sua produção.
 Um algoritmo suficientemente sensível pode (e muito provavelmente vai, se treinado com tempo e recursos suficientes) identificar mínimas sutilezas, mesmo que invisíveis para um ser humano.
+
+É assim que mesmo sem as informações que podem identificar alguém esses algoritmos conseguem identificar a pessoa física que produz os dados.
+Os padrões de deslocamento, obtidos por aplicativos de GPS como o Google Maps, Waze e Moovit podem informar, com alguma precisão, o bairro, a rua, e até mesmo a casa onde alguém mora.
+Pesquisas por produtos em sites de comércio eletrônico dão base para a dedução de hábitos de consumo e renda.
 
 Suponha então que, nesse caso da Amazon, uma candidata fosse reprovada pelo algoritmo de triagem de currículos, e, desconfiada, exigisse uma explicação para o porquê do algoritmo ter dado tal resultado.
 Seria possível obter isso?

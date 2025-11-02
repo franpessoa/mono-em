@@ -12,6 +12,8 @@
 
 % Imagens
 \usepackage{float} % Inclusão de imagens
+\newfloat{graph}{tbp}{grp}
+\floatname{graph}{Gráfico}
 \usepackage[export]{adjustbox} % Centralização de imagens e tabelas
 \usepackage{subcaption} % Legendas
 \graphicspath{fig/}
@@ -150,10 +152,12 @@
     right=2cm
 }
 \tableofcontents
-\listoffigures
+% \listoffigures
 
 \newpage
 \include{agradecimentos}
+
+\include{intro}
 
 \include{1}
 
