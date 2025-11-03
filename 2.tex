@@ -111,7 +111,7 @@ Aqui, não se trata de uma regressão \textit{linear}, mas sim, \textit{polinomi
 
 Está além do escopo deste presente texto debater o funcionamento interno desses modelos (isto é, como efetivamente ocorre a regressão linear), mas é importante perceber que, quando se utiliza uma curva, ao invés de uma reta, o modelo torna-se mais flexível, podendo adaptar-se melhor às condições dos dados.
 Isto é, o erro do modelo é menor.
-Porém, funções desse tipo têm uma tendência a ``explodir'' atingindo valores escalafobéticos, para cima ou para baixo, tanto antes quanto depois dos dados.
+Porém, funções desse tipo têm uma tendência a ``explodir'', tendendo ao infinito, para cima (infinito positivo) ou para baixo (negativo), tanto antes quanto depois dos dados.
 São piores do que os modelos lineares em questão de inferência de valores futuros e passados, portanto, mas são melhores em termos de adaptarem-se aos dados presentes.
 
 Além disso, ao invés de dois parâmetros simples -- $\beta_0$ e $\beta_1$ -- agora há $n$, que não podem ser compreendidos de uma maneira tão direta quanto esses dois.
@@ -221,7 +221,7 @@ Com cálculo diferencial, principalmente.
 Computa-se um gradiente multidimensional que indica para onde vai o erro (aumentar ou diminuir) baseado em uma mudança num determinado parâmetro.
 Simplificadamente, para otimizar o parâmetro $\beta_2$ do nó $X$, por exemplo, ``congela-se'' o resto dos parâmetros e calcula-se o quanto o erro vai mudar baseado em uma mudança minúscula em $\beta_2$.
 Na realidade, esse processo usa de vários métodos matemáticos, como diferenciação automática, descida de gradiente e retro-propagação.
-É muito elegante, mas foge ao escopo desse texto.
+É muito elegante, mas foge ao escopo desse texto \cite{james_introduction_2021a}.
 
 Uma rede neural têm muito mais parâmetros que uma regressão linear -- como se havia dito, cada nó tem tantos pesos quanto entradas, e podem haver tantos nós quantos forem necessários.
 A arquitetura da imagem \ref{fig:2:rede-neural} é simplista também por representar somente uma camada oculta, quando na maioria dos casos se usam múltiplas, gerando ainda mais parâmetros.
@@ -285,7 +285,7 @@ Suponha então que, nesse caso da Amazon, uma candidata fosse reprovada pelo alg
 Seria possível obter isso?
 Esse algoritmo precisa interpretar textos, o que não é uma tarefa simples, requerendo um modelo mais complexo do que, por exemplo, uma regressão linear.
 Um modelo mais complexo, como já foi dito, implica em uma maior quantidade de pesos/parâmetros, e, por isso, menor significância de cada parâmetro individualmente.
-Com parâmetros menos significantes, dificulta-se a compreensão do raciocínio realizado, precisamente porque esse ``raciocínio'' não é nada equivalente a um pensamento orgânico; mas sim, uma aproximação de um fenômeno, que não tem nada de racional ou lógica.
+Com parâmetros menos significantes, dificulta-se a compreensão do raciocínio realizado, precisamente porque esse ``raciocínio'' não é nada equivalente a um pensamento orgânico; mas sim, uma aproximação de um fenômeno, que não tem nada de racional ou lógica \cite{aïvodji_fairwashing_2019}.
 
 Máquinas não pensam: elas seguem ordens.
 Para simular o pensamento, são usados milhões de parâmetros, que podem ter um resultado parecido com um raciocínio, mas não passa de um conjunto de parâmetros matemáticos.
