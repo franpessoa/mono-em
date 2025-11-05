@@ -1,37 +1,59 @@
+
+% -----------------------------
+% Dados do trabalho
+% -----------------------------
+\newcommand{\instituicao}{Colégio Ítaca}
+\newcommand{\autor}{Francisco de Mesquita Sampaio Pessoa}
+\newcommand{\local}{São Paulo}
+\newcommand{\dataentrega}{2025}
+\newcommand{\orientador}{Prof. Dr. Nome do Orientador}
+\newcommand{\tipo}{Monografia apresentada ao \instituicao como requisito parcial para conclusão do segundo ano do Ensino Médio}
+\newcommand{\titulo}{A política do dado pessoal na sociedade ocidental digitalizada}
+\newcommand{\subtitulo}{}
+
+% -----------------------------
+% Início do documento
+% -----------------------------
+\onehalfspacing % espaçamento 1,5
+
+% ----------------------------------
+% CAPA
+% ----------------------------------
 \begin{titlepage}
-\begin{center}
-\vspace*{1\baselineskip}
-\textbf{Colégio Ítaca}
-
-\vspace{4\baselineskip}
-
-\textbf{\theauthor}
-
-\vspace{10\baselineskip}
-
-\thetitle
-
-\vspace{5\baselineskip}
-\end{center}
-
-\begin{flushright}
-
-\vspace{6\baselineskip}
-
-\end{flushright}
-
-\begin{centering}
-
-\onehalfspacing
-\normalsize
-\thedate
-
-\end{centering}
+    \begin{center}
+        \textbf{\MakeUppercase{\instituicao}}\\[2cm]
+        \textbf{\autor}\\[5cm]
+        \textbf{\titulo}\\
+        \ifx\subtitulo\empty\else \textbf{\subtitulo}\\[5cm] \fi
+        \vfill
+        \local\\
+        \dataentrega
+    \end{center}
 \end{titlepage}
 
-\newgeometry{
-    top=3cm,
-    bottom=2cm,
-    left=3cm,
-     right=2cm
-}
+% ----------------------------------
+% FOLHA DE ROSTO
+% ----------------------------------
+\begin{titlepage}
+    \begin{center}
+        \textbf{\autor}\\[5cm]
+        \textbf{\titulo}\\
+        \ifx\subtitulo\empty\else \textbf{\subtitulo}\\[3cm] \fi
+    \end{center}
+
+    \vfill
+    \begin{flushright}
+        \begin{minipage}{8cm}
+            \small
+            \tipo
+
+            Orientador: \orientador
+        \end{minipage}
+    \end{flushright}
+
+    \vfill
+    \begin{center}
+        \local\\
+        \dataentrega
+    \end{center}
+\end{titlepage}
