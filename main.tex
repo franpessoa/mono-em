@@ -5,88 +5,53 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[12pt, titlepage]{report} % Documento normal, formata o título
-
+% \documentclass[12pt, titlepage]{report} % Documento normal, formata o título
+\documentclass[12pt, a4paper, oneside, english, brazil]{abntex2}
+\makepagestyle{abntplain}
+\makeevenhead{abntplain}{}{}{\thepage}
+\makeoddhead{abntplain}{}{}{\thepage}
+\makeevenfoot{abntplain}{}{}{}
+\makeoddfoot{abntplain}{}{}{}
+\pagestyle{abntplain}
 % Pacotes para formatação de matemática
 \usepackage{amsmath, amssymb, amsthm} 
 
 % Imagens
 \usepackage{float} % Inclusão de imagens
-\newfloat{graph}{tbp}{grp}
-\floatname{graph}{Gráfico}
 \usepackage[export]{adjustbox} % Centralização de imagens e tabelas
 \usepackage{subcaption} % Legendas
 \graphicspath{fig/}
 
-% Configurações da página
-% A4, margens
-\usepackage{geometry}
-\geometry{
-    a4paper,
-    total={170mm,257mm},
-    left=20mm,
-    top=20mm,
-}
-
-% Configurações de espaçamento entre linhas e parágrafos
-\usepackage{setspace}
-\onehalfspacing{}
-\usepackage{indentfirst}
-\usepackage[skip=0pt, indent=1.25cm]{parskip}
-
-% Alinhamento de texto (justificado)
+% % Alinhamento de texto (justificado)
 \usepackage{ragged2e}
-\justifying{}
-
-% Configura a hifenização em português 
-\usepackage[portuguese]{babel}
-\addto\captionsportuguese{
-    \renewcommand{\contentsname}{Sumário}
-}
-
-% Coloca o número de página no lugar certo
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-\fancyhf{}
-\renewcommand{\headrulewidth}{0pt}
-\fancyhead[R]{\thepage}
-
-% 
-\fancypagestyle{plain}{%
-    \fancyhf{} % clear all header and footer fields
-    \fancyhead{} % clear all header fields
-    \fancyfoot{} % clear all footer fields
-    \fancyhead[R]{\thepage}
-    \renewcommand{\headrulewidth}{0pt}
-    \renewcommand{\footrulewidth}{0pt}
-}
-
-% \usepackage[utf8]{inputenc} %% NECESSÁRIO c/ `pdflatex`
-\usepackage{blindtext}
-\usepackage{hyphsubst}
-
-% Gerador de citações
-% Configurado para o estilo ABNT na bibliografia final, 
-% e citações indiretas indexadas numericamente
-%
-% Vai usar o arquivo refs.bib como fonte
-\usepackage[nottoc,numbib]{tocbibind}
 
 \usepackage[style=abnt, backend=biber, sorting=nty]{biblatex}
 \addbibresource{./1.bib}
 \addbibresource{./2.bib}
 \addbibresource{./3.bib}
 \setlength\bibitemsep{0.5\baselineskip} % espaçamento entre itens da bibliografia
-\AtBeginBibliography{\singlespacing}
+% aplica espaçamento simples apenas dentro da bibliografia
+\AtBeginBibliography{%
+  \SingleSpacing
+}
+
 
 % Seleciona Times New Roman como a fonte desejada
 \usepackage{fontspec}
 \setmainfont{Times New Roman}
 \usepackage{microtype}
+\renewcommand{\ABNTEXchapterfont}{\rmfamily}
+\renewcommand{\ABNTEXsectionfont}{\rmfamily}
+\renewcommand{\ABNTEXsubsectionfont}{\rmfamily}
+\renewcommand{\ABNTEXsubsubsectionfont}{\rmfamily}
 
 % Configura os comandos \url{} e \ref{}, sendo o último para citações dentro do arquivo (e. g. "Veja \ref{introdução}")
 % \usepackage[hidelinks,colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
 \urlstyle{same}
+\hypersetup{
+  colorlinks=false,   % desativa cores nos links
+  hidelinks,          % remove bordas e cores
+}
 
 % Listas com enumerações
 \usepackage{enumitem}
@@ -104,17 +69,9 @@
 \usepackage{epigraph}
 \setlength\epigraphrule{0pt}
 
-
 \usepackage{calc}
 
 \newcommand{\swr}{\textit{software}}
-
-\usepackage{titlesec}
-\titlespacing{\chapter}{0pt}{0pt}{1.5\baselineskip}
-\titlespacing{\section}{0pt}{1.5\baselineskip}{1.5\baselineskip}
-\titleformat{\chapter}[display] {\normalfont\Huge\bfseries\singlespacing}{\chaptertitlename\ \thechapter}{0pt}{\Huge}
-
-\interfootnotelinepenalty=10000
 
 \usepackage{quoting}
 
@@ -137,18 +94,23 @@
 \hyphenation{Internet}
 
 % \includeonly{resumo}
+%
+%
+\titulo{A política dos dados pessoais na sociedade ocidental digitalizada}
+\autor{Francisco de Mesquita Sampaio Pessoa}
+\local{São Paulo}
+\data{2025}
+    \tipotrabalho{Monografia}
+\preambulo{Monografia apresentada ao Colégio Ítaca como requisito parcial para a conclusão do segundo ano do Ensino Médio}
+\orientador{Prof. João Homero do Amaral}
 
 \begin{document}
 \setlength \epigraphwidth {\textwidth-7cm}
-\include{capa}
-\setcounter{page}{2}  
+\selectlanguage{brazil}
 
-\newgeometry{
-    top=3cm,
-    bottom=2cm,
-    left=3cm,
-    right=2cm
-}
+\imprimircapa
+\imprimirfolhaderosto
+
 \include{sumario}
 % \listoffigures
 
@@ -157,6 +119,8 @@
 
 \include{resumo}
 
+\textual
+\pagestyle{abntplain}
 \include{intro}
 
 \include{1}
@@ -167,6 +131,7 @@
 
 \include{conclusao}
 
-\addcontentsline{toc}{chapter}{Referências}
+\postextual
+
 \printbibliography
 \end{document}
