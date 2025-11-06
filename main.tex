@@ -82,6 +82,7 @@
 % Seleciona Times New Roman como a fonte desejada
 \usepackage{fontspec}
 \setmainfont{Times New Roman}
+\usepackage{microtype}
 
 % Configura os comandos \url{} e \ref{}, sendo o último para citações dentro do arquivo (e. g. "Veja \ref{introdução}")
 % \usepackage[hidelinks,colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
@@ -107,13 +108,6 @@
 \usepackage{calc}
 
 \newcommand{\swr}{\textit{software}}
-
-
-% Dados técnicos.
-\usepackage{titling}
-\title{A política dos dados pessoais na sociedade digitalizada ocidental}
-\author{Francisco de Mesquita Sampaio Pessoa}
-\date{São Paulo\\2025}
 
 \usepackage{titlesec}
 \titlespacing{\chapter}{0pt}{0pt}{1.5\baselineskip}
@@ -147,6 +141,7 @@
 \begin{document}
 \setlength \epigraphwidth {\textwidth-7cm}
 \include{capa}
+\setcounter{page}{2}  
 
 \newgeometry{
     top=3cm,
