@@ -45,6 +45,71 @@
 \renewcommand{\ABNTEXsubsectionfont}{\rmfamily}
 \renewcommand{\ABNTEXsubsubsectionfont}{\rmfamily}
 
+% Retirado de https://groups.google.com/g/abntex2/c/aLEt1LWGegk
+% Impressão da Capa
+\renewcommand{\imprimircapa}{%
+  \begin{capa}%
+    \center
+    \ABNTEXchapterfont\large\imprimirautor
+
+    \vfill
+    \begin{center}
+    \ABNTEXchapterfont\bfseries\large\imprimirtitulo
+    \end{center}
+    \vfill
+
+    \large\imprimirlocal %<<<<<<<<<<<mude
+
+    \large\imprimirdata %<<<<<<<< mude
+
+    \vspace*{1cm}
+  \end{capa}
+}
+% ---
+
+% ---
+% Conteudo padrao da Folha de Rosto
+\makeatletter
+\renewcommand{\folhaderostocontent}{
+  \begin{center}
+
+    %\vspace*{1cm}
+    {\ABNTEXchapterfont\large\imprimirautor}
+
+    \vspace*{\fill}\vspace*{\fill}
+    \begin{center}
+      \ABNTEXchapterfont\bfseries\large\imprimirtitulo
+    \end{center}
+    \vspace*{\fill}
+
+    \abntex@ifnotempty{\imprimirpreambulo}{%
+      \hspace{.45\textwidth}
+      \begin{minipage}{.5\textwidth}
+          \SingleSpacing
+         \imprimirpreambulo
+       \end{minipage}%
+       \vspace*{\fill}
+    }%
+
+    {\abntex@ifnotempty{\imprimirinstituicao}{\imprimirinstituicao\vspace*{\fill}}}
+
+    {\large\imprimirorientadorRotulo~\imprimirorientador\par}
+    \abntex@ifnotempty{\imprimircoorientador}{%
+       {\large\imprimircoorientadorRotulo~\imprimircoorientador}%
+    }%
+    \vspace*{\fill}
+
+    {\large\imprimirlocal} %<<<< isto imprime o local
+    \par
+    {\large\imprimirdata} %<<<< isto imprime a data
+    \vspace*{1cm}
+
+  \end{center}
+}
+
+
+\makeatother
+
 % Configura os comandos \url{} e \ref{}, sendo o último para citações dentro do arquivo (e. g. "Veja \ref{introdução}")
 % \usepackage[hidelinks,colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
 \urlstyle{same}
