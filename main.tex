@@ -13,6 +13,10 @@
 \makeevenfoot{abntplain}{}{}{}
 \makeoddfoot{abntplain}{}{}{}
 \pagestyle{abntplain}
+
+\setlrmarginsandblock{3cm}{2cm}{*} % esquerda, direita
+\setulmarginsandblock{3cm}{2cm}{*} % superior, inferior
+\checkandfixthelayout
 % Pacotes para formatação de matemática
 \usepackage{amsmath, amssymb, amsthm} 
 
@@ -49,66 +53,66 @@
 % Impressão da Capa
 \renewcommand{\imprimircapa}{%
   \begin{capa}%
-    \center
-    \ABNTEXchapterfont\large\imprimirautor
+    \centering % usa o comando correto para centralizar horizontalmente
+
+    {\ABNTEXchapterfont\large\imprimirautor\par}
 
     \vfill
-    \begin{center}
-    \ABNTEXchapterfont\bfseries\large\imprimirtitulo
-    \end{center}
+
+    {\ABNTEXchapterfont\bfseries\large\imprimirtitulo\par}
+
     \vfill
 
-    \large\imprimirlocal %<<<<<<<<<<<mude
-
-    \large\imprimirdata %<<<<<<<< mude
+    {\large\imprimirlocal\par}
+    {\large\imprimirdata\par}
 
     \vspace*{1cm}
   \end{capa}
-}
-% ---
+}% ---
 
 % ---
 % Conteudo padrao da Folha de Rosto
 \makeatletter
 \renewcommand{\folhaderostocontent}{
-  \begin{center}
+  \begin{capa}
+    \centering
 
-    %\vspace*{1cm}
-    {\ABNTEXchapterfont\large\imprimirautor}
+    {\ABNTEXchapterfont\large\imprimirautor\par}
 
     \vspace*{\fill}\vspace*{\fill}
-    \begin{center}
-      \ABNTEXchapterfont\bfseries\large\imprimirtitulo
-    \end{center}
+
+    {\ABNTEXchapterfont\bfseries\large\imprimirtitulo\par}
+
     \vspace*{\fill}
 
     \abntex@ifnotempty{\imprimirpreambulo}{%
       \hspace{.45\textwidth}
       \begin{minipage}{.5\textwidth}
-          \SingleSpacing
-         \imprimirpreambulo
-       \end{minipage}%
-       \vspace*{\fill}
+        \SingleSpacing
+        \imprimirpreambulo
+      \end{minipage}%
+      \vspace*{\fill}
     }%
 
-    {\abntex@ifnotempty{\imprimirinstituicao}{\imprimirinstituicao\vspace*{\fill}}}
+    \abntex@ifnotempty{\imprimirinstituicao}{%
+      {\imprimirinstituicao\vspace*{\fill}}
+    }
 
     {\large\imprimirorientadorRotulo~\imprimirorientador\par}
     \abntex@ifnotempty{\imprimircoorientador}{%
-       {\large\imprimircoorientadorRotulo~\imprimircoorientador}%
+      {\large\imprimircoorientadorRotulo~\imprimircoorientador\par}
     }%
+
     \vspace*{\fill}
 
-    {\large\imprimirlocal} %<<<< isto imprime o local
-    \par
-    {\large\imprimirdata} %<<<< isto imprime a data
+    {\large\imprimirlocal\par}
+    {\large\imprimirdata\par}
+
     \vspace*{1cm}
-
-  \end{center}
+  \end{capa}
 }
-
-
 \makeatother
+
 
 % Configura os comandos \url{} e \ref{}, sendo o último para citações dentro do arquivo (e. g. "Veja \ref{introdução}")
 % \usepackage[hidelinks,colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
@@ -159,8 +163,17 @@
 \hyphenation{Internet}
 
 
-\usepackage{geometry}
+% \usepackage[
+%   a4paper,
+%   left=3cm,
+%   top=3cm,
+%   right=2cm,
+%   bottom=2cm,
+%   includehead, % inclui cabeçalho no cálculo das margens
+%   includefoot  % inclui rodapé
+% ]{geometry}
 
+% \usepackage{showframe}
 % \includeonly{resumo}
 %
 %
@@ -179,7 +192,7 @@
 \imprimircapa
 \imprimirfolhaderosto
 
-\newgeometry{a4paper, left=3cm, right=2cm, top=3cm, bottom=2cm}
+% \newgeometry{a4paper, left=3cm, right=2cm, top=3cm, bottom=2cm}
 
 \include{sumario}
 % \listoffigures
