@@ -10,7 +10,7 @@ Por uma fonte para nunca mais!…}}{--- Camilo Pessanha, \textit{``Clepsidra''}}
 A coleta de dados é em sua organização moderna praticamente inescapável, porém, é pouco enunciada em sua totalidade.
 Frequentemente, fica encoberta por avisos de privacidade, ``Termos e Condições'' e \textit{banners} de consentimento excessivamente técnicos e pouco didáticos, ignorados pela maioria.
 Contudo, para os poucos que os leem, esses textos a descrevem detalhadamente, geralmente para cumprir com alguma legislação; por isso, a maioria dos dados coletados cai em categorias banais, como aquelas descritas na introdução.
-Apesar de ser feita as escondidas, isto é, sem a ciência do usuário, essa coleta é facilmente rastreável, de modo que mesmo com pouca experiência um indivíduo pode analisar os dados que transitam por seus dispositivos.
+Apesar de ser feita às escondidas, isto é, sem a ciência do usuário, essa coleta é facilmente rastreável, de modo que mesmo com pouca experiência um indivíduo pode analisar os dados que transitam por seus dispositivos.
 
 Toda essa burocracia trata da passagem de dados produzidos pelo usuário, em seu computador, para o servidor onde é hospedado o serviço em questão.
 O problema reside no fato de que esses dados são muitas vezes enviados a entes que não o \textit{site} original, onde são aplicados para propósitos que vão além de meramente tomar nota de acontecimentos ou registrar uma atividade.
@@ -24,7 +24,7 @@ da Google; contudo, em alguma etapa do processo, a Google estará envolvida.
 Na maior parte do tempo, isso ocorre indiretamente, por meio de anúncios e \textit{iframes}\footnote{Um iframe é uma maneira de incluir o conteúdo visual de um site em outro, embutindo-o. É frequentemente utilizado para incluir postagens de redes sociais em notícias, por exemplo. Deste modo, ao invés de uma imagem estática abre-se a possibilidade de interação diretamente do site continente. Funcionam como uma caixa, dentro da qual o conteúdo de um site será mostrado.}, partes de um site que são provenientes de outro servidor.
 
 Parece estranho falar em requisições indiretas, mas elas são fundamentais para o funcionamento da Internet moderna.
-Quando se entra num site, o navegador não se comunica apenas com o servidor, mas também diversas outras fontes terceiras para múltiplos propósitos diferentes, que vão desde obter bibliotecas de código\footnote{Uma biblioteca é um conjunto de código pronto feito para ser integrado em outros códigos, implementando utilidades genéricas e de uso comum.}, até carregar imagens, informações, texto, vídeos, entre outros.
+Quando se entra num site, o navegador não se comunica apenas com o servidor, mas também com diversas outras fontes terceiras para múltiplos propósitos diferentes, que vão desde obter bibliotecas de código\footnote{Uma biblioteca é um conjunto de código pronto feito para ser integrado em outros códigos, implementando utilidades genéricas e de uso comum.}, até carregar imagens, informações, texto, vídeos, entre outros.
 Essas operações, que por vezes passam de centenas para um único carregamento, ocorrem escondidas: o que o usuário entende como uma única requisição (entrar no site) é um processo que provoca dezenas de outras, sem que ele perceba.
 
 Muitas vezes, para ter acesso a serviços da Google (e de outros provedores) os sites precisam carregar pedaços de código criados por esse provedores, os chamados Kits de Desenvolvimento de Software (SDKs, do inglês \textit{software development kit}), que tomam controle parcial do tráfego da página.
@@ -50,14 +50,14 @@ Outra prática amplamente difundida, é a do \textit{leilão de anúncios em tem
 Os anunciantes dão seus lances baseados em pacotes de dados do usuário-alvo que o site (chamado de \textit{supply side platform} ou SSP, a plataforma de oferta) distribui.
 O maior lance (dado pela \textit{demand side platform} ou DSP, a plataforma de demanda) ganha o espaço para disponibilizar seu anúncio.
 Nesse meio tempo, esses dados já foram distribuídos para muitos potenciais clientes, que não necessariamente fizeram um lance.
-Pode ocorrer que um dos participantes do leilão nem sequer tenha interesse em vender um anúncio, sempre dando lances inviáveis e se aproveitando disso para coletá-los.
+Pode ocorrer que um dos participantes do leilão nem sequer tenha interesse em vender um anúncio, sempre dando lances inviáveis e se aproveitando disso para colher dados.
 Há amplos problemas éticos com esse sistema, que ocorre geralmente sem que os usuários saibam que seus dados estão sendo vendidos \cite{bashir_privacy_2019}: é a troca indiscriminada de informações pessoais por dinheiro como método de maximizar o lucro.
 
 A monetização de dados não passa necessariamente pela venda de anúncios.
-Está se tornando cada vez mais comum o uso de perfis de direção por seguros de carros \cite{mckinsey_monetizing_2016, hill_automakers_2024}.
+Está se tornando cada vez mais comum o uso de perfis de direção por seguros de carros, gerados a partir de sensores de velocidade e/ou posição implantados do carro\cite{mckinsey_monetizing_2016, hill_automakers_2024}.
 Deste modo, o valor do seguro pode aumentar quando for entendido que o motorista dirige ``perigosamente'', segundo uma definição de perigo arbitrária e não revelada para o cliente.
-Por meio da coleta de dados, o seguro consegue ter uma imagem compreensiva do motorista, e recalibrar-se nos moldes dessa imagem.
-Assim, o motorista se vê coibido a exibir um tipo de comportamento, e forçado a dar para um terceiro um dado muito sensível: a localização em tempo real.
+Por meio da coleta de dados, o seguro consegue ter uma imagem compreensiva do motorista, e recalibrar-se nos moldes dessa imagem, ajustando seu preço para punir os motoristas desmiolados e descuidados que andam excessivamente rápido, e beneficiar os motoristas que dirigem calmamente.
+A diferença desse modelo para os seguros que não vigiam seus motoristas é que, nos primeiros, pode-se otimizar o serviço de um modo mais granular, a fim de maximizar a margem de lucro e minimizar a chance do seguro ter déficit financeiro com um de seus clientes.
 
 \section{Os indivíduos sob os olhos da vigilância}
 
@@ -68,9 +68,9 @@ Isso pode ser usado para, por exemplo, desencorajar mulheres que buscam aborto c
 
 Esses dados precisam ser unificados, isto é, que várias fontes de dados conversem entre si, para construir um perfil único e mais completo.
 Isso requer diferenciar os usuários, algo que pode ser feito por qualquer tipo de identificação imutável do dispositivo em que esse acesso está sendo feito.
-Por exemplo, são usados aqui o número de IP \footnote{O endereço de Protocolo de Internet (do inglês \textit{Internet Protocol adress}) é um identificador de dispositivo dado a ele pela operadora de Internet. Geralmente, é dado só um IP para o roteador, que serve para todos que estejam nele. É uma informação de fácil obtenção, pois qualquer conexão entre dois computadores envolve a troca de seus respectivos IPs. Os endereços de IP são controlados pelo provedor de Internet, e mudam ocasionalmente.}, endereço MAC \footnote{O número de Controle de Acesso ao Meio (do inglês \textit{Medium Acess Control adress}) de modo similar ao IP, é também utilizado para estabelecer a conexão entre dois computadores. Contudo, o endereço MAC vem embutido no dispositivo, e só é utilizado para conexões a cabo, sendo de mais difícil obtenção.}, os identificadores para anúncios providenciados pelo sistema operacional \footnote{Tal qual o {``Android Ad ID''} e o {``Apple IDFA''}.} e, ocasionalmente, um conjunto de informações enviadas pelo navegador no cabeçalho da requisição, algo conhecido como \textit{impressão digital de navegador}, do inglês \textit{browser fingerprinting} \cite{ohm_broken_2009, chen_fingerprinting_2019}.
+Por exemplo, são usados aqui o número de IP \footnote{O endereço de Protocolo de Internet (do inglês \textit{Internet Protocol adress}) é um identificador de dispositivo dado a ele pela operadora de Internet. Geralmente, é dado só um IP para o roteador, que serve para todos que estejam nele. É uma informação de fácil obtenção, pois qualquer conexão entre dois computadores envolve a troca de seus respectivos IPs. Os endereços de IP são controlados pelo provedor de Internet, e mudam ocasionalmente.}, endereço MAC \footnote{O número de Controle de Acesso ao Meio (do inglês \textit{Medium Access Control adress}) de modo similar ao IP, é também utilizado para estabelecer a conexão entre dois computadores. Contudo, o endereço MAC vem embutido no dispositivo, e só é utilizado para conexões a cabo, sendo de mais difícil obtenção.}, os identificadores para anúncios providenciados pelo sistema operacional \footnote{Tal qual o {``Android Ad ID''} e o {``Apple IDFA''}.} e, ocasionalmente, um conjunto de informações enviadas pelo navegador no cabeçalho da requisição, algo conhecido como \textit{impressão digital de navegador}, do inglês \textit{browser fingerprinting} \cite{ohm_broken_2009, chen_fingerprinting_2019}.
 Há muitas outras técnicas de identificação, como o registro chaves criptográficas \cite{sy_tracking_2018}.
-Voltando ao exemplo anterior do Meta Pixel, as informações do histórico obtidas por meio da vulnerabilidade eram cruzadas com outras por meio do endereço de IP, de modo que Meta não só tinha essa informação, como também alguém a quem ela pertencia.
+Voltando ao exemplo anterior do Meta Pixel, as informações do histórico obtidas por meio da vulnerabilidade eram cruzadas com outras por meio do endereço de IP, de modo que Meta não só tinha essa informação, como também a referência à alguém que a teria produzido.
 
 Fundamentalmente, essa situação é um problema de confiança.
 Podemos confiar em empresas que sabem de nossa personalidade e hábitos a fundo?
@@ -80,12 +80,12 @@ Por ora, basta entender que a coleta de dados tem como objetivo primeiro o lucro
 
 Em 2021, a ViaQuatro, operadora privada da Linha 4 - Amarela do metrô de São Paulo, foi multada por coleta ilegal de dados.
 O Instituto de Defesa do Consumidor (Idec), que protocolou o processo, alegava uso indevido da tecnologia de reconhecimento facial por meio de câmeras embutidas nas portas de plataforma que filmavam a reação dos passageiros quando expostos a anúncios.
-Concomitantemente, o sistema também estimaria gênero e idade.
+Concomitantemente, o sistema também estimaria gênero e idade
 \cite{soprana_viaquatro_2021}.
 Isso é, de maneira muito clara, uma tentativa de otimizar o serviço de propaganda.
 A \textit{otimização} é um fator muito importante aqui -- é, novamente, um tratamento matemático das relações humanas, de modo que a compra torna-se uma função que se deve maximizar.
 
-\section{Vigilância política}\label{sec:1:politica}
+\section{Vigilância e política}\label{sec:1:politica}
 
 Os exemplos colocados aqui são principalmente relacionados às empresas estadunidenses, ou pelo menos ao que podemos hoje considerar um bloco tecnológico-econômico ocidental.
 Não é possível falar disso sem mencionar a questão territorial: muitos desses serviços e produtos são provenientes do chamado ``Vale do Silício'', e compartilham filosofias semelhantes.
@@ -132,7 +132,7 @@ Elas têm interesses políticos concretos, e, com tantos dados e saber sobre a v
 Em 30 de maio de 2025, o Partido Liberal (PL), entre cujos filiados figura o ex-presidente Jair Bolsonaro, organizou um grande seminário sobre tecnologia, com participação de altos executivos de grandes empresas de tecnologia como Google e Meta \cite{desouza_treinamento_2025}.
 
 Eles não estavam ali por acaso: vigiar é um ato profundamente político, que está entre as bases da sociedade moderna. 
-O filósofo \textit{popstar} Byung-Chul Han propõe que o antigo regime disciplinar na base do capitalismo industrial, agora se transformou em um regime baseado em informação \cite{han_infocracia_2022}.
+O filósofo \textit{popstar} Byung-Chul Han propõe que o antigo regime disciplinar, na base do capitalismo industrial, agora se transformou em um regime baseado em informação \cite{han_infocracia_2022}.
 É inegável que as tecnologias digitais estão provocando amplas transformações na nossa organização social e reorganizações produtivas.
 
 Essas transformações já chegaram no Brasil: afora o congresso do PL já mencionado, nota-se o imenso embróglio político que acontece com as propostas de regulamentação de IAs e redes sociais no Legislativo, onde as grandes empresas de tecnologia exerceram muita pressão \cite{schurig_como_2024, schurig_quem_2024}.
